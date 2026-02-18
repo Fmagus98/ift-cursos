@@ -4,26 +4,7 @@ import { Circle, CircleCheck, Clock, ChevronDown } from "lucide-react";
 
 const PythonClass2Content1 = ({ onComplete }) => {
   const [done, setDone] = useState(false);
-
-  const points = [
-    "Python es fácil de aprender y leer",
-    "Tiene una gran comunidad y abundantes recursos",
-    "Es usado por empresas como Google, Netflix, Instagram",
-    "Ideal tanto para principiantes como para expertos",
-  ];
-
-  const codeExample = `# Tu primer programa en Python
-
-print("¡Hola, mundo!")
-print("Bienvenido a Python")
-
-# Variables básicas
-nombre = "Juan"
-edad = 25
-
-print(f"Mi nombre es {nombre} y tengo {edad} años")
-`;
-
+  
   return (
     <Accordion.Root type="single" collapsible className="w-full">
       <Accordion.Item

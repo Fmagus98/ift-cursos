@@ -1,5 +1,5 @@
 import * as Accordion from "@radix-ui/react-accordion";
-import { Circle, Download } from "lucide-react";
+import { Download } from "lucide-react";
 
 
 const PythonClass1Content12 = () => {

@@ -1,24 +1,20 @@
-import React from "react";
-import { lazy, Suspense } from 'react';
+import { lazy } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Header from "./components/Header";
-import Home from "./components/Home";
-import About from "./components/About";
 import Footer from "./components/Footer";
-import PythonCourse from "./components/PythonCourse/PythonCourse";
-import PythonClass1 from "./components/PythonCourse/PythonClass1/PythonClass1";
-import PythonClass2 from "./components/PythonCourse/PythonClass2/PythonClass2";
-import PythonClass3 from "./components/PythonCourse/PythonClass3/PythonClass3";
-
+const Home = lazy(() => import("./components/Home"));
+const About = lazy(() => import("./components/About"));
+const PythonClass1 = lazy(() => import("./components/PythonCourse/PythonClass1/PythonClass1"));
+const PythonCourse = lazy(() => import("./components/PythonCourse/PythonCourse"));
+const PythonClass2 = lazy(() => import("./components/PythonCourse/PythonClass2/PythonClass2"));
+const PythonClass3 = lazy(() => import("./components/PythonCourse/PythonClass3/PythonClass3"));
 
 function App() {
   return (
-    // <CartContextProvider>
       <BrowserRouter>
         <Header />
         <main id="main-content">
-          {/* <Suspense fallback={<Loading />}> */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/python" element={<PythonCourse />} />
@@ -27,11 +23,9 @@ function App() {
             <Route path="/python/class3" element={<PythonClass3 />} />
             <Route path="/About" element={<About />} />
           </Routes>
-          {/* </Suspense> */}
         </main>
         <Footer />
       </BrowserRouter>
-    // </CartContextProvider>
   );
 }
 

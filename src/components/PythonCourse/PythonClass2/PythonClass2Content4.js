@@ -2,7 +2,6 @@ import { useState } from "react";
 import * as Accordion from "@radix-ui/react-accordion";
 import {
   Circle,
-  CheckCircle2,
   CircleCheck,
   Clock,
   ChevronDown,

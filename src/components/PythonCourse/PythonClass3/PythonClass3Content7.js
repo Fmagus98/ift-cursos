@@ -2,8 +2,6 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import * as Accordion from "@radix-ui/react-accordion";
 import { Circle, CircleCheck, Clock, ChevronDown } from "lucide-react";
-import { class3Code } from "../classCode";
-import CopyButton from "../../CopyButton/CopyButton";
 
 const Pythonclass3Content7 = ({ onComplete }) => {
   const [done, setDone] = useState(false);
