@@ -177,7 +177,6 @@ const PythonClass1Content1 = ({ onComplete }) => {
             />
           </section>
 
-          {/* TEMAS */}
           {/* <section>
             <h5 className="font-semibold text-gray-900 mb-3">
               Temas que aprenderás:

@@ -1,6 +1,6 @@
 export const questionsPythonClass2 = [
     {
-        question: "1. ¿Cuál de las siguientes es una forma correcta de definir una variable en Python?",
+        question: "¿Cuál de las siguientes es una forma correcta de definir una variable en Python?",
         options: [
             "int x = 10;",
             "x = 10",
@@ -10,7 +10,7 @@ export const questionsPythonClass2 = [
         answer: "x = 10"
     },
     {
-        question: "2. ¿Qué tipo de dato es la variable 'y' en el siguiente código: y = 3.14?",
+        question: "¿Qué tipo de dato es la variable 'y' en el siguiente código: y = 3.14?",
         options: [
             "int",
             "float",
@@ -20,7 +20,7 @@ export const questionsPythonClass2 = [
         answer: "float"
     },
     {
-        question: "3. ¿Cuál es el valor de la variable 'z' después de ejecutar el siguiente código: z = 'Python'?",
+        question: "¿Cuál es el valor de la variable 'z' después de ejecutar el siguiente código: z = 'Python'?",
         options: [
             "'Python'",
             "'python'",
@@ -30,7 +30,7 @@ export const questionsPythonClass2 = [
         answer: "'Python'"
     },
     {
-        question: "4. ¿Qué tipo de dato es la variable 'a' en el siguiente código: a = True?",
+        question: "¿Qué tipo de dato es la variable 'a' en el siguiente código: a = True?",
         options: [
             "int",
             "float",
@@ -40,7 +40,7 @@ export const questionsPythonClass2 = [
         answer: "bool"
     },
     {
-        question: "5. ¿Qué función se utiliza para obtener el tipo de una variable en Python?",
+        question: "¿Qué función se utiliza para obtener el tipo de una variable en Python?",
         options: [
             "typeof()",
             "type()",
@@ -50,7 +50,7 @@ export const questionsPythonClass2 = [
         answer: "type()"
     },
     {
-        question: "6. ¿Cuál es el valor de la variable 'x' en el siguiente código: x = 5 + 3 * 2?",
+        question: "¿Cuál es el valor de la variable 'x' en el siguiente código: x = 5 + 3 * 2?",
         options: [
             "11",
             "16",
@@ -60,7 +60,7 @@ export const questionsPythonClass2 = [
         answer: "11"
     },
     {
-        question: "7. ¿Cuál es la salida de print(type(5))?",
+        question: "¿Cuál es la salida de print(type(5))?",
         options: [
             "&lt;class 'str'&gt;",
             "&lt;class 'int'&gt;",
@@ -80,7 +80,7 @@ export const questionsPythonClass2 = [
         answer: "'53'"
     },
     {
-        question: "9. ¿Cuál de los siguientes nombres de variables es válido en Python?",
+        question: "¿Cuál de los siguientes nombres de variables es válido en Python?",
         options: [
             "2variable",
             "variable_2",
@@ -90,7 +90,7 @@ export const questionsPythonClass2 = [
         answer: "variable_2"
     },
     {
-        question: "10. ¿Cuál es el valor de la variable 'a' en el siguiente código: a = 5 // 2?",
+        question: "¿Cuál es el valor de la variable 'a' en el siguiente código: a = 5 // 2?",
         options: [
             "2.5",
             "2",
@@ -100,7 +100,7 @@ export const questionsPythonClass2 = [
         answer: "2"
     },
     {
-        question: "11. ¿Qué operador se utiliza para obtener el residuo de una división?",
+        question: "¿Qué operador se utiliza para obtener el residuo de una división?",
         options: [
             "%",
             "//",
@@ -110,7 +110,7 @@ export const questionsPythonClass2 = [
         answer: "%"
     },
     {
-        question: "12. ¿Qué tipo de dato es la variable 'b' en el siguiente código: b = 'False'?",
+        question: "¿Qué tipo de dato es la variable 'b' en el siguiente código: b = 'False'?",
         options: [
             "int",
             "float",
@@ -120,7 +120,7 @@ export const questionsPythonClass2 = [
         answer: "str"
     },
     {
-        question: "13. ¿Cuál es el valor de la variable 'x' en el siguiente código: x = 4 ** 2?",
+        question: "¿Cuál es el valor de la variable 'x' en el siguiente código: x = 4 ** 2?",
         options: [
             "8",
             "16",
@@ -130,7 +130,7 @@ export const questionsPythonClass2 = [
         answer: "16"
     },
     {
-        question: "14. ¿Qué operador se utiliza para la exponenciación en Python?",
+        question: "¿Qué operador se utiliza para la exponenciación en Python?",
         options: [
             "^",
             "**",
@@ -140,7 +140,7 @@ export const questionsPythonClass2 = [
         answer: "**"
     },
     {
-        question: "15. ¿Qué tipo de dato es la variable 'z' en el siguiente código: z = 7 / 2?",
+        question: "¿Qué tipo de dato es la variable 'z' en el siguiente código: z = 7 / 2?",
         options: [
             "int",
             "float",
@@ -150,7 +150,7 @@ export const questionsPythonClass2 = [
         answer: "float"
     },
     {
-        question: "16. ¿Cuál es el valor de la variable 'x' en el siguiente código: x = 5 % 2?",
+        question: "¿Cuál es el valor de la variable 'x' en el siguiente código: x = 5 % 2?",
         options: [
             "0",
             "2.5",
@@ -160,7 +160,7 @@ export const questionsPythonClass2 = [
         answer: "1"
     },
     {
-        question: "17. ¿Cuál es el valor de la variable 'x' en el siguiente código: x = 10 // 3?",
+        question: "¿Cuál es el valor de la variable 'x' en el siguiente código: x = 10 // 3?",
         options: [
             "3.33",
             "3",
@@ -170,7 +170,7 @@ export const questionsPythonClass2 = [
         answer: "3"
     },
     {
-        question: "18. ¿Qué tipo de dato es la variable 'x' en el siguiente código: x = int('10')?",
+        question: "¿Qué tipo de dato es la variable 'x' en el siguiente código: x = int('10')?",
         options: [
             "str",
             "float",
@@ -180,7 +180,7 @@ export const questionsPythonClass2 = [
         answer: "int"
     },
     {
-        question: "19. ¿Qué operador se utiliza para la concatenación de cadenas en Python?",
+        question: "¿Qué operador se utiliza para la concatenación de cadenas en Python?",
         options: [
             "+",
             "&",
@@ -190,7 +190,7 @@ export const questionsPythonClass2 = [
         answer: "+"
     },
     {
-        question: "20. ¿Cuál es el valor de la variable 'a' en el siguiente código: a = 5 + 4 // 2?",
+        question: "¿Cuál es el valor de la variable 'a' en el siguiente código: a = 5 + 4 // 2?",
         options: [
             "4.5",
             "7",
@@ -200,7 +200,7 @@ export const questionsPythonClass2 = [
         answer: "7"
     },
     {
-        question: "21. ¿Qué tipo de dato es la variable 'b' en el siguiente código: b = 7.0?",
+        question: "¿Qué tipo de dato es la variable 'b' en el siguiente código: b = 7.0?",
         options: [
             "int",
             "float",
@@ -210,7 +210,7 @@ export const questionsPythonClass2 = [
         answer: "float"
     },
     {
-        question: "22. ¿Cuál es el valor de la variable 'x' en el siguiente código: x = '3' * 3?",
+        question: "¿Cuál es el valor de la variable 'x' en el siguiente código: x = '3' * 3?",
         options: [
             "'333'",
             "9",
@@ -220,7 +220,7 @@ export const questionsPythonClass2 = [
         answer: "'333'"
     },
     {
-        question: "23. ¿Cuál de las siguientes opciones describe mejor la función del operador `=` en Python?",
+        question: "¿Cuál de las siguientes opciones describe mejor la función del operador `=` en Python?",
         options: [
             "Comparación de igualdad",
             "Asignación de valor",
@@ -230,7 +230,7 @@ export const questionsPythonClass2 = [
         answer: "Asignación de valor"
     },
     {
-        question: "24. ¿Qué tipo de dato es la variable 'c' en el siguiente código: c = 10 > 2?",
+        question: "¿Qué tipo de dato es la variable 'c' en el siguiente código: c = 10 > 2?",
         options: [
             "int",
             "float",
@@ -240,7 +240,7 @@ export const questionsPythonClass2 = [
         answer: "bool"
     },
     {
-        question: "25. ¿Cuál es el valor de la variable 'x' en el siguiente código: x = (2 + 3) * 2?",
+        question: "¿Cuál es el valor de la variable 'x' en el siguiente código: x = (2 + 3) * 2?",
         options: [
             "10",
             "8",
@@ -250,7 +250,7 @@ export const questionsPythonClass2 = [
         answer: "10"
     },
     {
-        question: "26. ¿Qué tipo de dato es la variable 'a' en el siguiente código: a = 'True'?",
+        question: "¿Qué tipo de dato es la variable 'a' en el siguiente código: a = 'True'?",
         options: [
             "bool",
             "str",
@@ -270,7 +270,7 @@ export const questionsPythonClass2 = [
         answer: "1"
     },
     {
-        question: "28. ¿Cuál es el valor de la variable 'b' en el siguiente código: b = 2 ** 3?",
+        question: "¿Cuál es el valor de la variable 'b' en el siguiente código: b = 2 ** 3?",
         options: [
             "8",
             "6",
@@ -280,7 +280,7 @@ export const questionsPythonClass2 = [
         answer: "8"
     },
     {
-        question: "29. ¿Cuál es el valor de la variable 'x' en el siguiente código: x = 5 - 2 * 2?",
+        question: "¿Cuál es el valor de la variable 'x' en el siguiente código: x = 5 - 2 * 2?",
         options: [
             "6",
             "1",
@@ -290,7 +290,7 @@ export const questionsPythonClass2 = [
         answer: "1"
     },
     {
-        question: "30. ¿Cuál es el resultado de la siguiente operación: 4 + 3 * 2?",
+        question: "¿Cuál es el resultado de la siguiente operación: 4 + 3 * 2?",
         options: [
             "14",
             "10",
@@ -300,7 +300,7 @@ export const questionsPythonClass2 = [
         answer: "10"
     },
     {
-        question: "31. ¿Cuál de los siguientes operadores es usado para comparar si los valores son iguales?",
+        question: "¿Cuál de los siguientes operadores es usado para comparar si los valores son iguales?",
         options: [
             "==",
             "=",
@@ -310,7 +310,7 @@ export const questionsPythonClass2 = [
         answer: "=="
     },
     {
-        question: "32. ¿Cuál de los siguientes operadores es usado para comparar si los valores son diferentes?",
+        question: "¿Cuál de los siguientes operadores es usado para comparar si los valores son diferentes?",
         options: [
             "==",
             "=",
@@ -320,7 +320,7 @@ export const questionsPythonClass2 = [
         answer: "!="
     },
     {
-        question: "33. ¿Cuál de los siguientes operadores es usado para devolver solamente True cuando todos valores son True?",
+        question: "¿Cuál de los siguientes operadores es usado para devolver solamente True cuando todos valores son True?",
         options: [
             "and",
             "&&",
@@ -332,7 +332,7 @@ export const questionsPythonClass2 = [
 ]
 export const questionsPythonClass3 = [
     {
-        question: "1. ¿Cuál es el propósito del uso de la estructura if en Python?",
+        question: "¿Cuál es el propósito del uso de la estructura if en Python?",
         options: [
             "Definir variables",
             "Realizar comparaciones y ejecutar código condicionalmente",
@@ -342,7 +342,7 @@ export const questionsPythonClass3 = [
         answer: "Realizar comparaciones y ejecutar código condicionalmente"
     },
     {
-        question: "2. ¿Cuál de las siguientes opciones es una forma correcta de utilizar un bloque if-else en Python?",
+        question: "¿Cuál de las siguientes opciones es una forma correcta de utilizar un bloque if-else en Python?",
         options: [
             "if x > 10:\n   print('Mayor que 10')\nelse:\n   print('Menor o igual que 10')",
             "if x > 10\n   print('Mayor que 10') \nelse \n   print('Menor o igual que 10')",
@@ -352,7 +352,7 @@ export const questionsPythonClass3 = [
         answer: "if x > 10:\n   print('Mayor que 10')\nelse:\n   print('Menor o igual que 10')"
     },
     {
-        question: "3. ¿Qué palabra clave se utiliza para verificar múltiples condiciones en una estructura de control?",
+        question: "¿Qué palabra clave se utiliza para verificar múltiples condiciones en una estructura de control?",
         options: [
             "switch",
             "elif",
@@ -362,7 +362,7 @@ export const questionsPythonClass3 = [
         answer: "elif"
     },
     {
-        question: "4. ¿Cómo se ejecuta un bloque de código en caso de que ninguna condición if o elif sea verdadera?",
+        question: "¿Cómo se ejecuta un bloque de código en caso de que ninguna condición if o elif sea verdadera?",
         options: [
             "Con elif",
             "Con else",
@@ -372,7 +372,7 @@ export const questionsPythonClass3 = [
         answer: "Con else"
     },
     {
-        question: "5. ¿Cuál es la salida del siguiente código?\n\nx = 5\nif x > 10:\n   print('Mayor que 10')\nelse:\n   print('Menor o igual que 10')\n\n",
+        question: "¿Cuál es la salida del siguiente código?\n\nx = 5\nif x > 10:\n   print('Mayor que 10')\nelse:\n   print('Menor o igual que 10')\n\n",
         options: [
             "Mayor que 10",
             "Menor o igual que 10",
@@ -382,7 +382,7 @@ export const questionsPythonClass3 = [
         answer: "Menor o igual que 10"
     },
     {
-        question: "6. ¿Cuál es la palabra clave que se utiliza para implementar un patrón de coincidencia en Python?",
+        question: "¿Cuál es la palabra clave que se utiliza para implementar un patrón de coincidencia en Python?",
         options: [
             "match",
             "switch",
@@ -392,7 +392,7 @@ export const questionsPythonClass3 = [
         answer: "match"
     },
     {
-        question: "7. ¿Cuál es la salida del siguiente código?\n\nx = 'a'\nmatch x:\n    case 'a':\n        print('Es a')\n    case 'b':\n        print('Es b')\n    case _: \n        print('Otro valor')\n\n",
+        question: "¿Cuál es la salida del siguiente código?\n\nx = 'a'\nmatch x:\n    case 'a':\n        print('Es a')\n    case 'b':\n        print('Es b')\n    case _: \n        print('Otro valor')\n\n",
         options: [
             "Es a",
             "Es b",
@@ -402,7 +402,7 @@ export const questionsPythonClass3 = [
         answer: "Es a"
     },
     {
-        question: "8. ¿Qué se imprime si ninguna coincidencia se cumple en una declaración match-case?",
+        question: "¿Qué se imprime si ninguna coincidencia se cumple en una declaración match-case?",
         options: [
             "Se lanza un error",
             "Se ejecuta el segundo caso",
@@ -412,7 +412,7 @@ export const questionsPythonClass3 = [
         answer: "Se ejecuta el caso por defecto (_) si existe"
     },
     {
-        question: "9. ¿Cuál de las siguientes opciones es un uso correcto de un bucle while en Python?",
+        question: "¿Cuál de las siguientes opciones es un uso correcto de un bucle while en Python?",
         options: [
             "while x > 0:\n    print(x)\n    x -= 1",
             "while (x > 0) {\n    print(x); x--; \n}",
@@ -422,7 +422,7 @@ export const questionsPythonClass3 = [
         answer: "while x > 0:\n    print(x)\n    x -= 1"
     },
     {
-        question: "10. ¿Qué palabra clave se utiliza para detener un bucle antes de que finalice normalmente?",
+        question: "¿Qué palabra clave se utiliza para detener un bucle antes de que finalice normalmente?",
         options: [
             "stop",
             "exit",
@@ -432,7 +432,7 @@ export const questionsPythonClass3 = [
         answer: "break"
     },
     {
-        question: "11. ¿Cuál es la salida del siguiente código?\n\nx = 0\nwhile x < 3:\n    x += 1\n    if x == 2:\n        continue\n    print(x)\n\n",
+        question: "¿Cuál es la salida del siguiente código?\n\nx = 0\nwhile x < 3:\n    x += 1\n    if x == 2:\n        continue\n    print(x)\n\n",
         options: [
             "1\n2\n3",
             "1\n3",
@@ -442,7 +442,7 @@ export const questionsPythonClass3 = [
         answer: "1\n3"
     },
     {
-        question: "12. ¿Cuál es la salida del siguiente código?\n\nfor i in range(5):\n   if i == 3:\n       continue\n   print(i)\n\n",
+        question: "¿Cuál es la salida del siguiente código?\n\nfor i in range(5):\n   if i == 3:\n       continue\n   print(i)\n\n",
         options: [
             "0\n1\n2\n3\n4",
             "0\n1\n2\n4",
@@ -452,7 +452,7 @@ export const questionsPythonClass3 = [
         answer: "0\n1\n2\n4"
     },
     {
-        question: "13. ¿Cuál es la salida del siguiente código?\n\nfor x in range(2, 5):\n   print(x)\n\n",
+        question: "¿Cuál es la salida del siguiente código?\n\nfor x in range(2, 5):\n   print(x)\n\n",
         options: [
             "2\n3\n4",
             "2\n3\n4\n5",
@@ -462,7 +462,7 @@ export const questionsPythonClass3 = [
         answer: "2\n3\n4"
     },
     {
-        question: "14. ¿Cuál es la salida del siguiente código?\n\nfor x in range(3):\n   for y in range(2):\n       print(x, y)\n\n",
+        question: "¿Cuál es la salida del siguiente código?\n\nfor x in range(3):\n   for y in range(2):\n       print(x, y)\n\n",
         options: [
             "0 0\n1 0\n2 0",
             "0 0\n0 1\n1 0\n1 1\n2 0\n2 1",
@@ -472,7 +472,7 @@ export const questionsPythonClass3 = [
         answer: "0 0\n0 1\n1 0\n1 1\n2 0\n2 1"
     },
     {
-        question: "15. ¿Cuál es la salida del siguiente código?\n\nfor i in range(3):\n    if i == 1:\n       break\n   print(i)\n   else:\n       print('Completo')\n\n",
+        question: "¿Cuál es la salida del siguiente código?\n\nfor i in range(3):\n    if i == 1:\n       break\n   print(i)\n   else:\n       print('Completo')\n\n",
         options: [
             "0\n1\nCompleto",
             "0\nCompleto",
@@ -482,7 +482,7 @@ export const questionsPythonClass3 = [
         answer: "IndentationError"
     },
     {
-        question: "16. ¿Cuál es la diferencia principal entre los bucles while y for en Python?",
+        question: "¿Cuál es la diferencia principal entre los bucles while y for en Python?",
         options: [
             "while se utiliza para iterar un número específico de veces, for para condiciones indeterminadas",
             "for se utiliza para iterar un número específico de veces, while para condiciones indeterminadas",
@@ -492,7 +492,7 @@ export const questionsPythonClass3 = [
         answer: "for se utiliza para iterar un número específico de veces, while para condiciones indeterminadas"
     },
     {
-        question: "17. ¿Qué palabra clave se utiliza para definir un caso por defecto en una \nestructura match-case?",
+        question: "¿Qué palabra clave se utiliza para definir un caso por defecto en una \nestructura match-case?",
         options: [
             "default",
             "_",
@@ -502,7 +502,7 @@ export const questionsPythonClass3 = [
         answer: "_"
     },
     {
-        question: "18. ¿Cuál es la salida del siguiente código?\n\nx = 2\nmatch x:\n   case 1:\n       print('Es 1')\n   case 2:\n       print('Es 2')\n   case _: \n       print('Otro valor')\n\n",
+        question: "¿Cuál es la salida del siguiente código?\n\nx = 2\nmatch x:\n   case 1:\n       print('Es 1')\n   case 2:\n       print('Es 2')\n   case _: \n       print('Otro valor')\n\n",
         options: [
             "Es 1",
             "Es 2",
@@ -512,7 +512,7 @@ export const questionsPythonClass3 = [
         answer: "Es 2"
     },
     {
-        question: "19. ¿Qué ocurre si un bucle while nunca cumple su condición de finalización?",
+        question: "¿Qué ocurre si un bucle while nunca cumple su condición de finalización?",
         options: [
             "Python indentifica que estás haciendo un bucle infinito y te lo reporta",
             "El bucle se detiene automáticamente",
@@ -522,7 +522,7 @@ export const questionsPythonClass3 = [
         answer: "El bucle continúa indefinidamente"
     },
     {
-        question: "20. ¿Cuál es la salida del siguiente código?\n\nfor i in range(1, 4):\n   print(i)\nelse:\n   print('Finalizado')\n\n",
+        question: "¿Cuál es la salida del siguiente código?\n\nfor i in range(1, 4):\n   print(i)\nelse:\n   print('Finalizado')\n\n",
         options: [
             "1\n2\n3",
             "1\n2\n3\nFinalizado",
@@ -532,7 +532,7 @@ export const questionsPythonClass3 = [
         answer: "1\n2\n3\nFinalizado"
     },
     {
-        question: "21. ¿Qué sucede cuando se utiliza la palabra clave continue en un bucle?",
+        question: "¿Qué sucede cuando se utiliza la palabra clave continue en un bucle?",
         options: [
             "El bucle se detiene",
             "La iteración actual se interrumpe y se pasa a la siguiente",
@@ -542,7 +542,7 @@ export const questionsPythonClass3 = [
         answer: "La iteración actual se interrumpe y se pasa a la siguiente"
     },
     {
-        question: "22. ¿Qué palabra clave se utiliza para crear un bucle infinito intencionalmente?",
+        question: "¿Qué palabra clave se utiliza para crear un bucle infinito intencionalmente?",
         options: [
             "for",
             "while",
@@ -552,7 +552,7 @@ export const questionsPythonClass3 = [
         answer: "while"
     },
     {
-        question: "23. ¿Cuál es la salida del siguiente código?\n\nfor i in range(3):\n   for j in range(2):\n       if j == 1:\n           break\n       print(i, j)\n\n",
+        question: "¿Cuál es la salida del siguiente código?\n\nfor i in range(3):\n   for j in range(2):\n       if j == 1:\n           break\n       print(i, j)\n\n",
         options: [
             "0 0\n1 0\n2 0",
             "0 0\n0 1\n1 0\n1 1\n2 0\n2 1",
@@ -562,7 +562,7 @@ export const questionsPythonClass3 = [
         answer: "0 0\n1 0\n2 0"
     },
     {
-        question: "24. ¿Cuál es la salida del siguiente código?\n\nfor x in 'python':\n   if x == 't':\n       continue\n   print(x)\n\n",
+        question: "¿Cuál es la salida del siguiente código?\n\nfor x in 'python':\n   if x == 't':\n       continue\n   print(x)\n\n",
         options: [
             "p\ny\nt\nh\no\nn",
             "pyon",
@@ -572,7 +572,7 @@ export const questionsPythonClass3 = [
         answer: "p\ny\nh\no\nn"
     },
     {
-        question: "25. ¿Cuál es la salida del siguiente código?\n\nfor i in range(4):\n   if i % 2 == 0:\n       continue\n   print(i)\n\n",
+        question: "¿Cuál es la salida del siguiente código?\n\nfor i in range(4):\n   if i % 2 == 0:\n       continue\n   print(i)\n\n",
         options: [
             "0\n2",
             "1\n3",
@@ -582,7 +582,7 @@ export const questionsPythonClass3 = [
         answer: "1\n3"
     },
     {
-        question: "26. ¿Cuál es la salida del siguiente código?\n\nfor i in range(5):\n   print(i)\n   if i == 3:\n       break\n\n",
+        question: "¿Cuál es la salida del siguiente código?\n\nfor i in range(5):\n   print(i)\n   if i == 3:\n       break\n\n",
         options: [
             "0\n1\n2\n3\n4",
             "0\n1\n2\n3",
@@ -592,7 +592,7 @@ export const questionsPythonClass3 = [
         answer: "0\n1\n2\n3"
     },
     {
-        question: "27. ¿Cuál es la salida del siguiente código?\n\nfor x in range(3):\n    match x:\n        case 0:\n            print('Cero')\n        case 1:\n            print('Uno')\n        case 2:\n            print('Dos')\n\n",
+        question: "¿Cuál es la salida del siguiente código?\n\nfor x in range(3):\n    match x:\n        case 0:\n            print('Cero')\n        case 1:\n            print('Uno')\n        case 2:\n            print('Dos')\n\n",
         options: [
             "Cero\nUno\nDos",
             "Cero\nUno",
@@ -605,7 +605,7 @@ export const questionsPythonClass3 = [
 
 export const questionsPythonClass4 = [
     {
-        question: "1. ¿Cómo se define una función en Python?",
+        question: "¿Cómo se define una función en Python?",
         options: [
             "def nombre_funcion():",
             "function nombre_funcion():",
@@ -615,7 +615,7 @@ export const questionsPythonClass4 = [
         answer: "def nombre_funcion():"
     },
     {
-        question: "2. ¿Cuál es la sintaxis correcta para llamar a una función llamada 'calcular'?",
+        question: "¿Cuál es la sintaxis correcta para llamar a una función llamada 'calcular'?",
         options: [
             "llamar calcular()",
             "calcular",
@@ -625,7 +625,7 @@ export const questionsPythonClass4 = [
         answer: "calcular()"
     },
     {
-        question: "3. ¿Qué palabra clave se utiliza para devolver un valor desde una función en Python?",
+        question: "¿Qué palabra clave se utiliza para devolver un valor desde una función en Python?",
         options: [
             "return",
             "yield",
@@ -635,7 +635,7 @@ export const questionsPythonClass4 = [
         answer: "return"
     },
     {
-        question: "4. ¿Cómo se pasan parámetros a una función en Python?",
+        question: "¿Cómo se pasan parámetros a una función en Python?",
         options: [
             "def funcion(parametro1, parametro2):",
             "funcion(parametro1, parametro2)",
@@ -645,7 +645,7 @@ export const questionsPythonClass4 = [
         answer: "def funcion(parametro1, parametro2):"
     },
     {
-        question: "5. ¿Cuál es el valor de retorno de una función en Python si no se especifica 'return'?",
+        question: "¿Cuál es el valor de retorno de una función en Python si no se especifica 'return'?",
         options: [
             "None",
             "0",
@@ -655,7 +655,7 @@ export const questionsPythonClass4 = [
         answer: "None"
     },
     {
-        question: "6. ¿Qué es un módulo en Python?",
+        question: "¿Qué es un módulo en Python?",
         options: [
             "Un archivo que contiene definiciones y declaraciones de funciones y variables.",
             "Una función específica en Python.",
@@ -665,7 +665,7 @@ export const questionsPythonClass4 = [
         answer: "Un archivo que contiene definiciones y declaraciones de funciones y variables."
     },
     {
-        question: "7. ¿Cómo se importa un módulo en Python?",
+        question: "¿Cómo se importa un módulo en Python?",
         options: [
             "import nombre_modulo",
             "incluir nombre_modulo",
@@ -675,7 +675,7 @@ export const questionsPythonClass4 = [
         answer: "import nombre_modulo"
     },
     {
-        question: "8. ¿Cómo se accede a una función 'sumar' desde un módulo llamado 'operaciones'?",
+        question: "¿Cómo se accede a una función 'sumar' desde un módulo llamado 'operaciones'?",
         options: [
             "operaciones.sumar()",
             "sumar.operaciones()",
@@ -685,7 +685,7 @@ export const questionsPythonClass4 = [
         answer: "operaciones.sumar()"
     },
     {
-        question: "9. ¿Cuál es el propósito de la declaración 'if __name__ == \"__main__\":' en un módulo?",
+        question: "¿Cuál es el propósito de la declaración 'if __name__ == \"__main__\":' en un módulo?",
         options: [
             "Permitir que el código dentro de ese bloque se ejecute solo cuando el módulo se ejecuta directamente.",
             "Definir una función principal en un módulo.",
@@ -695,7 +695,7 @@ export const questionsPythonClass4 = [
         answer: "Permitir que el código dentro de ese bloque se ejecute solo cuando el módulo se ejecuta directamente."
     },
     {
-        question: "10. ¿Cuál es la salida del siguiente código: 'def saludo(): return \"Hola\" print(saludo())'?",
+        question: "¿Cuál es la salida del siguiente código: 'def saludo(): return \"Hola\" print(saludo())'?",
         options: [
             "Hola",
             "None",
@@ -705,7 +705,7 @@ export const questionsPythonClass4 = [
         answer: "Hola"
     },
     {
-        question: "11. ¿Qué se necesita para crear un módulo en Python?",
+        question: "¿Qué se necesita para crear un módulo en Python?",
         options: [
             "Un archivo .py con funciones y variables definidas.",
             "Un archivo .txt con funciones y variables definidas.",
@@ -715,7 +715,7 @@ export const questionsPythonClass4 = [
         answer: "Un archivo .py con funciones y variables definidas."
     },
     {
-        question: "12. ¿Qué módulo se usa para trabajar con fechas y horas en Python?",
+        question: "¿Qué módulo se usa para trabajar con fechas y horas en Python?",
         options: [
             "datetime",
             "time",
@@ -725,7 +725,7 @@ export const questionsPythonClass4 = [
         answer: "datetime"
     },
     {
-        question: "13. ¿Cuál es la salida del siguiente código: \n\ndef multiplica(x, y=2):\n    return x * y print(multiplica(5))\n\n",
+        question: "¿Cuál es la salida del siguiente código: \n\ndef multiplica(x, y=2):\n    return x * y print(multiplica(5))\n\n",
         options: [
             "10",
             "5",
@@ -736,7 +736,7 @@ export const questionsPythonClass4 = [
     },
 
     {
-        question: "14. ¿Cuál es el propósito de la función 'help()' cuando se aplica a un módulo?",
+        question: "¿Cuál es el propósito de la función 'help()' cuando se aplica a un módulo?",
         options: [
             "Proporcionar información detallada sobre el módulo.",
             "Listar todos los atributos y métodos del módulo.",
@@ -746,7 +746,7 @@ export const questionsPythonClass4 = [
         answer: "Proporcionar información detallada sobre el módulo."
     },
     {
-        question: "15. ¿Cómo se puede importar solo una función específica de un módulo?",
+        question: "¿Cómo se puede importar solo una función específica de un módulo?",
         options: [
             "from modulo import funcion",
             "import funcion from modulo",
@@ -759,7 +759,7 @@ export const questionsPythonClass4 = [
 
 export const questionsPythonClass5 = [
         {
-            question: "1. ¿Cómo se define una lista en Python?",
+            question: "¿Cómo se define una lista en Python?",
             options: [
                 "list = ()",
                 "list = []",
@@ -769,7 +769,7 @@ export const questionsPythonClass5 = [
             answer: "list = []"
         },
         {
-            question: "2. ¿Cómo se define una tupla en Python?",
+            question: "¿Cómo se define una tupla en Python?",
             options: [
                 "tuple = []",
                 "tuple = ()",
@@ -779,7 +779,7 @@ export const questionsPythonClass5 = [
             answer: "tuple = ()"
         },
         {
-            question: "3. ¿Cuál es la diferencia principal entre una lista y una tupla?",
+            question: "¿Cuál es la diferencia principal entre una lista y una tupla?",
             options: [
                 "Las listas son mutables, las tuplas no",
                 "Las tuplas son mutables, las listas no",
@@ -789,7 +789,7 @@ export const questionsPythonClass5 = [
             answer: "Las listas son mutables, las tuplas no"
         },
         {
-            question: "4. ¿Cómo accedes al tercer elemento de una lista llamada 'mi_lista'?",
+            question: "¿Cómo accedes al tercer elemento de una lista llamada 'mi_lista'?",
             options: [
                 "mi_lista[2]",
                 "mi_lista[3]",
@@ -799,7 +799,7 @@ export const questionsPythonClass5 = [
             answer: "mi_lista[2]"
         },
         {
-            question: "5. ¿Qué sucede si intentas modificar un elemento en una tupla?",
+            question: "¿Qué sucede si intentas modificar un elemento en una tupla?",
             options: [
                 "Se modifica correctamente",
                 "Se produce un error",
@@ -809,7 +809,7 @@ export const questionsPythonClass5 = [
             answer: "Se produce un error"
         },
         {
-            question: "6. ¿Cómo se agrega un elemento a una lista llamada 'mi_lista'?",
+            question: "¿Cómo se agrega un elemento a una lista llamada 'mi_lista'?",
             options: [
                 "mi_lista.add(elemento)",
                 "mi_lista.append(elemento)",
@@ -819,7 +819,7 @@ export const questionsPythonClass5 = [
             answer: "mi_lista.append(elemento)"
         },
         {
-            question: "7. ¿Cómo eliminas un elemento de una lista por su valor?",
+            question: "¿Cómo eliminas un elemento de una lista por su valor?",
             options: [
                 "mi_lista.remove(valor)",
                 "mi_lista.delete(valor)",
@@ -829,7 +829,7 @@ export const questionsPythonClass5 = [
             answer: "mi_lista.remove(valor)"
         },
         {
-            question: "8. ¿Cómo puedes concatenar dos listas en Python?",
+            question: "¿Cómo puedes concatenar dos listas en Python?",
             options: [
                 "lista1 + lista2",
                 "concatenate(lista1, lista2)",
@@ -839,7 +839,7 @@ export const questionsPythonClass5 = [
             answer: "lista1 + lista2"
         },
         {
-            question: "9. ¿Qué método usas para encontrar la longitud de una lista o tupla?",
+            question: "¿Qué método usas para encontrar la longitud de una lista o tupla?",
             options: [
                 "length()",
                 "size()",
@@ -849,7 +849,7 @@ export const questionsPythonClass5 = [
             answer: "len()"
         },
         {
-            question: "10. ¿Cuál es la función correcta para ordenar una lista en Python?",
+            question: "¿Cuál es la función correcta para ordenar una lista en Python?",
             options: [
                 "lista.sort()",
                 "sort(lista)",
@@ -859,7 +859,7 @@ export const questionsPythonClass5 = [
             answer: "lista.sort()"
         },
         {
-            question: "11. ¿Qué hace el método 'pop()' en una lista?",
+            question: "¿Qué hace el método 'pop()' en una lista?",
             options: [
                 "Elimina y devuelve el último elemento",
                 "Elimina el primer elemento",
@@ -869,7 +869,7 @@ export const questionsPythonClass5 = [
             answer: "Elimina y devuelve el último elemento"
         },
         {
-            question: "12. ¿Cómo conviertes una lista en una tupla?",
+            question: "¿Cómo conviertes una lista en una tupla?",
             options: [
                 "tuple(mi_lista)",
                 "convert_tuple(mi_lista)",
@@ -879,7 +879,7 @@ export const questionsPythonClass5 = [
             answer: "tuple(mi_lista)"
         },
         {
-            question: "13. ¿Cómo conviertes una tupla en una lista?",
+            question: "¿Cómo conviertes una tupla en una lista?",
             options: [
                 "list(mi_tupla)",
                 "convert_list(mi_tupla)",
@@ -889,7 +889,7 @@ export const questionsPythonClass5 = [
             answer: "list(mi_tupla)"
         },
         {
-            question: "14. ¿Qué método usarías para contar cuántas veces aparece un valor en una lista?",
+            question: "¿Qué método usarías para contar cuántas veces aparece un valor en una lista?",
             options: [
                 "lista.count(valor)",
                 "lista.find(valor)",
@@ -899,7 +899,7 @@ export const questionsPythonClass5 = [
             answer: "lista.count(valor)"
         },
         {
-            question: "15. ¿Qué hace el método 'index()' en una lista?",
+            question: "¿Qué hace el método 'index()' en una lista?",
             options: [
                 "Devuelve la posición de un elemento",
                 "Elimina un elemento",
@@ -909,7 +909,7 @@ export const questionsPythonClass5 = [
             answer: "Devuelve la posición de un elemento"
         },
         {
-            question: "16. ¿Es posible tener listas dentro de listas?",
+            question: "¿Es posible tener listas dentro de listas?",
             options: [
                 "Sí, se llaman listas anidadas",
                 "No, no es posible",
@@ -919,7 +919,7 @@ export const questionsPythonClass5 = [
             answer: "Sí, se llaman listas anidadas"
         },
         {
-            question: "17. ¿Cómo se accede al segundo elemento de la primera lista en una lista anidada?",
+            question: "¿Cómo se accede al segundo elemento de la primera lista en una lista anidada?",
             options: [
                 "lista[0][1]",
                 "lista[1][0]",
@@ -929,7 +929,7 @@ export const questionsPythonClass5 = [
             answer: "lista[0][1]"
         },
         {
-            question: "18. ¿Cuál de las siguientes opciones no es un método de listas?",
+            question: "¿Cuál de las siguientes opciones no es un método de listas?",
             options: [
                 "append()",
                 "remove()",
@@ -942,7 +942,7 @@ export const questionsPythonClass5 = [
 
 export const questionsPythonClass6 = [
         {
-            question: "1. ¿Cómo se define un diccionario en Python?",
+            question: "¿Cómo se define un diccionario en Python?",
             options: [
                 "dicc = {}",
                 "dicc = []",
@@ -952,7 +952,7 @@ export const questionsPythonClass6 = [
             answer: "dicc = {}"
         },
         {
-            question: "2. ¿Qué tipo de datos se utilizan como claves en un diccionario?",
+            question: "¿Qué tipo de datos se utilizan como claves en un diccionario?",
             options: [
                 "Cualquier tipo inmutable",
                 "Solo cadenas",
@@ -962,7 +962,7 @@ export const questionsPythonClass6 = [
             answer: "Cualquier tipo inmutable"
         },
         {
-            question: "3. ¿Cómo accedes al valor asociado con una clave específica en un diccionario llamado 'mi_dicc'?",
+            question: "¿Cómo accedes al valor asociado con una clave específica en un diccionario llamado 'mi_dicc'?",
             options: [
                 "mi_dicc['clave']",
                 "mi_dicc.clave",
@@ -972,7 +972,7 @@ export const questionsPythonClass6 = [
             answer: "mi_dicc['clave']"
         },
         {
-            question: "4. ¿Qué sucede si intentas acceder a una clave inexistente en un diccionario usando corchetes?",
+            question: "¿Qué sucede si intentas acceder a una clave inexistente en un diccionario usando corchetes?",
             options: [
                 "Se devuelve None",
                 "Se lanza una excepción KeyError",
@@ -982,7 +982,7 @@ export const questionsPythonClass6 = [
             answer: "Se lanza una excepción KeyError"
         },
         {
-            question: "5. ¿Cómo eliminas una clave y su valor asociado de un diccionario?",
+            question: "¿Cómo eliminas una clave y su valor asociado de un diccionario?",
             options: [
                 "delete mi_dicc['clave']",
                 "mi_dicc.pop('clave')",
@@ -992,7 +992,7 @@ export const questionsPythonClass6 = [
             answer: "mi_dicc.pop('clave')"
         },
         {
-            question: "6. ¿Cómo verificas si una clave existe en un diccionario?",
+            question: "¿Cómo verificas si una clave existe en un diccionario?",
             options: [
                 "'clave' in mi_dicc",
                 "'clave' exists mi_dicc",
@@ -1002,7 +1002,7 @@ export const questionsPythonClass6 = [
             answer: "'clave' in mi_dicc"
         },
         {
-            question: "7. ¿Cómo puedes obtener todas las claves de un diccionario?",
+            question: "¿Cómo puedes obtener todas las claves de un diccionario?",
             options: [
                 "mi_dicc.keys()",
                 "mi_dicc.claves()",
@@ -1012,7 +1012,7 @@ export const questionsPythonClass6 = [
             answer: "mi_dicc.keys()"
         },
         {
-            question: "8. ¿Cómo puedes obtener todos los valores de un diccionario?",
+            question: "¿Cómo puedes obtener todos los valores de un diccionario?",
             options: [
                 "mi_dicc.values()",
                 "mi_dicc.valores()",
@@ -1022,7 +1022,7 @@ export const questionsPythonClass6 = [
             answer: "mi_dicc.values()"
         },
         {
-            question: "9. ¿Cuál es la forma correcta de iterar sobre un diccionario para obtener tanto claves como valores?",
+            question: "¿Cuál es la forma correcta de iterar sobre un diccionario para obtener tanto claves como valores?",
             options: [
                 "for clave, valor in mi_dicc.items():",
                 "for clave, valor in mi_dicc:",
@@ -1032,7 +1032,7 @@ export const questionsPythonClass6 = [
             answer: "for clave, valor in mi_dicc.items():"
         },
         {
-            question: "10. ¿Cómo se define un conjunto en Python?",
+            question: "¿Cómo se define un conjunto en Python?",
             options: [
                 "conj = set()",
                 "conj = []",
@@ -1042,7 +1042,7 @@ export const questionsPythonClass6 = [
             answer: "conj = set()"
         },
         {
-            question: "11. ¿Qué hace el método 'add()' en un conjunto?",
+            question: "¿Qué hace el método 'add()' en un conjunto?",
             options: [
                 "Agrega un nuevo elemento",
                 "Elimina un elemento",
@@ -1052,7 +1052,7 @@ export const questionsPythonClass6 = [
             answer: "Agrega un nuevo elemento"
         },
         {
-            question: "12. ¿Cómo verificas si un elemento pertenece a un conjunto?",
+            question: "¿Cómo verificas si un elemento pertenece a un conjunto?",
             options: [
                 "elemento in conj",
                 "conj.contains(elemento)",
@@ -1062,7 +1062,7 @@ export const questionsPythonClass6 = [
             answer: "elemento in conj"
         },
         {
-            question: "13. ¿Cuál es la principal diferencia entre un conjunto y una lista?",
+            question: "¿Cuál es la principal diferencia entre un conjunto y una lista?",
             options: [
                 "Los conjuntos no permiten elementos duplicados",
                 "Los conjuntos están ordenados",
@@ -1072,7 +1072,7 @@ export const questionsPythonClass6 = [
             answer: "Los conjuntos no permiten elementos duplicados"
         },
         {
-            question: "14. ¿Cómo se elimina un elemento de un conjunto sin causar un error si el elemento no existe?",
+            question: "¿Cómo se elimina un elemento de un conjunto sin causar un error si el elemento no existe?",
             options: [
                 "conj.discard(elemento)",
                 "conj.remove(elemento)",
@@ -1082,7 +1082,7 @@ export const questionsPythonClass6 = [
             answer: "conj.discard(elemento)"
         },
         {
-            question: "15. ¿Qué método se utiliza para eliminar un elemento específico de un conjunto?",
+            question: "¿Qué método se utiliza para eliminar un elemento específico de un conjunto?",
             options: [
                 "remove()",
                 "delete()",
@@ -1092,7 +1092,7 @@ export const questionsPythonClass6 = [
             answer: "remove()"
         },
         {
-            question: "16. ¿Cómo conviertes una lista en un conjunto?",
+            question: "¿Cómo conviertes una lista en un conjunto?",
             options: [
                 "set(mi_lista)",
                 "convert_set(mi_lista)",
@@ -1102,7 +1102,7 @@ export const questionsPythonClass6 = [
             answer: "set(mi_lista)"
         },
         {
-            question: "17. ¿Qué sucede si intentas agregar un elemento duplicado a un conjunto?",
+            question: "¿Qué sucede si intentas agregar un elemento duplicado a un conjunto?",
             options: [
                 "No se agrega el elemento",
                 "El conjunto se duplica",
@@ -1112,7 +1112,7 @@ export const questionsPythonClass6 = [
             answer: "No se agrega el elemento"
         },
         {
-            question: "18. ¿Cuál es la salida de 'len({'a', 'b', 'a'})'?",
+            question: "¿Cuál es la salida de 'len({'a', 'b', 'a'})'?",
             options: [
                 "2",
                 "3",
@@ -1125,7 +1125,7 @@ export const questionsPythonClass6 = [
     
 export const questionsPythonClass7 = [
         {
-            question: "1. ¿Cuál es la forma correcta de abrir un archivo en modo lectura en Python?",
+            question: "¿Cuál es la forma correcta de abrir un archivo en modo lectura en Python?",
             options: [
                 "file = open('archivo.txt', 'r')",
                 "file = open('archivo.txt', 'w')",
@@ -1135,7 +1135,7 @@ export const questionsPythonClass7 = [
             answer: "file = open('archivo.txt', 'r')"
         },
         {
-            question: "2. ¿Qué método se usa para leer el contenido completo de un archivo en Python?",
+            question: "¿Qué método se usa para leer el contenido completo de un archivo en Python?",
             options: [
                 "file.read()",
                 "file.readline()",
@@ -1145,7 +1145,7 @@ export const questionsPythonClass7 = [
             answer: "file.read()"
         },
         {
-            question: "3. ¿Cuál es la excepción que se lanza cuando un archivo no se encuentra en Python?",
+            question: "¿Cuál es la excepción que se lanza cuando un archivo no se encuentra en Python?",
             options: [
                 "FileNotFoundError",
                 "IndexError",
@@ -1155,7 +1155,7 @@ export const questionsPythonClass7 = [
             answer: "FileNotFoundError"
         },
         {
-            question: "4. ¿Cómo se debe cerrar un archivo en Python después de trabajar con él?",
+            question: "¿Cómo se debe cerrar un archivo en Python después de trabajar con él?",
             options: [
                 "file.close()",
                 "file.end()",
@@ -1165,7 +1165,7 @@ export const questionsPythonClass7 = [
             answer: "file.close()"
         },
         {
-            question: "5. ¿Qué estructura se utiliza para manejar excepciones en Python?",
+            question: "¿Qué estructura se utiliza para manejar excepciones en Python?",
             options: [
                 "try-except",
                 "if-else",
@@ -1175,7 +1175,7 @@ export const questionsPythonClass7 = [
             answer: "try-except"
         },
         {
-            question: "6. ¿Qué modo de apertura de archivos permite escribir en un archivo pero no modificar el contenido existente?",
+            question: "¿Qué modo de apertura de archivos permite escribir en un archivo pero no modificar el contenido existente?",
             options: [
                 "'w'",
                 "'a'",
@@ -1185,7 +1185,7 @@ export const questionsPythonClass7 = [
             answer: "'a'"
         },
         {
-            question: "7. ¿Qué método se utiliza para leer una sola línea de un archivo en Python?",
+            question: "¿Qué método se utiliza para leer una sola línea de un archivo en Python?",
             options: [
                 "file.read()",
                 "file.readline()",
@@ -1195,7 +1195,7 @@ export const questionsPythonClass7 = [
             answer: "file.readline()"
         },
         {
-            question: "8. ¿Qué método se usa para escribir contenido en un archivo en Python?",
+            question: "¿Qué método se usa para escribir contenido en un archivo en Python?",
             options: [
                 "file.write()",
                 "file.insert()",
@@ -1205,7 +1205,7 @@ export const questionsPythonClass7 = [
             answer: "file.write()"
         },
         {
-            question: "9. ¿Cuál de las siguientes excepciones se lanza cuando se intenta dividir por cero?",
+            question: "¿Cuál de las siguientes excepciones se lanza cuando se intenta dividir por cero?",
             options: [
                 "ZeroDivisionError",
                 "ValueError",
@@ -1215,7 +1215,7 @@ export const questionsPythonClass7 = [
             answer: "ZeroDivisionError"
         },
         {
-            question: "10. ¿Qué excepción se lanza cuando se intenta acceder a un índice inexistente en una lista?",
+            question: "¿Qué excepción se lanza cuando se intenta acceder a un índice inexistente en una lista?",
             options: [
                 "IndexError",
                 "KeyError",

@@ -69,12 +69,20 @@ const PythonClass2Content10 = ({ onComplete }) => {
     data-[state=open]:block
     pb-6
   ">
-          <section>
+         <section>
+            <div className="rounded-xl shadow border-2 border-cyan-200 p-4 m-4 bg-cyan-50">
+              <div>
+                <p className="text-sm text-gray-600 text-center font-bold">
+                  Responde todas las preguntas y envía el formulario para ver tu
+                  resultado
+                </p>
+              </div>
+            </div>
             <QuizForm
               questions={questionsPythonClass2}
               onDone={() => {
                 setDone(true);
-                onComplete("class2content11");
+                onComplete("class2content10");
               }}
             />
           </section>

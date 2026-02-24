@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
+import * as Tabs from "@radix-ui/react-tabs";
+import { BookOpen, Dumbbell } from "lucide-react";
+
 import PythonClass1Content1 from "./PythonClass1Content1";
 import PythonClass1Content2 from "./PythonClass1Content2";
 import PythonClass1Content3 from "./PythonClass1Content3";
@@ -13,6 +16,9 @@ import PythonClass1Content9 from "./PythonClass1Content9";
 import PythonClass1Content10 from "./PythonClass1Content10";
 import PythonClass1Content11 from "./PythonClass1Content11";
 import PythonClass1Content12 from "./PythonClass1Content12";
+
+import Exercises from "../../Exercises/Exercises";
+import { exerciseClass1 } from "../../Exercises/exerciseData";
 
 const PythonClass1 = () => {
   const TOTAL_CLASES = 10; // cantidad de secciones
@@ -162,7 +168,7 @@ const PythonClass1 = () => {
                         x-excluded="true"
                         style={{ display: "contents" }}
                       >
-                       8{" "}
+                        8{" "}
                       </span>
                       clases
                     </span>
@@ -182,125 +188,153 @@ const PythonClass1 = () => {
             </div>
           </div>
         </section>
-        <span
-          data-ve-dynamic="true"
-          x-excluded="true"
-          style={{ display: "contents" }}
-        >
-          <section className="border-b border-gray-200 bg-white">
-            <div className="container mx-auto px-4 py-8">
-              <div className="max-w-4xl mx-auto">
-                <div className="flex items-center justify-between mb-4">
-                  <div className="flex items-center gap-3">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      className="lucide lucide-trending-up w-6 h-6 text-cyan-600"
-                      aria-hidden="true"
+        <section className="border-b border-gray-200 bg-white">
+          <div className="container mx-auto px-4 py-8">
+            <div className="max-w-4xl mx-auto">
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center gap-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    className="lucide lucide-trending-up w-6 h-6 text-cyan-600"
+                    aria-hidden="true"
+                  >
+                    <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+                    <polyline points="16 7 22 7 22 13"></polyline>
+                  </svg>
+                  <h3 className="text-xl font-bold text-gray-900">
+                    Tu Progreso
+                  </h3>
+                </div>
+                <div className="text-right">
+                  <div className="text-3xl font-bold text-cyan-600">
+                    <span
+                      data-ve-dynamic="true"
+                      x-excluded="true"
+                      style={{ display: "contents" }}
                     >
-                      <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
-                      <polyline points="16 7 22 7 22 13"></polyline>
-                    </svg>
-                    <h3 className="text-xl font-bold text-gray-900">
-                      Tu Progreso
-                    </h3>
+                      {progress}
+                    </span>
+                    %
                   </div>
-                  <div className="text-right">
-                    <div className="text-3xl font-bold text-cyan-600">
-                      <span
-                        data-ve-dynamic="true"
-                        x-excluded="true"
-                        style={{ display: "contents" }}
-                      >
-                        {progress}
-                      </span>
-                      %
-                    </div>
-                    <div className="text-sm text-gray-500">Completado</div>
-                  </div>
+                  <div className="text-sm text-gray-500">Completado</div>
                 </div>
-                {/* PROGRESO */}
-                <div className="relative w-full h-3 rounded-full bg-gray-200 overflow-hidden">
-                  <div
-                    className="h-full bg-cyan-600 transition-all duration-500"
-                    style={{ width: `${progress}%` }}
-                  />
-                </div>
-
-                <span
-                  data-ve-dynamic="true"
-                  x-excluded="true"
-                  style={{ display: "contents" }}
-                ></span>
               </div>
-            </div>
-          </section>
-        </span>
-        <section className="py-12 px-4">
-          <div className="container mx-auto">
-            <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  className="lucide lucide-book-open w-8 h-8 text-cyan-600"
-                  aria-hidden="true"
-                >
-                  <path d="M12 7v14"></path>
-                  <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path>
-                </svg>
-                Contenido de la clase 1
-              </h2>
+              <div className="relative w-full h-3 rounded-full bg-gray-200 overflow-hidden">
+                <div
+                  className="h-full bg-cyan-600 transition-all duration-500"
+                  style={{ width: `${progress}%` }}
+                />
+              </div>
               <span
                 data-ve-dynamic="true"
                 x-excluded="true"
                 style={{ display: "contents" }}
-              >
-                <div className="space-y-4">
-                  <span
-                    data-ve-dynamic="true"
-                    x-excluded="true"
-                    style={{ display: "contents" }}
-                  >
-                    <PythonClass1Content1 onComplete={handleComplete} />
-                    <PythonClass1Content2 onComplete={handleComplete} />
-                    <PythonClass1Content3 onComplete={handleComplete} />
-                    <PythonClass1Content4 onComplete={handleComplete} />
-                    <PythonClass1Content5 onComplete={handleComplete} />
-                    <PythonClass1Content6 onComplete={handleComplete} />
-                    <PythonClass1Content7 onComplete={handleComplete} />
-                    <PythonClass1Content8 onComplete={handleComplete} />
-                    <PythonClass1Content9 onComplete={handleComplete} />
-                    <PythonClass1Content10 onComplete={handleComplete} />
-                    <PythonClass1Content11 onComplete={handleComplete} />
-                    <PythonClass1Content12 />
-                  </span>
-                </div>
-                <div className="p-10 flex justify-end">
-                  <Link to="/python/class2" className="inline-block">
-                  <button className="inline-flex items-center justify-center gap-2 font-medium text-lg px-8 py-6 h-10 rounded-md bg-cyan-600 text-white hover:bg-cyan-700 transition-colors">
-                    Clase Siguiente
-                  </button>
-                  </Link>
-                </div>
-              </span>
+              ></span>
             </div>
           </div>
         </section>
+        <section className="border-gray-200 bg-white mt-10">
+          <Tabs.Root defaultValue="content" className="w-full">
+            <Tabs.List className="md:mx-40  mx-3 h-9 items-center justify-center rounded-lg bg-muted text-muted-foreground grid grid-cols-2 mb-6">
+              <Tabs.Trigger
+                value="content"
+                className="justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm font-medium transition-all data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow flex items-center gap-2 data-[state=active]:border-2 data-[state=active]:border-white"
+              >
+                <BookOpen className="w-4 h-4" />
+                Contenido
+              </Tabs.Trigger>
+              <Tabs.Trigger
+                value="exercises"
+                className="justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm font-medium transition-all data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow flex items-center gap-2"
+              >
+                <Dumbbell className="w-4 h-4" />
+                Ejercicios
+              </Tabs.Trigger>
+            </Tabs.List>
+            <Tabs.Content
+              value="content"
+              forceMount
+              className="data-[state=inactive]:hidden"
+            >
+              <section className="py-12 px-4">
+                <div className="container mx-auto">
+                  <div>
+                    <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        className="lucide lucide-book-open w-8 h-8 text-cyan-600"
+                        aria-hidden="true"
+                      >
+                        <path d="M12 7v14"></path>
+                        <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path>
+                      </svg>
+                      Contenido de la clase 1
+                    </h2>
+                    <span
+                      data-ve-dynamic="true"
+                      x-excluded="true"
+                      style={{ display: "contents" }}
+                    >
+                      <div className="space-y-4">
+                        <span
+                          data-ve-dynamic="true"
+                          x-excluded="true"
+                          style={{ display: "contents" }}
+                        >
+                          <PythonClass1Content1 onComplete={handleComplete} />
+                          <PythonClass1Content2 onComplete={handleComplete} />
+                          <PythonClass1Content3 onComplete={handleComplete} />
+                          <PythonClass1Content4 onComplete={handleComplete} />
+                          <PythonClass1Content5 onComplete={handleComplete} />
+                          <PythonClass1Content6 onComplete={handleComplete} />
+                          <PythonClass1Content7 onComplete={handleComplete} />
+                          <PythonClass1Content8 onComplete={handleComplete} />
+                          <PythonClass1Content9 onComplete={handleComplete} />
+                          <PythonClass1Content10 onComplete={handleComplete} />
+                          <PythonClass1Content11 onComplete={handleComplete} />
+                          <PythonClass1Content12 />
+                        </span>
+                      </div>
+                    </span>
+                  </div>
+                </div>
+              </section>
+            </Tabs.Content>
+            <Tabs.Content
+              value="exercises"
+              forceMount
+              className="data-[state=inactive]:hidden"
+            >
+              <Exercises data={exerciseClass1} />
+            </Tabs.Content>
+          </Tabs.Root>
+        </section>
+        <div className="md:mx-40 mx-4 mb-10 flex justify-end gap-4">
+          <Link
+            to="/python/6srjha93g208gj2jf0382fewk9k09fkiyvnt7"
+            className="inline-block"
+          >
+            <button className="inline-flex items-center justify-center gap-2 font-medium text-lg px-4 py-6 h-10 rounded-md bg-cyan-600 text-white hover:bg-cyan-700 transition-colors">
+              Clase Siguiente
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );

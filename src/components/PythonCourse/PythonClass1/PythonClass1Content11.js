@@ -83,6 +83,7 @@ const PythonClass1Content11 = ({ onComplete }) => {
               className="w-75 mt-4 d-block mx-auto border-content"
               alt=""
               src="../img/pythonClass1/p1.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
               2_ Nos aparecerá una pantalla en donde podemos indicarle en que
@@ -93,6 +94,7 @@ const PythonClass1Content11 = ({ onComplete }) => {
               className="w-75 mt-4 d-block mx-auto border-content"
               alt=""
               src="../img/pythonClass1/p2.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <div className="flex flex-wrap items-center gap-2 mt-4 mb-4 leading-relaxed">
               <p className="leading-relaxed mt-4 mb-4">
@@ -140,6 +142,7 @@ const PythonClass1Content11 = ({ onComplete }) => {
               className="w-75 mt-4 d-block mx-auto border-content"
               alt=""
               src="../img/pythonClass1/p3.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="mt-4 mb-4 text-break mx-auto w-75">
               4_ Al crear el archivo le debemos escribir el nombre deseado para
@@ -147,7 +150,7 @@ const PythonClass1Content11 = ({ onComplete }) => {
               programa de que es un archivo de python, por ejemplo:{" "}
               <strong>index.py</strong>
             </p>
-            <img className="w-75" alt="" src="../img/pythonClass1/p4.webp" />
+            <img className="w-75" alt="" src="../img/pythonClass1/p4.webp" style={{ borderRadius: "1rem" }} />
             <h5 className="font-semibold text-gray-900 mb-2 mt-4">
               Crea un proyecto en Pycharm
             </h5>
@@ -164,6 +167,7 @@ const PythonClass1Content11 = ({ onComplete }) => {
               className="w-75 mt-4 d-block border-content"
               alt=""
               src="../img/pythonClass1/pych7.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
               <strong>2.</strong>Selecciona la carpeta de tu escritorio{" "}
@@ -173,6 +177,7 @@ const PythonClass1Content11 = ({ onComplete }) => {
               className="w-75 mt-4 d-block border-content"
               alt=""
               src="../img/pythonClass1/pych8.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
               <strong>3.</strong>Escribí el nombre de la carpeta que deseas
@@ -183,6 +188,7 @@ const PythonClass1Content11 = ({ onComplete }) => {
               className="w-75 mt-4 d-block border-content"
               alt=""
               src="../img/pythonClass1/pych9.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="mt-4 mb-4 text-break mx-auto w-75">
               {" "}
@@ -192,6 +198,7 @@ const PythonClass1Content11 = ({ onComplete }) => {
               className="w-75 d-block d-block border-content"
               alt=""
               src="../img/pythonClass1/pych10.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
               {" "}
@@ -201,6 +208,7 @@ const PythonClass1Content11 = ({ onComplete }) => {
               className="w-75 mt-4 d-block mx-auto border-content"
               alt=""
               src="../img/pythonClass1/pych11.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
               <strong>6.</strong> Ahora debemos crear el archivo de python, para
@@ -213,6 +221,7 @@ const PythonClass1Content11 = ({ onComplete }) => {
               className="w-75 mt-4 d-block mx-auto border-content"
               alt=""
               src="../img/pythonClass1/pych12.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="mt-4 mb-4 text-break mx-auto w-75">
               <strong>7.</strong> Escribe el nombre del archivo de python{" "}
@@ -223,6 +232,7 @@ const PythonClass1Content11 = ({ onComplete }) => {
               className="w-75 d-block d-block mx-auto border-content"
               alt=""
               src="../img/pythonClass1/pych13.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="mt-4 mb-4 text-break mx-auto w-75">
               Cuando quieras ejecutar el programa debes abrir la terminal y
@@ -234,6 +244,7 @@ const PythonClass1Content11 = ({ onComplete }) => {
               className="w-75 d-block d-block mx-auto border-content"
               alt=""
               src="../img/pythonClass1/pych14.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="mt-4 mb-4 text-break mx-auto w-75">
               Al abrir la terminal escribe dentro<strong>python</strong>seguido
@@ -244,6 +255,7 @@ const PythonClass1Content11 = ({ onComplete }) => {
               className="w-75 d-block d-block mx-auto border-content"
               alt=""
               src="../img/pythonClass1/pych15.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <h5 className="font-semibold text-gray-900 mb-2 mt-4">
               Salida de datos - print()
@@ -280,7 +292,7 @@ const PythonClass1Content11 = ({ onComplete }) => {
             </p>
             <div className="relative group">
               <CopyButton code={class1Code[0]}></CopyButton>
-              <img className="" alt="" src="../img/pythonClass1/p5.webp" />
+              <img className="" alt="" src="../img/pythonClass1/p5.webp" style={{ borderRadius: "1rem" }}/>
             </div>
             <p className="mt-4 mb-4 text-break mx-auto w-75">
               Para ejecutar el programa debemos escribir en la terminal{" "}
@@ -291,7 +303,7 @@ const PythonClass1Content11 = ({ onComplete }) => {
             </p>
             <div className="relative group">
               <CopyButton code={class1Code[1]}></CopyButton>
-              <img className="" alt="" src="../img/pythonClass1/p6.webp" />
+              <img className="" alt="" src="../img/pythonClass1/p6.webp" style={{ borderRadius: "1rem" }}/>
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-4">
               Comentarios - #, """ """
@@ -315,7 +327,7 @@ const PythonClass1Content11 = ({ onComplete }) => {
             </p>
             <div className="relative group">
               <CopyButton code={class1Code[2]}></CopyButton>
-              <img className="" alt="" src="../img/pythonClass1/p7.webp" />
+              <img className="" alt="" src="../img/pythonClass1/p7.webp" style={{ borderRadius: "1rem" }}/>
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-4">
               Entrada de datos - input()
@@ -343,6 +355,7 @@ const PythonClass1Content11 = ({ onComplete }) => {
                 style={{ borderRadius: "1rem" }}
                 alt=""
                 src="../img/pythonClass1/p8.webp"
+                
               />
             </div>
             <p className="leading-relaxed mt-10 mb-4">

@@ -1,7 +1,4 @@
-import * as RadioGroup from "@radix-ui/react-radio-group";
-import * as Accordion from "@radix-ui/react-accordion";
 import { useState } from "react";
-import { CheckCircle2, XCircle } from "lucide-react";
 
 const QuizForm = ({ questions, onDone }) => {
   const [userAnswers, setUserAnswers] = useState({});
@@ -40,84 +37,66 @@ const QuizForm = ({ questions, onDone }) => {
   };
 
   return (
-    <section>
-      <h5 className="font-semibold text-gray-900 mb-2 mt-10 text-xl">
-        Refuerza tus conocimientos
-      </h5>
-      <p className="leading-relaxed mt-4 mb-6 text-gray-700">
-        Completa este formulario para revisar y afianzar los conceptos claves de
-        esta clase.
-        <br></br>
-        Lee cada pregunta antes de responder.
-      </p>
-      <form onSubmit={handleSubmit} className="space-y-8">
-        <Accordion.Root type="multiple" className="space-y-4">
-          {questions.map((question, index) => (
-            <Accordion.Item
-              key={index}
-              value={`item-${index}`}
-              className="border rounded-xl shadow-sm"
-            >
-              <Accordion.Header>
-                <Accordion.Trigger className="w-full text-left px-5 py-4 font-medium text-gray-900 hover:bg-gray-50 rounded-xl">
-                  Pregunta {index + 1}
-                </Accordion.Trigger>
-              </Accordion.Header>
-              <Accordion.Content className="px-5 pb-6 pt-2">
-                <h5
-                  className="font-semibold text-gray-900 mb-2 mt-6"
-                  dangerouslySetInnerHTML={{
-                    __html: question.question
-                      .replace(/\n/g, "<br/>")
-                      .replace(/ /g, "&nbsp;"),
-                  }}
-                />
-                <RadioGroup.Root
-                  className="space-y-3 mt-4"
-                  value={userAnswers[index]}
-                  onValueChange={(value) => handleChange(value, index)}
-                  required
-                >
+    <>
+      <form onSubmit={handleSubmit} className="space-y-6 px-3 sm:px-6 md:px-10">
+        <div className="rounded-xl bg-card text-card-foreground mt-6">
+          <div className="space-y-10">
+            {questions.map((question, index) => (
+              <div key={index} className="space-y-4">
+                <div className="flex items-start gap-3">
+                  <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-[10px] sm:text-xs font-semibold bg-cyan-100 text-cyan-700 border-cyan-200 mt-1">
+                    {index + 1}
+                  </div>
+                  <p
+                    className="font-semibold text-sm sm:text-base md:text-lg text-gray-900 flex-1 break-words"
+                    dangerouslySetInnerHTML={{
+                      __html: question.question
+                        .replace(/\n/g, "<br/>")
+                    }}
+                  />
+                </div>
+                <div className="grid gap-2 ml-11 space-y-3">
                   {question.options.map((option, i) => (
                     <div
                       key={i}
-                      className="flex items-start gap-3 p-3 border rounded-lg hover:bg-gray-50"
+                      className="flex items-center space-x-3 p-3 rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors cursor-pointer"
                     >
-                      <RadioGroup.Item
+                      <input
+                        type="radio"
+                        name={`question-${index}`}
                         value={option}
-                        id={`q${index}-${i}`}
-                        className="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center data-[state=checked]:border-blue-600"
-                      >
-                        <RadioGroup.Indicator className="w-3 h-3 bg-blue-600 rounded-full" />
-                      </RadioGroup.Item>
+                        checked={userAnswers[index] === option}
+                        onChange={() => handleChange(option, index)}
+                        className="h-4 w-4 accent-cyan-600"
+                        required
+                      />
 
                       <label
-                        htmlFor={`q${index}-${i}`}
-                        className="text-gray-700 leading-relaxed cursor-pointer"
+                        className="font-medium text-sm sm:text-base text-gray-900 flex-1 break-words"
                         dangerouslySetInnerHTML={{
                           __html: option
                             .replace(/\n/g, "<br/>")
-                            .replace(/ /g, "&nbsp;"),
                         }}
                       />
                     </div>
                   ))}
-                </RadioGroup.Root>
-              </Accordion.Content>
-            </Accordion.Item>
-          ))}
-        </Accordion.Root>
-        {!showResults ? (
-          <button
-            type="submit"
-            className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full"
-          >
-            Enviar
-          </button>
-        ) : (
-          null
-        )}
+                </div>
+              </div>
+            ))}
+            {!showResults && (
+              <div className="flex justify-center">
+                <button
+                  type="submit"
+                  className="bg-cyan-600 hover:bg-cyan-700 text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-md text-sm sm:text-base md:text-lg shadow"
+                >
+                  Enviar respuestas
+                </button>
+              </div>
+            )}
+          </div>
+        </div>
       </form>
+
       {showResults && (
         <div className="mt-12 border-t pt-8">
           <h5 className="font-semibold text-gray-900 mb-4">Resultados</h5>
@@ -125,20 +104,20 @@ const QuizForm = ({ questions, onDone }) => {
           <p className="text-lg mb-4">
             Puntaje: <strong>{score}</strong> / {questions.length}
           </p>
+
           {feedback.length > 0 ? (
             <div className="space-y-4">
               <h5 className="font-semibold text-red-600">Errores</h5>
+
               {feedback.map((item, index) => (
                 <div key={index} className="p-4 border rounded-xl bg-red-50">
-                  <p className="flex items-center gap-2 font-medium text-gray-900">
-                    <XCircle size={18} className="text-red-500" />
-                    {item.question}
-                  </p>
+                  <p className="font-medium text-gray-900">{item.question}</p>
 
                   <p className="mt-2 text-gray-700">
                     <strong>Tu respuesta:</strong>{" "}
                     {item.userAnswer || "No respondida"}
                   </p>
+
                   <p className="text-gray-700">
                     <strong>Correcta:</strong> {item.correctAnswer}
                   </p>
@@ -146,14 +125,13 @@ const QuizForm = ({ questions, onDone }) => {
               ))}
             </div>
           ) : (
-            <div className="flex items-center gap-2 text-green-600 font-medium">
-              <CheckCircle2 />
+            <div className="text-green-600 font-medium">
               ¡Felicidades! Todas tus respuestas son correctas.
             </div>
           )}
         </div>
       )}
-    </section>
+    </>
   );
 };
 

@@ -102,6 +102,7 @@ const PythonClass1Content9 = ({ onComplete }) => {
               className="md:max-w-4xl"
               alt=""
               src="../img/pythonClass1/ide1.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
               <strong>2.</strong> Selecciona <strong>Acepto el acuerdo</strong>{" "}
@@ -112,6 +113,7 @@ const PythonClass1Content9 = ({ onComplete }) => {
               className="md:max-w-lg2"
               alt=""
               src="../img/pythonClass1/ide2.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
               <strong>3.</strong> Selecciona todos los checkbox y haz click
@@ -121,6 +123,7 @@ const PythonClass1Content9 = ({ onComplete }) => {
               className="md:max-w-lg2"
               alt=""
               src="../img/pythonClass1/ide3.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
               <strong>4.</strong> Haz click derecho en el boton{" "}
@@ -130,6 +133,7 @@ const PythonClass1Content9 = ({ onComplete }) => {
               className="md:max-w-lg2"
               alt=""
               src="../img/pythonClass1/ide4.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
               <strong>5.</strong> Al terminar la instalación haz click en
@@ -140,6 +144,7 @@ const PythonClass1Content9 = ({ onComplete }) => {
               className="md:max-w-lg2"
               alt=""
               src="../img/pythonClass1/ide5.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <h5 className="font-semibold text-gray-900 mb-2 mt-4">
               Instalación de IDE para sistema operativo de 32 bits
@@ -171,6 +176,7 @@ const PythonClass1Content9 = ({ onComplete }) => {
               className="md:max-w-4xl"
               alt=""
               src="../img/pythonClass1/pych1.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
               <strong>2. </strong>Ejecuta el instalador que descargaste y
@@ -180,6 +186,7 @@ const PythonClass1Content9 = ({ onComplete }) => {
               className="md:max-w-lg2"
               alt=""
               src="../img/pythonClass1/pych2.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
               <strong>3. </strong>Selecciona <strong>Next</strong>.
@@ -188,6 +195,7 @@ const PythonClass1Content9 = ({ onComplete }) => {
               className="md:max-w-lg2"
               alt=""
               src="../img/pythonClass1/pych5.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
               <strong>4. </strong>Presiona en <strong>32-bit launcher</strong>,{" "}
@@ -197,6 +205,7 @@ const PythonClass1Content9 = ({ onComplete }) => {
               className="md:max-w-lg2"
               alt=""
               src="../img/pythonClass1/pych4.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
               <strong>5. </strong>Selecciona <strong>Install</strong> y espera a
@@ -206,6 +215,7 @@ const PythonClass1Content9 = ({ onComplete }) => {
               className="md:max-w-lg2"
               alt=""
               src="../img/pythonClass1/pych5.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
               <strong>6. </strong>Selecciona <strong>Finish</strong>.
@@ -214,6 +224,7 @@ const PythonClass1Content9 = ({ onComplete }) => {
               className="md:max-w-lg2"
               alt=""
               src="../img/pythonClass1/pych6.webp"
+              style={{ borderRadius: "1rem" }}
             />
           </section>
         </Accordion.Content>

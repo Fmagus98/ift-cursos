@@ -28,6 +28,7 @@ const Pythonclass3Content8 = ({ onComplete }) => {
               <div className="flex items-center gap-2 flex-wrap">
                 <h4 className="font-semibold text-gray-900">
                   8. Evaluación de Conocimientos: Clase 3 - Control de flujo en
+                  Python
                 </h4>
                 {done && (
                   <span
@@ -58,13 +59,22 @@ const Pythonclass3Content8 = ({ onComplete }) => {
         </Accordion.Trigger>
         <Accordion.Content
           forceMount
-          className=" px-5 pt-2 overflow-hidden data-[state=closed]:hidden data-[state=open]:block pb-6" >
-          <section>
+          className=" px-5 pt-2 overflow-hidden data-[state=closed]:hidden data-[state=open]:block pb-6"
+        >
+         <section>
+            <div className="rounded-xl shadow border-2 border-cyan-200 p-4 m-4 bg-cyan-50">
+              <div>
+                <p className="text-sm text-gray-600 text-center font-bold">
+                  Responde todas las preguntas y envía el formulario para ver tu
+                  resultado
+                </p>
+              </div>
+            </div>
             <QuizForm
               questions={questionsPythonClass3}
               onDone={() => {
                 setDone(true);
-                onComplete("class3content11");
+                onComplete("class3content8");
               }}
             />
           </section>

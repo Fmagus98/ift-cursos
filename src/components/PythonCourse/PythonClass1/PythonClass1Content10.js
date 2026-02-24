@@ -90,6 +90,7 @@ const PythonClass1Content10 = ({ onComplete }) => {
                   className="inline w-6 mx-1 align-middle border-content rounded-lg"
                   alt=""
                   src="../img/pythonClass1/extension.webp"
+                  style={{ borderRadius: "1rem" }}
                 />
               </p>
             </div>
@@ -97,6 +98,7 @@ const PythonClass1Content10 = ({ onComplete }) => {
               className="md:max-w-4xl"
               alt=""
               src="../img/pythonClass1/ext1.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
               Al tocar el logo veremos que tenemos un <strong>buscador</strong>{" "}
@@ -110,6 +112,7 @@ const PythonClass1Content10 = ({ onComplete }) => {
               className="md:max-w-4xl"
               alt=""
               src="../img/pythonClass1/ext2.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">
               Lista de extensiones que utilizaremos en python
@@ -175,6 +178,7 @@ const PythonClass1Content10 = ({ onComplete }) => {
               className="md:max-w-4xl"
               alt=""
               src="../img/pythonClass1/t1.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
               Observamos que se abrirá la terminal en la parte inferior del
@@ -185,6 +189,7 @@ const PythonClass1Content10 = ({ onComplete }) => {
               className="md:max-w-4xl"
               alt=""
               src="../img/pythonClass1/t2.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
               Si escribimos en la terminal <strong>python</strong> y le damos
@@ -195,6 +200,7 @@ const PythonClass1Content10 = ({ onComplete }) => {
               className="md:max-w-4xl"
               alt=""
               src="../img/pythonClass1/t3.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
               Para finalizar el proceso de ejecución que muestra la version de
@@ -205,6 +211,7 @@ const PythonClass1Content10 = ({ onComplete }) => {
               className="md:max-w-4xl"
               alt=""
               src="../img/pythonClass1/t4.webp"
+              style={{ borderRadius: "1rem" }}
             />
             <h5 className="font-semibold text-gray-900 mb-2 mt-4">
               Terminal - Pip
@@ -229,6 +236,7 @@ const PythonClass1Content10 = ({ onComplete }) => {
               className="md:max-w-4xl"
               alt=""
               src="../img/pythonClass1/t5.webp"
+              style={{ borderRadius: "1rem" }}
             />
           </section>
         </Accordion.Content>

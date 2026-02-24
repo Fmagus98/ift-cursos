@@ -11,7 +11,6 @@ const Pythonclass3Content1 = ({ onComplete }) => {
         value="item-1"
         className="border border-gray-200 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md bg-white"
       >
-        {/* HEADER */}
         <Accordion.Trigger
           className="
             group
@@ -81,12 +80,9 @@ const Pythonclass3Content1 = ({ onComplete }) => {
         </Accordion.Trigger>
         <Accordion.Content className=" border-t border-gray-200 bg-gray-50 p-6 space-y-6 text-sm text-gray-700 data-[state=open]:animate-accordion-down data-[state=closed]:animate-accordion-up">
           <section>
-            {/* Condicionales */}
-
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">
               Condicionales en Programación
             </h5>
-
             <p className="leading-relaxed mt-4 mb-6">
               En programación, las condicionales
               <strong>
@@ -96,15 +92,12 @@ const Pythonclass3Content1 = ({ onComplete }) => {
               Podemos pensar en ellas como una forma de emular el proceso de
               toma de decisiones que ocurre en la vida real.
             </p>
-
             <p className="leading-relaxed mb-6">
               Por ejemplo: imaginá que una persona está por salir de su casa por
               la mañana y existe la posibilidad de que llueva más tarde. En ese
               caso, debe decidir si lleva un paraguas o no. Cada decisión genera
               una situación diferente.
             </p>
-
-            {/* Imagen ejemplo */}
             <div className="mx-auto md:max-w-4xl mb-6">
               <img
                 className="w-full bg-black"
@@ -113,7 +106,6 @@ const Pythonclass3Content1 = ({ onComplete }) => {
                 src="../img/pythonClass3/condition.webp"
               />
             </div>
-
             <p className="leading-relaxed mt-10 mb-4">
               Las condicionales se basan en una expresión que se evalúa como
               <strong>verdadera</strong> o <strong>Falsa</strong>Según el
@@ -122,8 +114,6 @@ const Pythonclass3Content1 = ({ onComplete }) => {
               <br></br>
               En Python, esta estructura se representa de la siguiente manera:
             </p>
-
-            {/* Estructura condicional */}
             <div className="mx-auto md:max-w-4xl mb-10">
               <img
                 className="w-full"

@@ -45,7 +45,7 @@ const SectionCourse = ({ course }) => {
       <div className="flex items-center p-6 pt-0">
         <Link to={course.link} className="w-full">
           <button className="inline-flex items-center justify-center gap-2 text-sm font-medium rounded-md w-full h-9 bg-cyan-600 hover:bg-cyan-700 text-white">
-            Ver Curso
+            Ver Curso 
           </button>
         </Link>
       </div>

@@ -100,6 +100,7 @@ const Pythonclass3Content5 = ({ onComplete }) => {
                 className="w-full rounded-xl"
                 alt="Inicio del diagrama de validación"
                 src="../img/pythonClass3/problem1-1.webp"
+                style={{ borderRadius: "1rem" }}
               />
             </div>
             <p className="leading-relaxed mb-6">
@@ -111,6 +112,7 @@ const Pythonclass3Content5 = ({ onComplete }) => {
                 className="w-full rounded-xl"
                 alt="Condiciones del diagrama"
                 src="../img/pythonClass3/problem1-2.webp"
+                style={{ borderRadius: "1rem" }}
               />
             </div>
             <p className="leading-relaxed mb-6">
@@ -122,6 +124,7 @@ const Pythonclass3Content5 = ({ onComplete }) => {
                 className="w-full rounded-xl"
                 alt="Validación del usuario"
                 src="../img/pythonClass3/problem1-3.webp"
+                style={{ borderRadius: "1rem" }}
               />
             </div>
             <p className="leading-relaxed mb-6">
@@ -142,6 +145,7 @@ const Pythonclass3Content5 = ({ onComplete }) => {
                 className="w-full rounded-xl"
                 alt="Código validación contraseña en Python"
                 src="../img/pythonClass3/problem1-4.webp"
+                style={{ borderRadius: "1rem" }}
               />
             </div>
           </section>
