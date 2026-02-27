@@ -21,7 +21,6 @@ import Exercises from "../../Exercises/Exercises";
 import { exerciseClass1 } from "../../Exercises/exerciseData";
 
 const PythonClass1 = () => {
-  
   const LESSON_ID = "d6342b0c-36f8-4966-8107-e93151cc72a1";
   const TOTAL_BLOCKS = 11;
 
@@ -30,7 +29,7 @@ const PythonClass1 = () => {
   // 🔥 Obtenemos datos seguros de la lección
   const lesson = lessonProgress[LESSON_ID] || {
     progress: 0,
-    completed: []
+    completed: [],
   };
 
   const progress = lesson.progress;
@@ -43,7 +42,22 @@ const PythonClass1 = () => {
           <div className="container mx-auto">
             <Link to="/home" className="inline-block">
               <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-accent-foreground h-9 px-4 py-2 mb-6 text-white hover:bg-white/20">
-               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-4 h-4 mr-2" aria-hidden="true"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-left w-4 h-4 mr-2"
+                  aria-hidden="true"
+                >
+                  <path d="m12 19-7-7 7-7"></path>
+                  <path d="M19 12H5"></path>
+                </svg>
                 Volver a cursos
               </button>
             </Link>
@@ -82,8 +96,8 @@ const PythonClass1 = () => {
                       height="24"
                       viewBox="0 0 24 24"
                       fill="none"
-                      
-                      className="lucide lucide-clock w-5 h-5"
+stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+className="lucide lucide-clock w-5 h-5"
                       aria-hidden="true"
                     >
                       <circle cx="12" cy="12" r="10"></circle>
@@ -106,7 +120,10 @@ const PythonClass1 = () => {
                       height="24"
                       viewBox="0 0 24 24"
                       fill="none"
-                      
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
                       className="lucide lucide-users w-5 h-5"
                       aria-hidden="true"
                     >
@@ -180,8 +197,6 @@ const PythonClass1 = () => {
                     height="24"
                     viewBox="0 0 24 24"
                     fill="none"
-                    
-                    
                     className="lucide lucide-trending-up w-6 h-6 text-cyan-600"
                     aria-hidden="true"
                   >
@@ -253,8 +268,6 @@ const PythonClass1 = () => {
                         height="24"
                         viewBox="0 0 24 24"
                         fill="none"
-                        
-                        
                         className="lucide lucide-book-open w-8 h-8 text-cyan-600"
                         aria-hidden="true"
                       >
@@ -274,17 +287,72 @@ const PythonClass1 = () => {
                           x-excluded="true"
                           style={{ display: "contents" }}
                         >
-                          <PythonClass1Content1 onComplete={() => handleComplete(LESSON_ID, 1, TOTAL_BLOCKS)} completed={completed}/>
-                          <PythonClass1Content2 onComplete={() => handleComplete(LESSON_ID, 2, TOTAL_BLOCKS)} completed={completed}/>
-                          <PythonClass1Content3 onComplete={() => handleComplete(LESSON_ID, 3, TOTAL_BLOCKS)} completed={completed}/>
-                          <PythonClass1Content4 onComplete={() => handleComplete(LESSON_ID, 4, TOTAL_BLOCKS)} completed={completed}/>
-                          <PythonClass1Content5 onComplete={() => handleComplete(LESSON_ID, 5, TOTAL_BLOCKS)} completed={completed}/>
-                          <PythonClass1Content6 onComplete={() => handleComplete(LESSON_ID, 6, TOTAL_BLOCKS)} completed={completed}/>
-                          <PythonClass1Content7 onComplete={() => handleComplete(LESSON_ID, 7, TOTAL_BLOCKS)} completed={completed}/>
-                          <PythonClass1Content8 onComplete={() => handleComplete(LESSON_ID, 8, TOTAL_BLOCKS)} completed={completed}/>
-                          <PythonClass1Content9 onComplete={() => handleComplete(LESSON_ID, 9, TOTAL_BLOCKS)} completed={completed}/>
-                          <PythonClass1Content10 onComplete={() => handleComplete(LESSON_ID, 10, TOTAL_BLOCKS)} completed={completed}/>
-                          <PythonClass1Content11 onComplete={() => handleComplete(LESSON_ID, 11, TOTAL_BLOCKS)} completed={completed}/>
+                          <PythonClass1Content1
+                            onComplete={() =>
+                              handleComplete(LESSON_ID, 1, TOTAL_BLOCKS)
+                            }
+                            completed={completed}
+                          />
+                          <PythonClass1Content2
+                            onComplete={() =>
+                              handleComplete(LESSON_ID, 2, TOTAL_BLOCKS)
+                            }
+                            completed={completed}
+                          />
+                          <PythonClass1Content3
+                            onComplete={() =>
+                              handleComplete(LESSON_ID, 3, TOTAL_BLOCKS)
+                            }
+                            completed={completed}
+                          />
+                          <PythonClass1Content4
+                            onComplete={() =>
+                              handleComplete(LESSON_ID, 4, TOTAL_BLOCKS)
+                            }
+                            completed={completed}
+                          />
+                          <PythonClass1Content5
+                            onComplete={() =>
+                              handleComplete(LESSON_ID, 5, TOTAL_BLOCKS)
+                            }
+                            completed={completed}
+                          />
+                          <PythonClass1Content6
+                            onComplete={() =>
+                              handleComplete(LESSON_ID, 6, TOTAL_BLOCKS)
+                            }
+                            completed={completed}
+                          />
+                          <PythonClass1Content7
+                            onComplete={() =>
+                              handleComplete(LESSON_ID, 7, TOTAL_BLOCKS)
+                            }
+                            completed={completed}
+                          />
+                          <PythonClass1Content8
+                            onComplete={() =>
+                              handleComplete(LESSON_ID, 8, TOTAL_BLOCKS)
+                            }
+                            completed={completed}
+                          />
+                          <PythonClass1Content9
+                            onComplete={() =>
+                              handleComplete(LESSON_ID, 9, TOTAL_BLOCKS)
+                            }
+                            completed={completed}
+                          />
+                          <PythonClass1Content10
+                            onComplete={() =>
+                              handleComplete(LESSON_ID, 10, TOTAL_BLOCKS)
+                            }
+                            completed={completed}
+                          />
+                          <PythonClass1Content11
+                            onComplete={() =>
+                              handleComplete(LESSON_ID, 11, TOTAL_BLOCKS)
+                            }
+                            completed={completed}
+                          />
                           <PythonClass1Content12 />
                         </span>
                       </div>
@@ -314,7 +382,7 @@ const PythonClass1 = () => {
         </div>
       </div>
     </div>
-     );
+  );
 };
 
 export default PythonClass1;
