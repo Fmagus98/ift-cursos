@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
+import { PythonClassItems } from "../PythonClassItems";
 
 import * as Tabs from "@radix-ui/react-tabs";
 import { BookOpen, Dumbbell } from "lucide-react";
@@ -30,6 +31,27 @@ const PythonClass4 = () => {
 
   const progress = lesson.progress;
   const completed = lesson.completed;
+
+   // habilitar boton avanzar clase
+  const isClassEnabled = (dateString) => {
+    const [day, month, year] = dateString.split("/");
+    const classDate = new Date(year, month - 1, day);
+    const today = new Date();
+
+    today.setHours(0, 0, 0, 0);
+    console.log(dateString);
+
+    return today >= classDate;
+  };
+
+  const location = useLocation();
+
+  const currentIndex = PythonClassItems.findIndex(
+    (item) => item.link === location.pathname,
+  );
+
+  const prevClass = PythonClassItems[currentIndex - 1];
+  const nextClass = PythonClassItems[currentIndex + 1];
 
   return (
     <div>
@@ -315,23 +337,35 @@ className="lucide lucide-users w-5 h-5"
             </Tabs.Content>
           </Tabs.Root>
         </section>
-        <div className="md:mx-40 mx-4 mb-10 flex justify-between items-center gap-4">
-          <Link
-            to="/python/cagr7kcggkuogj2jf0382fewk9k096ksboq78"
-            className="inline-block"
-          >
-            <button className="inline-flex items-center justify-center gap-2 font-medium text-lg px-4 py-6 h-10 rounded-md bg-cyan-600 text-white hover:bg-cyan-700 transition-colors">
-              Clase Anterior
-            </button>
-          </Link>
-          <Link
-            to="/python/hj297vao8whefbeakjghlkaqxvnuwffh665ah"
-            className="inline-block"
-          >
-            <button className="inline-flex items-center justify-center gap-2 font-medium text-lg px-4 py-6 h-10 rounded-md bg-cyan-600 text-white hover:bg-cyan-700 transition-colors">
-              Clase Siguiente
-            </button>
-          </Link>
+         <div className="md:mx-40 mx-4 mb-10 flex justify-between gap-4">
+          {prevClass && (
+            <Link to={isClassEnabled(prevClass.date) ? prevClass.link : "#"}>
+              <button
+                disabled={!isClassEnabled(prevClass.date)}
+                className={`px-4 py-2 rounded-md text-white transition ${
+                  isClassEnabled(prevClass.date)
+                    ? "bg-cyan-600 hover:bg-cyan-700"
+                    : "bg-gray-400 cursor-not-allowed"
+                }`}
+              >
+                Clase Anterior
+              </button>
+            </Link>
+          )}
+          {nextClass && (
+            <Link to={isClassEnabled(nextClass.date) ? nextClass.link : "#"}>
+              <button
+                disabled={!isClassEnabled(nextClass.date)}
+                className={`px-4 py-2 rounded-md text-white transition ${
+                  isClassEnabled(nextClass.date)
+                    ? "bg-cyan-600 hover:bg-cyan-700"
+                    : "bg-gray-400 cursor-not-allowed"
+                }`}
+              >
+                Clase Siguiente
+              </button>
+            </Link>
+          )}
         </div>
       </div>
     </div>

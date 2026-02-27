@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
+import { PythonClassItems } from "../PythonClassItems";
 
 import * as Tabs from "@radix-ui/react-tabs";
 import { BookOpen, Dumbbell } from "lucide-react";
@@ -31,6 +32,27 @@ const PythonClass5 = () => {
   const progress = lesson.progress;
   const completed = lesson.completed;
 
+  // habilitar boton avanzar clase
+  const isClassEnabled = (dateString) => {
+    const [day, month, year] = dateString.split("/");
+    const classDate = new Date(year, month - 1, day);
+    const today = new Date();
+
+    today.setHours(0, 0, 0, 0);
+    console.log(dateString);
+
+    return today >= classDate;
+  };
+
+  const location = useLocation();
+
+  const currentIndex = PythonClassItems.findIndex(
+    (item) => item.link === location.pathname,
+  );
+
+  const prevClass = PythonClassItems[currentIndex - 1];
+  const nextClass = PythonClassItems[currentIndex + 1];
+
   return (
     <div>
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
@@ -38,7 +60,22 @@ const PythonClass5 = () => {
           <div className="container mx-auto">
             <Link to="home" className="inline-block">
               <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-accent-foreground h-9 px-4 py-2 mb-6 text-white hover:bg-white/20">
-               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-4 h-4 mr-2" aria-hidden="true"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-left w-4 h-4 mr-2"
+                  aria-hidden="true"
+                >
+                  <path d="m12 19-7-7 7-7"></path>
+                  <path d="M19 12H5"></path>
+                </svg>
                 Volver a cursos
               </button>
             </Link>
@@ -77,9 +114,11 @@ const PythonClass5 = () => {
                       height="24"
                       viewBox="0 0 24 24"
                       fill="none"
-                      
-stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-className="lucide lucide-clock w-5 h-5"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      className="lucide lucide-clock w-5 h-5"
                       aria-hidden="true"
                     >
                       <circle cx="12" cy="12" r="10"></circle>
@@ -102,8 +141,11 @@ className="lucide lucide-clock w-5 h-5"
                       height="24"
                       viewBox="0 0 24 24"
                       fill="none"
-stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"                     
-className="lucide lucide-users w-5 h-5"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      className="lucide lucide-users w-5 h-5"
                       aria-hidden="true"
                     >
                       <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
@@ -176,8 +218,6 @@ className="lucide lucide-users w-5 h-5"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="none"
-                    
-                    
                     className="lucide lucide-trending-up w-6 h-6 text-cyan-600"
                     aria-hidden="true"
                   >
@@ -249,8 +289,6 @@ className="lucide lucide-users w-5 h-5"
                         height="24"
                         viewBox="0 0 24 24"
                         fill="none"
-                        
-                        
                         className="lucide lucide-book-open w-8 h-8 text-cyan-600"
                         aria-hidden="true"
                       >
@@ -271,31 +309,45 @@ className="lucide lucide-users w-5 h-5"
                           style={{ display: "contents" }}
                         >
                           <PythonClass5Content1
-                            onComplete={() => handleComplete(LESSON_ID, 1, TOTAL_BLOCKS)}
+                            onComplete={() =>
+                              handleComplete(LESSON_ID, 1, TOTAL_BLOCKS)
+                            }
                             completed={completed}
                           />
                           <PythonClass5Content2
-                            onComplete={() => handleComplete(LESSON_ID, 2, TOTAL_BLOCKS)}
+                            onComplete={() =>
+                              handleComplete(LESSON_ID, 2, TOTAL_BLOCKS)
+                            }
                             completed={completed}
                           />
                           <PythonClass5Content3
-                            onComplete={() => handleComplete(LESSON_ID, 3, TOTAL_BLOCKS)}
+                            onComplete={() =>
+                              handleComplete(LESSON_ID, 3, TOTAL_BLOCKS)
+                            }
                             completed={completed}
                           />
                           <PythonClass5Content4
-                            onComplete={() => handleComplete(LESSON_ID, 4, TOTAL_BLOCKS)}
+                            onComplete={() =>
+                              handleComplete(LESSON_ID, 4, TOTAL_BLOCKS)
+                            }
                             completed={completed}
                           />
                           <PythonClass5Content5
-                            onComplete={() => handleComplete(LESSON_ID, 5, TOTAL_BLOCKS)}
+                            onComplete={() =>
+                              handleComplete(LESSON_ID, 5, TOTAL_BLOCKS)
+                            }
                             completed={completed}
                           />
                           <PythonClass5Content6
-                            onComplete={() => handleComplete(LESSON_ID, 6, TOTAL_BLOCKS)}
+                            onComplete={() =>
+                              handleComplete(LESSON_ID, 6, TOTAL_BLOCKS)
+                            }
                             completed={completed}
                           />
                           <PythonClass5Content7
-                            onComplete={() => handleComplete(LESSON_ID, 7, TOTAL_BLOCKS)}
+                            onComplete={() =>
+                              handleComplete(LESSON_ID, 7, TOTAL_BLOCKS)
+                            }
                             completed={completed}
                           />
                           <PythonClass5Content8 />
@@ -315,23 +367,35 @@ className="lucide lucide-users w-5 h-5"
             </Tabs.Content>
           </Tabs.Root>
         </section>
-        <div className="md:mx-40 mx-4 mb-10 flex justify-between items-center gap-4">
-          <Link
-            to="/python/fbt43vd8632bi43grgedaauy4ds8v742bo081"
-            className="inline-block"
-          >
-            <button className="inline-flex items-center justify-center gap-2 font-medium text-lg px-4 py-6 h-10 rounded-md bg-cyan-600 text-white hover:bg-cyan-700 transition-colors">
-              Clase Anterior
-            </button>
-          </Link>
-          <Link
-            to="/python/grejobghrorurnhphuhp5m2iqfvfbeakjghlk"
-            className="inline-block"
-          >
-            <button className="inline-flex items-center justify-center gap-2 font-medium text-lg px-4 py-6 h-10 rounded-md bg-cyan-600 text-white hover:bg-cyan-700 transition-colors">
-              Clase Siguiente
-            </button>
-          </Link>
+        <div className="md:mx-40 mx-4 mb-10 flex justify-between gap-4">
+          {prevClass && (
+            <Link to={isClassEnabled(prevClass.date) ? prevClass.link : "#"}>
+              <button
+                disabled={!isClassEnabled(prevClass.date)}
+                className={`px-4 py-2 rounded-md text-white transition ${
+                  isClassEnabled(prevClass.date)
+                    ? "bg-cyan-600 hover:bg-cyan-700"
+                    : "bg-gray-400 cursor-not-allowed"
+                }`}
+              >
+                Clase Anterior
+              </button>
+            </Link>
+          )}
+          {nextClass && (
+            <Link to={isClassEnabled(nextClass.date) ? nextClass.link : "#"}>
+              <button
+                disabled={!isClassEnabled(nextClass.date)}
+                className={`px-4 py-2 rounded-md text-white transition ${
+                  isClassEnabled(nextClass.date)
+                    ? "bg-cyan-600 hover:bg-cyan-700"
+                    : "bg-gray-400 cursor-not-allowed"
+                }`}
+              >
+                Clase Siguiente
+              </button>
+            </Link>
+          )}
         </div>
       </div>
     </div>

@@ -1,4 +1,6 @@
-import { Link } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
+import { PythonClassItems } from "../PythonClassItems";
+
 import * as Tabs from "@radix-ui/react-tabs";
 import { BookOpen, Dumbbell } from "lucide-react";
 
@@ -34,6 +36,26 @@ const PythonClass1 = () => {
 
   const progress = lesson.progress;
   const completed = lesson.completed;
+
+  // habilitar boton avanzar clase
+  const isClassEnabled = (dateString) => {
+    const [day, month, year] = dateString.split("/");
+    const classDate = new Date(year, month - 1, day);
+    const today = new Date();
+
+    today.setHours(0, 0, 0, 0);
+    console.log(dateString)
+
+    return today >= classDate;
+  };
+
+  const location = useLocation();
+
+  const currentIndex = PythonClassItems.findIndex(
+    (item) => item.link === location.pathname,
+  );
+
+  const nextClass = PythonClassItems[currentIndex + 1];
 
   return (
     <div>
@@ -96,8 +118,11 @@ const PythonClass1 = () => {
                       height="24"
                       viewBox="0 0 24 24"
                       fill="none"
-stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-className="lucide lucide-clock w-5 h-5"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      className="lucide lucide-clock w-5 h-5"
                       aria-hidden="true"
                     >
                       <circle cx="12" cy="12" r="10"></circle>
@@ -371,14 +396,20 @@ className="lucide lucide-clock w-5 h-5"
           </Tabs.Root>
         </section>
         <div className="md:mx-40 mx-4 mb-10 flex justify-end gap-4">
-          <Link
-            to="/python/6srjha93g208gj2jf0382fewk9k09fkiyvnt7"
-            className="inline-block"
-          >
-            <button className="inline-flex items-center justify-center gap-2 font-medium text-lg px-4 py-6 h-10 rounded-md bg-cyan-600 text-white hover:bg-cyan-700 transition-colors">
-              Clase Siguiente
-            </button>
-          </Link>
+          {nextClass && (
+            <Link to={isClassEnabled(nextClass.date) ? nextClass.link : "#"}>
+              <button
+                disabled={!isClassEnabled(nextClass.date)}
+                className={`px-4 py-2 rounded-md text-white transition ${
+                  isClassEnabled(nextClass.date)
+                    ? "bg-cyan-600 hover:bg-cyan-700"
+                    : "bg-gray-400 cursor-not-allowed"
+                }`}
+              >
+                Clase Siguiente
+              </button>
+            </Link>
+          )}
         </div>
       </div>
     </div>
