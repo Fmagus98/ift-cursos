@@ -11,7 +11,7 @@ export const PythonClassItems = [
     ],
     duration: "3hs",
     link: "/python/iargh4937208gj2jf0382fewk9k0961470h46",
-    date: "26/02/2024"
+    date: "26/02/2026"
   },
   {
     level: "Principiante",
@@ -25,7 +25,7 @@ export const PythonClassItems = [
     ],
     duration: "3hs",
     link: "/python/6srjha93g208gj2jf0382fewk9k09fkiyvnt7",
-    date: "05/03/2024"
+    date: "05/03/2026"
   },
   {
     level: "Principiante",
@@ -39,7 +39,7 @@ export const PythonClassItems = [
     ],
     duration: "3hs",
     link: "/python/cagr7kcggkuogj2jf0382fewk9k096ksboq78",
-    date: "05/03/2024"
+    date: "05/03/2026"
   },
   {
     level: "Principiante",
@@ -53,7 +53,7 @@ export const PythonClassItems = [
     ],
     duration: "3hs",
     link: "/python/fbt43vd8632bi43grgedaauy4ds8v742bo081",
-    date: "12/03/2024"
+    date: "12/03/2026"
   },
   {
     level: "Principiante",
@@ -67,7 +67,7 @@ export const PythonClassItems = [
     ],
     duration: "3hs",
     link: "/python/hj297vao8whefbeakjghlkaqxvnuwffh665ah",
-    date: "19/03/2024"
+    date: "19/03/2026"
   },
   {
     level: "Principiante",
@@ -81,7 +81,7 @@ export const PythonClassItems = [
     ],
     duration: "3hs",
     link: "/python/grejobghrorurnhphuhp5m2iqfvfbeakjghlk",
-    date: "26/03/2024"
+    date: "26/03/2026"
   },
   {
     level: "Principiante",
@@ -95,7 +95,7 @@ export const PythonClassItems = [
     ],
     duration: "3hs",
     link: "/python/glkorurnhphuhejobbphr5m2iqfvfgreakjgh",
-    date: "02/04/2024"
+    date: "02/04/2026"
   },
   {
     level: "Principiante",
@@ -109,6 +109,6 @@ export const PythonClassItems = [
     ],
     duration: "3hs",
     link: "/python/jha93g208ag7kcgekglkqxnh52inhuh5m32wk",
-    date: "09/04/2024"
+    date: "09/04/2026"
   },
 ];
