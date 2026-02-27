@@ -24,7 +24,8 @@ export const CopyButton = ({ code }) => {
         height="24"
         viewBox="0 0 24 24"
         fill="none"
-        class="lucide lucide-copy w-4 h-4 mr-1"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+        className="lucide lucide-copy w-4 h-4 mr-1"
         aria-hidden="true"
       >
         <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
