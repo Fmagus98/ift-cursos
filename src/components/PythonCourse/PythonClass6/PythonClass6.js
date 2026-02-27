@@ -1,4 +1,4 @@
-import { useLocation, Link } from "react-router-dom";
+import { useLocation, useNavigate, Link } from "react-router-dom";
 import { PythonClassItems } from "../PythonClassItems";
 
 import * as Tabs from "@radix-ui/react-tabs";
@@ -18,6 +18,8 @@ import Exercises from "../../Exercises/Exercises";
 import { exerciseClass6 } from "../../Exercises/exerciseData";
 
 const PythonClass6 = () => {
+
+  const navigate = useNavigate()
   const LESSON_ID = "a9a7bddb-f2e7-4f6e-82bd-a366fe270375";
   const TOTAL_BLOCKS = 6;
 
@@ -58,8 +60,7 @@ const PythonClass6 = () => {
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
         <section className="relative py-12 px-4 bg-gradient-to-br from-cyan-600 to-cyan-700">
           <div className="container mx-auto">
-            <Link to="home" className="inline-block">
-              <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-accent-foreground h-9 px-4 py-2 mb-6 text-white hover:bg-white/20">
+              <button onClick={() => navigate("/python")} className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-accent-foreground h-9 px-4 py-2 mb-6 text-white hover:bg-white/20">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -76,9 +77,8 @@ const PythonClass6 = () => {
                   <path d="m12 19-7-7 7-7"></path>
                   <path d="M19 12H5"></path>
                 </svg>
-                Volver a cursos
+                Volver al curso
               </button>
-            </Link>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="space-y-6 text-white">
                 <div>
