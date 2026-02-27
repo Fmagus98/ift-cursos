@@ -1,9 +1,8 @@
-import { useState } from "react";
 import * as Accordion from "@radix-ui/react-accordion";
 import { Circle, CircleCheck, Clock, ChevronDown } from "lucide-react";
 
-const PythonClass1Content2 = ({ onComplete }) => {
-  const [done, setDone] = useState(false);
+const PythonClass1Content3 = ({ onComplete, completed }) => {
+  const done = completed?.includes(3);
 
   return (
     <Accordion.Root type="single" collapsible className="w-full">
@@ -16,8 +15,7 @@ const PythonClass1Content2 = ({ onComplete }) => {
             <div
               onClick={(e) => {
                 e.stopPropagation();
-                setDone(true);
-                onComplete("class1content3");
+                onComplete();
               }}
               className={`
     flex items-center justify-center w-10 h-10 rounded-full
@@ -141,4 +139,4 @@ const PythonClass1Content2 = ({ onComplete }) => {
   );
 };
 
-export default PythonClass1Content2;
+export default PythonClass1Content3;

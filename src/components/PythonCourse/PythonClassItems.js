@@ -1,7 +1,5 @@
 export const PythonClassItems = [
   {
-    image:
-      "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800&amp;auto=format&amp;fit=crop",
     level: "Principiante",
     levelColor: "green",
     category: "Programación",
@@ -13,10 +11,9 @@ export const PythonClassItems = [
     ],
     duration: "3hs",
     link: "/python/iargh4937208gj2jf0382fewk9k0961470h46",
+    date: "26/02/2026"
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800&amp;auto=format&amp;fit=crop",
     level: "Principiante",
     levelColor: "green",
     category: "Programación",
@@ -28,10 +25,9 @@ export const PythonClassItems = [
     ],
     duration: "3hs",
     link: "/python/6srjha93g208gj2jf0382fewk9k09fkiyvnt7",
+    date: "05/03/2026"
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800&amp;auto=format&amp;fit=crop",
     level: "Principiante",
     levelColor: "green",
     category: "Programación",
@@ -43,10 +39,9 @@ export const PythonClassItems = [
     ],
     duration: "3hs",
     link: "/python/cagr7kcggkuogj2jf0382fewk9k096ksboq78",
+    date: "05/03/2026"
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800&amp;auto=format&amp;fit=crop",
     level: "Principiante",
     levelColor: "green",
     category: "Programación",
@@ -58,10 +53,9 @@ export const PythonClassItems = [
     ],
     duration: "3hs",
     link: "/python/fbt43vd8632bi43grgedaauy4ds8v742bo081",
+    date: "12/03/2026"
   },
-   {
-    image:
-      "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800&amp;auto=format&amp;fit=crop",
+  {
     level: "Principiante",
     levelColor: "green",
     category: "Programación",
@@ -73,10 +67,9 @@ export const PythonClassItems = [
     ],
     duration: "3hs",
     link: "/python/hj297vao8whefbeakjghlkaqxvnuwffh665ah",
+    date: "19/03/2026"
   },
-   {
-    image:
-      "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800&amp;auto=format&amp;fit=crop",
+  {
     level: "Principiante",
     levelColor: "green",
     category: "Programación",
@@ -88,25 +81,9 @@ export const PythonClassItems = [
     ],
     duration: "3hs",
     link: "/python/grejobghrorurnhphuhp5m2iqfvfbeakjghlk",
+    date: "26/03/2026"
   },
-   {
-    image:
-      "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800&amp;auto=format&amp;fit=crop",
-    level: "Principiante",
-    levelColor: "green",
-    category: "Programación",
-    title: "Clase 6",
-    topics: [
-      "Definición y uso",
-      "Manipulación de elementos",
-      "Métodos",
-    ],
-    duration: "3hs",
-    link: "/python/glkorurnhphuhejobbphr5m2iqfvfgreakjgh",
-  },
-     {
-    image:
-      "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800&amp;auto=format&amp;fit=crop",
+  {
     level: "Principiante",
     levelColor: "green",
     category: "Programación",
@@ -118,10 +95,9 @@ export const PythonClassItems = [
     ],
     duration: "3hs",
     link: "/python/glkorurnhphuhejobbphr5m2iqfvfgreakjgh",
+    date: "02/04/2026"
   },
-     {
-    image:
-      "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800&amp;auto=format&amp;fit=crop",
+  {
     level: "Principiante",
     levelColor: "green",
     category: "Programación",
@@ -129,9 +105,10 @@ export const PythonClassItems = [
     topics: [
       "Conceptos básicos de POO",
       "Definición de clases y objetos",
-      "Métodos y atributos de clases y objetos",
+      "Métodos y atributos",
     ],
     duration: "3hs",
     link: "/python/jha93g208ag7kcgekglkqxnh52inhuh5m32wk",
+    date: "09/04/2026"
   },
 ];

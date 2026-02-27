@@ -1,11 +1,10 @@
-import { useState } from "react";
 import * as Accordion from "@radix-ui/react-accordion";
 import { Circle, CircleCheck, Clock, ChevronDown } from "lucide-react";
 import QuizForm from "../../QuizForm/QuizForm";
 import { questionsPythonClass7 } from "../../QuizForm/questionsPython";
 
-const PythonClass7Content5 = ({ onComplete }) => {
-  const [done, setDone] = useState(false);
+const PythonClass7Content5 = ({ onComplete, completed }) => {
+  const done = completed?.includes(5);
 
   return (
     <Accordion.Root type="single" collapsible className="w-full">
@@ -72,8 +71,7 @@ const PythonClass7Content5 = ({ onComplete }) => {
             <QuizForm
               questions={questionsPythonClass7}
               onDone={() => {
-                setDone(true);
-                onComplete("class7content5");
+                onComplete();
               }}
             />
           </section>

@@ -3,57 +3,38 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <section
-        className="relative py-20 px-4 bg-gradient-to-br from-cyan-600 to-cyan-700 overflow-hidden"
-      >
-        <div
-          className="absolute inset-0 opacity-10"        >
+      <section className="relative py-20 px-4 bg-gradient-to-br from-cyan-600 to-cyan-700 overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
           <div
             className="absolute inset-0"
-                  style={{
+            style={{
               backgroundImage:
                 "radial-gradient(circle at 2px 2px, white 1px, transparent 0px)",
               backgroundSize: "40px 40px",
             }}
           ></div>
         </div>
-        <div
-          className="container mx-auto relative z-10"
-              >
-          <div
-            className="max-w-4xl mx-auto text-center text-white space-y-6"
-                 >
-            <div
-              className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 shadow hover:bg-primary/80 bg-white/20 text-white border-white/30 mb-4"
-                    >
+        <div className="container mx-auto relative z-10">
+          <div className="max-w-4xl mx-auto text-center text-white space-y-6">
+            <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 shadow hover:bg-primary/80 bg-white/20 text-white border-white/30 mb-4">
               Desde 1994
             </div>
-            <h1
-              className="text-4xl md:text-5xl font-bold leading-tight"
-           >
+            <h1 className="text-4xl md:text-5xl font-bold leading-tight">
               Instituto Vasco Argentino de Formación Tecnológica
             </h1>
-            <p
-              className="text-xl md:text-2xl text-cyan-100 font-medium"
-               >
+            <p className="text-xl md:text-2xl text-cyan-100 font-medium">
               30 años dedicados a la formación técnica en Argentina
             </p>
           </div>
         </div>
       </section>
-      <section
-        className="py-16 px-4"
-        >
-        <div
-          className="container mx-auto"
-            >
-          <div
-            className="max-w-4xl mx-auto"
-                 >
+      <section className="py-16 px-4">
+        <div className="container mx-auto">
+          <div className="max-w-4xl mx-auto">
             <div
               className="flex items-center gap-3 mb-8"
               x-file-name="SobreNosotros"
-                 >
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -64,24 +45,18 @@ const About = () => {
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                className="lucide lucide-book-open w-8 h-8 text-cyan-600"
+                class="lucide lucide-book-open w-8 h-8 text-cyan-600"
                 aria-hidden="true"
               >
                 <path d="M12 7v14"></path>
                 <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path>
               </svg>
-              <h2
-                className="text-3xl font-bold text-gray-900"
-                  >
+              <h2 className="text-3xl font-bold text-gray-900">
                 Nuestra Historia
               </h2>
             </div>
-            <div
-              className="prose prose-lg max-w-none space-y-6 text-gray-700"
-          >
-              <p
-                className="text-lg leading-relaxed"
-                 >
+            <div className="prose prose-lg max-w-none space-y-6 text-gray-700">
+              <p className="text-lg leading-relaxed">
                 El
                 <strong>
                   Gobierno de la Comunidad Autónoma del País Vasco
@@ -264,10 +239,6 @@ const About = () => {
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
                 className="lucide lucide-users w-8 h-8 text-cyan-600"
                 aria-hidden="true"
               >
@@ -336,7 +307,7 @@ const About = () => {
                           stroke-linejoin="round"
                           className="lucide lucide-award w-5 h-5 text-cyan-600"
                           aria-hidden="true"
-                         >
+                        >
                           <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
                           <circle cx="12" cy="8" r="6"></circle>
                         </svg>
@@ -402,7 +373,7 @@ const About = () => {
                           stroke-linejoin="round"
                           className="lucide lucide-award w-5 h-5 text-cyan-600"
                           aria-hidden="true"
-                                >
+                        >
                           <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
                           <circle cx="12" cy="8" r="6"></circle>
                         </svg>
@@ -431,17 +402,13 @@ const About = () => {
               <div className="inline-flex items-center justify-center w-16 h-16 bg-cyan-600 rounded-full mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  className="lucide lucide-target w-8 h-8 text-white"
+                  stroke="#ffffff"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  className="lucide lucide-target w-10 h-10 text-white"
                   aria-hidden="true"
-                      >
+                >
                   <circle cx="12" cy="12" r="10"></circle>
                   <circle cx="12" cy="12" r="6"></circle>
                   <circle cx="12" cy="12" r="2"></circle>
@@ -473,13 +440,9 @@ const About = () => {
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
                 className="lucide lucide-graduation-cap w-8 h-8 text-cyan-600"
                 aria-hidden="true"
-                 >
+              >
                 <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"></path>
                 <path d="M22 10v6"></path>
                 <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
@@ -514,13 +477,9 @@ const About = () => {
                           height="24"
                           viewBox="0 0 24 24"
                           fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
                           className="lucide lucide-briefcase w-5 h-5 text-cyan-600 mt-1 flex-shrink-0"
                           aria-hidden="true"
-                              >
+                        >
                           <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
                           <rect
                             width="20"
@@ -549,13 +508,9 @@ const About = () => {
                           height="24"
                           viewBox="0 0 24 24"
                           fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
                           className="lucide lucide-map-pin w-5 h-5 text-cyan-600 mt-1 flex-shrink-0"
                           aria-hidden="true"
-                         >
+                        >
                           <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
                           <circle cx="12" cy="10" r="3"></circle>
                         </svg>
@@ -579,13 +534,9 @@ const About = () => {
                           height="24"
                           viewBox="0 0 24 24"
                           fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
                           className="lucide lucide-award w-5 h-5 text-cyan-600 mt-1 flex-shrink-0"
                           aria-hidden="true"
-                          >
+                        >
                           <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
                           <circle cx="12" cy="8" r="6"></circle>
                         </svg>
@@ -611,13 +562,9 @@ const About = () => {
                           height="24"
                           viewBox="0 0 24 24"
                           fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
                           className="lucide lucide-calendar w-5 h-5 text-cyan-600 mt-1 flex-shrink-0"
                           aria-hidden="true"
-                         >
+                        >
                           <path d="M8 2v4"></path>
                           <path d="M16 2v4"></path>
                           <rect
@@ -630,29 +577,29 @@ const About = () => {
                           <path d="M3 10h18"></path>
                         </svg>
                         <div>
-                          <p className="font-semibold text-gray-900">
+                          <p className="font-semibold text-gray-900 mb-2">
                             Especialidades
                           </p>
                           <div>
-                            <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
+                            <div className="inline-flex items-center rounded-md border mx-1 px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
                               Python
                             </div>
-                            <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
+                            <div className="inline-flex items-center rounded-md border mx-1 px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
                               MicroPython
                             </div>
-                            <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
+                            <div className="inline-flex items-center rounded-md border mx-1 px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
                               Desarrollo web (Reactjs - Node)
                             </div>
-                            <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
+                            <div className="inline-flex items-center rounded-md border mx-1 px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
                               Testing QA
                             </div>
-                            <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
+                            <div className="inline-flex items-center rounded-md border mx-1 px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
                               Automatización
                             </div>
-                            <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
+                            <div className="inline-flex items-center rounded-md border mx-1 px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
                               Sistemas Bancarios
                             </div>
-                            <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
+                            <div className="inline-flex items-center rounded-md border mx-1 px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
                               Educación Tecnológica
                             </div>
                           </div>

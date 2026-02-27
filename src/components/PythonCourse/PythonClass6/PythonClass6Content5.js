@@ -1,16 +1,14 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import * as Accordion from "@radix-ui/react-accordion";
 import {
   Circle,
   CircleCheck,
   Clock,
-  ChevronDown,
-  Download,
+  ChevronDown
 } from "lucide-react";
 
-const PythonClass6Content5 = ({ onComplete }) => {
-  const [done, setDone] = useState(false);
+const PythonClass6Content5 = ({ onComplete, completed }) => {
+  const done = completed?.includes(5);
 
   return (
     <Accordion.Root type="single" collapsible className="w-full">
@@ -23,8 +21,7 @@ const PythonClass6Content5 = ({ onComplete }) => {
             <div
               onClick={(e) => {
                 e.stopPropagation();
-                setDone(true);
-                onComplete("class3content6");
+                onComplete();
               }}
               className={`
     flex items-center justify-center w-10 h-10 rounded-full

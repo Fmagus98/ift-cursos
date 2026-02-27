@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import * as Accordion from "@radix-ui/react-accordion";
 import {
@@ -11,8 +10,8 @@ import {
 import { class4Code } from "../classCode";
 import CopyButton from "../../CopyButton/CopyButton";
 
-const PythonClass4Content4 = ({ onComplete }) => {
-  const [done, setDone] = useState(false);
+const PythonClass4Content4 = ({ onComplete, completed }) => {
+  const done = completed?.includes(4);
 
   return (
     <Accordion.Root type="single" collapsible className="w-full">
@@ -25,8 +24,7 @@ const PythonClass4Content4 = ({ onComplete }) => {
             <div
               onClick={(e) => {
                 e.stopPropagation();
-                setDone(true);
-                onComplete("class3content4");
+                onComplete();
               }}
               className={`
     flex items-center justify-center w-10 h-10 rounded-full

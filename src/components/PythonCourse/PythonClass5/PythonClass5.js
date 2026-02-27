@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
+
 import * as Tabs from "@radix-ui/react-tabs";
 import { BookOpen, Dumbbell } from "lucide-react";
 
@@ -11,47 +11,34 @@ import PythonClass5Content5 from "./PythonClass5Content5";
 import PythonClass5Content6 from "./PythonClass5Content6";
 import PythonClass5Content7 from "./PythonClass5Content7";
 import PythonClass5Content8 from "./PythonClass5Content8";
+import { useLessonProgress } from "../../../hooks/useLessonProgress";
 
 import Exercises from "../../Exercises/Exercises";
 import { exerciseClass5 } from "../../Exercises/exerciseData";
 
 const PythonClass5 = () => {
-  const TOTAL_CLASES = 7;
+  const LESSON_ID = "4eae25de-f0ef-448a-972c-83049cc5d6b9";
+  const TOTAL_BLOCKS = 7;
 
-  const [completed, setCompleted] = useState([]);
+  const { lessonProgress, handleComplete } = useLessonProgress();
 
-  const handleComplete = (id) => {
-    setCompleted((prev) => {
-      if (prev.includes(id)) return prev;
-      return [...prev, id];
-    });
+  // 🔥 Obtenemos datos seguros de la lección
+  const lesson = lessonProgress[LESSON_ID] || {
+    progress: 0,
+    completed: [],
   };
 
-  const progress = Math.round((completed.length / TOTAL_CLASES) * 100);
+  const progress = lesson.progress;
+  const completed = lesson.completed;
 
   return (
     <div>
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
         <section className="relative py-12 px-4 bg-gradient-to-br from-cyan-600 to-cyan-700">
           <div className="container mx-auto">
-            <Link to="/" className="inline-block">
+            <Link to="home" className="inline-block">
               <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-accent-foreground h-9 px-4 py-2 mb-6 text-white hover:bg-white/20">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="w-4 h-4 mr-2"
-                  aria-hidden="true"
-                >
-                  <path d="m12 19-7-7 7-7" />
-                  <path d="M19 12H5" />
-                </svg>
+               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-4 h-4 mr-2" aria-hidden="true"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>
                 Volver a cursos
               </button>
             </Link>
@@ -90,10 +77,7 @@ const PythonClass5 = () => {
                       height="24"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      
                       className="lucide lucide-clock w-5 h-5"
                       aria-hidden="true"
                     >
@@ -117,10 +101,7 @@ const PythonClass5 = () => {
                       height="24"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      
                       className="lucide lucide-users w-5 h-5"
                       aria-hidden="true"
                     >
@@ -194,10 +175,8 @@ const PythonClass5 = () => {
                     height="24"
                     viewBox="0 0 24 24"
                     fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    
+                    
                     className="lucide lucide-trending-up w-6 h-6 text-cyan-600"
                     aria-hidden="true"
                   >
@@ -236,7 +215,7 @@ const PythonClass5 = () => {
             </div>
           </div>
         </section>
-       <section className="border-gray-200 bg-white mt-10">
+        <section className="border-gray-200 bg-white mt-10">
           <Tabs.Root defaultValue="content" className="w-full">
             <Tabs.List className="md:mx-40  mx-3 h-9 items-center justify-center rounded-lg bg-muted text-muted-foreground grid grid-cols-2 mb-6">
               <Tabs.Trigger
@@ -257,7 +236,7 @@ const PythonClass5 = () => {
             <Tabs.Content
               value="content"
               forceMount
-               className="data-[state=inactive]:hidden"
+              className="data-[state=inactive]:hidden"
             >
               <section className="py-12 px-4">
                 <div className="container mx-auto">
@@ -269,10 +248,8 @@ const PythonClass5 = () => {
                         height="24"
                         viewBox="0 0 24 24"
                         fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        
+                        
                         className="lucide lucide-book-open w-8 h-8 text-cyan-600"
                         aria-hidden="true"
                       >
@@ -292,13 +269,34 @@ const PythonClass5 = () => {
                           x-excluded="true"
                           style={{ display: "contents" }}
                         >
-                          <PythonClass5Content1 onComplete={handleComplete} />
-                          <PythonClass5Content2 onComplete={handleComplete} />
-                          <PythonClass5Content3 onComplete={handleComplete} />
-                          <PythonClass5Content4 onComplete={handleComplete} />
-                          <PythonClass5Content5 onComplete={handleComplete} />
-                          <PythonClass5Content6 onComplete={handleComplete} />
-                          <PythonClass5Content7 onComplete={handleComplete} />
+                          <PythonClass5Content1
+                            onComplete={() => handleComplete(LESSON_ID, 1, TOTAL_BLOCKS)}
+                            completed={completed}
+                          />
+                          <PythonClass5Content2
+                            onComplete={() => handleComplete(LESSON_ID, 2, TOTAL_BLOCKS)}
+                            completed={completed}
+                          />
+                          <PythonClass5Content3
+                            onComplete={() => handleComplete(LESSON_ID, 3, TOTAL_BLOCKS)}
+                            completed={completed}
+                          />
+                          <PythonClass5Content4
+                            onComplete={() => handleComplete(LESSON_ID, 4, TOTAL_BLOCKS)}
+                            completed={completed}
+                          />
+                          <PythonClass5Content5
+                            onComplete={() => handleComplete(LESSON_ID, 5, TOTAL_BLOCKS)}
+                            completed={completed}
+                          />
+                          <PythonClass5Content6
+                            onComplete={() => handleComplete(LESSON_ID, 6, TOTAL_BLOCKS)}
+                            completed={completed}
+                          />
+                          <PythonClass5Content7
+                            onComplete={() => handleComplete(LESSON_ID, 7, TOTAL_BLOCKS)}
+                            completed={completed}
+                          />
                           <PythonClass5Content8 />
                         </span>
                       </div>
@@ -307,7 +305,11 @@ const PythonClass5 = () => {
                 </div>
               </section>
             </Tabs.Content>
-            <Tabs.Content value="exercises" forceMount className="data-[state=inactive]:hidden">
+            <Tabs.Content
+              value="exercises"
+              forceMount
+              className="data-[state=inactive]:hidden"
+            >
               <Exercises data={exerciseClass5} />
             </Tabs.Content>
           </Tabs.Root>

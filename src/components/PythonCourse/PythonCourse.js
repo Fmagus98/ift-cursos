@@ -2,30 +2,22 @@ import { Link } from "react-router-dom";
 import { PythonClassItems } from "./PythonClassItems";
 import CourseCard from "../CourseCard/CourseCard";
 
+import { useCourseAccess } from "../../hooks/useCourseAccess";
+import { useAuth } from "../../context/AuthContext";
+
 const PythonCourse = () => {
+  const { user } = useAuth();
+
+  const { isEnrolled, loading } = useCourseAccess(process.env.REACT_APP_COURSEIDPYTHON, user?.id);
+
   return (
     <div>
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
         <section className="relative py-12 px-4 bg-gradient-to-br from-cyan-600 to-cyan-700">
           <div className="container mx-auto">
-            <Link to="/" className="inline-block">
+            <Link to="/home" className="inline-block">
               <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-accent-foreground h-9 px-4 py-2 mb-6 text-white hover:bg-white/20">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="w-4 h-4 mr-2"
-                  aria-hidden="true"
-                >
-                  <path d="m12 19-7-7 7-7" />
-                  <path d="M19 12H5" />
-                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-4 h-4 mr-2" aria-hidden="true"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>
                 Volver a cursos
               </button>
             </Link>
@@ -56,7 +48,7 @@ const PythonCourse = () => {
                     </span>
                   </p>
                 </div>
-                <div className="flex flex-wrap gap-6 text-cyan-100">
+               <div className="flex flex-wrap gap-6 text-cyan-100">
                   <div className="flex items-center gap-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +60,7 @@ const PythonCourse = () => {
                       stroke-width="2"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      className="lucide lucide-clock w-5 h-5"
+                      class="lucide lucide-clock w-5 h-5"
                       aria-hidden="true"
                     >
                       <circle cx="12" cy="12" r="10"></circle>
@@ -95,9 +87,9 @@ const PythonCourse = () => {
                       stroke-width="2"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      className="lucide lucide-users w-5 h-5"
+                      class="lucide lucide-users w-5 h-5"
                       aria-hidden="true"
-                       >
+                    >
                       <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
                       <path d="M16 3.128a4 4 0 0 1 0 7.744"></path>
                       <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
@@ -125,9 +117,9 @@ const PythonCourse = () => {
                       stroke-width="2"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      className="lucide lucide-book-open w-5 h-5"
+                      class="lucide lucide-book-open w-5 h-5"
                       aria-hidden="true"
-                   >
+                    >
                       <path d="M12 7v14"></path>
                       <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path>
                     </svg>
@@ -274,7 +266,7 @@ const PythonCourse = () => {
                               x-excluded="true"
                               style={{ display: "contents" }}
                             >
-                              Estructuras de Control - Condicionales
+                              Estructuras de Control y Bucles
                             </span>
                           </h4>
                           <p className="text-sm text-gray-600">
@@ -283,9 +275,10 @@ const PythonCourse = () => {
                               x-excluded="true"
                               style={{ display: "contents" }}
                             >
-                              Los condicionales permiten que tu programa tome
-                              decisiones. Aprenderás a usar if, elif y else para
-                              controlar el flujo de tu código.
+                              En esta clase aprenderás cómo darle lógica a tus
+                              programas. Verás cómo tomar decisiones utilizando
+                              condicionales (if, elif, else) y cómo repetir
+                              acciones mediante bucles (while y for).
                             </span>
                           </p>
                         </div>
@@ -311,7 +304,7 @@ const PythonCourse = () => {
                               x-excluded="true"
                               style={{ display: "contents" }}
                             >
-                              Bucles - For y While
+                              Funciones y módulos
                             </span>
                           </h4>
                           <p className="text-sm text-gray-600">
@@ -320,9 +313,160 @@ const PythonCourse = () => {
                               x-excluded="true"
                               style={{ display: "contents" }}
                             >
-                              Los bucles te permiten repetir acciones múltiples
-                              veces. Dominarás los bucles for y while para
-                              automatizar tareas repetitivas.
+                              Aprenderás a crear funciones para organizar mejor
+                              el código y reutilizar instrucciones. Veremos cómo
+                              pasar parámetros y cómo dividir programas en
+                              módulos.
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow">
+                      <div className="flex items-start gap-3">
+                        <div className="w-8 h-8 bg-cyan-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                          <span className="text-cyan-600 font-bold">
+                            <span
+                              data-ve-dynamic="true"
+                              x-excluded="true"
+                              style={{ display: "contents" }}
+                            >
+                              5
+                            </span>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 className="font-semibold text-gray-900 mb-2">
+                            <span
+                              data-ve-dynamic="true"
+                              x-excluded="true"
+                              style={{ display: "contents" }}
+                            >
+                              Listas y Tuplas
+                            </span>
+                          </h4>
+                          <p className="text-sm text-gray-600">
+                            <span
+                              data-ve-dynamic="true"
+                              x-excluded="true"
+                              style={{ display: "contents" }}
+                            >
+                              Trabajarás con estructuras de datos que permiten
+                              almacenar múltiples valores. Aprenderás a acceder,
+                              modificar y recorrer listas y tuplas.
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow">
+                      <div className="flex items-start gap-3">
+                        <div className="w-8 h-8 bg-cyan-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                          <span className="text-cyan-600 font-bold">
+                            <span
+                              data-ve-dynamic="true"
+                              x-excluded="true"
+                              style={{ display: "contents" }}
+                            >
+                              6
+                            </span>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 className="font-semibold text-gray-900 mb-2">
+                            <span
+                              data-ve-dynamic="true"
+                              x-excluded="true"
+                              style={{ display: "contents" }}
+                            >
+                              Diccionarios
+                            </span>
+                          </h4>
+                          <p className="text-sm text-gray-600">
+                            <span
+                              data-ve-dynamic="true"
+                              x-excluded="true"
+                              style={{ display: "contents" }}
+                            >
+                              Explorarás estructuras más avanzadas para
+                              organizar datos, como diccionarios (clave-valor) y
+                              conjuntos, entendiendo sus diferencias y
+                              aplicaciones.
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow">
+                      <div className="flex items-start gap-3">
+                        <div className="w-8 h-8 bg-cyan-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                          <span className="text-cyan-600 font-bold">
+                            <span
+                              data-ve-dynamic="true"
+                              x-excluded="true"
+                              style={{ display: "contents" }}
+                            >
+                              7
+                            </span>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 className="font-semibold text-gray-900 mb-2">
+                            <span
+                              data-ve-dynamic="true"
+                              x-excluded="true"
+                              style={{ display: "contents" }}
+                            >
+                              Archivos y excepciones
+                            </span>
+                          </h4>
+                          <p className="text-sm text-gray-600">
+                            <span
+                              data-ve-dynamic="true"
+                              x-excluded="true"
+                              style={{ display: "contents" }}
+                            >
+                              Aprenderás a leer y escribir archivos desde Python
+                              y a manejar errores mediante excepciones para
+                              crear programas más robustos y seguros.
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow">
+                      <div className="flex items-start gap-3">
+                        <div className="w-8 h-8 bg-cyan-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                          <span className="text-cyan-600 font-bold">
+                            <span
+                              data-ve-dynamic="true"
+                              x-excluded="true"
+                              style={{ display: "contents" }}
+                            >
+                              8
+                            </span>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 className="font-semibold text-gray-900 mb-2">
+                            <span
+                              data-ve-dynamic="true"
+                              x-excluded="true"
+                              style={{ display: "contents" }}
+                            >
+                              Programación orientada a Objetos
+                            </span>
+                          </h4>
+                          <p className="text-sm text-gray-600">
+                            <span
+                              data-ve-dynamic="true"
+                              x-excluded="true"
+                              style={{ display: "contents" }}
+                            >
+                              Conocerás los conceptos básicos de clases y
+                              objetos, atributos y métodos, comprendiendo cómo
+                              organizar programas de mayor tamaño utilizando el
+                              paradigma orientado a objetos.
                             </span>
                           </p>
                         </div>
@@ -330,14 +474,28 @@ const PythonCourse = () => {
                     </div>
                   </span>
                 </div>
-                <h2 className="text-4xl font-bold text-gray-900 mb-4 mt-10">
+                <h2 className="text-4xl font-bold text-gray-900 mb-4 mt-20">
                   Clases
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                  {PythonClassItems.map((item, i) => (
-                    <CourseCard key={i} {...item} />
-                  ))}
-                </div>
+
+                {loading ? (
+                  <p className="text-gray-500">Verificando inscripción...</p>
+                ) : !isEnrolled ? (
+                  <div className="text-center py-12">
+                    <h3 className="text-lg font-semibold text-gray-700 mb-2">
+                      No disponible
+                    </h3>
+                    <p className="text-gray-500">
+                      no estás inscripto a este Curso
+                    </p>
+                  </div>
+                ) : (
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {PythonClassItems.map((item, i) => (
+                      <CourseCard key={i} {...item} />
+                    ))}
+                  </div>
+                )}
               </div>
             </div>
           </section>

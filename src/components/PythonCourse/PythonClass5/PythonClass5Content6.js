@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import * as Accordion from "@radix-ui/react-accordion";
 import {
@@ -9,8 +8,8 @@ import {
   Download,
 } from "lucide-react";
 
-const PythonClass5Content5 = ({ onComplete }) => {
-  const [done, setDone] = useState(false);
+const PythonClass5Content5 = ({ onComplete, completed }) => {
+  const done = completed?.includes(6);
 
   return (
     <Accordion.Root type="single" collapsible className="w-full">
@@ -23,8 +22,7 @@ const PythonClass5Content5 = ({ onComplete }) => {
             <div
               onClick={(e) => {
                 e.stopPropagation();
-                setDone(true);
-                onComplete("class3content6");
+                onComplete();
               }}
               className={`
     flex items-center justify-center w-10 h-10 rounded-full

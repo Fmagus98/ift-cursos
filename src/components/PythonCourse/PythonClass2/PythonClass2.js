@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
 
 import * as Tabs from "@radix-ui/react-tabs";
 import { BookOpen, Dumbbell } from "lucide-react";
@@ -15,47 +14,35 @@ import PythonClass2Content8 from "./PythonClass2Content8";
 import PythonClass2Content9 from "./PythonClass2Content9";
 import PythonClass2Content10 from "./PythonClass2Content10";
 import PythonClass2Content11 from "./PythonClass2Content11";
+import { useLessonProgress } from "../../../hooks/useLessonProgress";
+
 import Exercises from "../../Exercises/Exercises";
 
 import { exerciseClass2 } from "../../Exercises/exerciseData";
 
 const PythonClass2 = () => {
-  const TOTAL_CLASES = 10;
+  const LESSON_ID = "c88b606e-4fab-46ae-aa0a-3d85e02bf00b";
+  const TOTAL_BLOCKS = 10;
 
-  const [completed, setCompleted] = useState([]);
+  const { lessonProgress, handleComplete } = useLessonProgress();
 
-  const handleComplete = (id) => {
-    setCompleted((prev) => {
-      if (prev.includes(id)) return prev;
-      return [...prev, id];
-    });
+  // 🔥 Obtenemos datos seguros de la lección
+  const lesson = lessonProgress[LESSON_ID] || {
+    progress: 0,
+    completed: []
   };
 
-  const progress = Math.round((completed.length / TOTAL_CLASES) * 100);
+  const progress = lesson.progress;
+  const completed = lesson.completed;
 
   return (
     <div>
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
         <section className="relative py-12 px-4 bg-gradient-to-br from-cyan-600 to-cyan-700">
           <div className="container mx-auto">
-            <Link to="/" className="inline-block">
+            <Link to="home" className="inline-block">
               <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-accent-foreground h-9 px-4 py-2 mb-6 text-white hover:bg-white/20">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="w-4 h-4 mr-2"
-                  aria-hidden="true"
-                >
-                  <path d="m12 19-7-7 7-7" />
-                  <path d="M19 12H5" />
-                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-4 h-4 mr-2" aria-hidden="true"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>
                 Volver a cursos
               </button>
             </Link>
@@ -94,10 +81,7 @@ const PythonClass2 = () => {
                       height="24"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      
                       className="lucide lucide-clock w-5 h-5"
                       aria-hidden="true"
                     >
@@ -121,10 +105,7 @@ const PythonClass2 = () => {
                       height="24"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      
                       className="lucide lucide-users w-5 h-5"
                       aria-hidden="true"
                     >
@@ -198,10 +179,8 @@ const PythonClass2 = () => {
                     height="24"
                     viewBox="0 0 24 24"
                     fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    
+                    
                     className="lucide lucide-trending-up w-6 h-6 text-cyan-600"
                     aria-hidden="true"
                   >
@@ -273,10 +252,8 @@ const PythonClass2 = () => {
                         height="24"
                         viewBox="0 0 24 24"
                         fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        
+                        
                         className="lucide lucide-book-open w-8 h-8 text-cyan-600"
                         aria-hidden="true"
                       >
@@ -296,16 +273,16 @@ const PythonClass2 = () => {
                           x-excluded="true"
                           style={{ display: "contents" }}
                         >
-                          <PythonClass2Content1 onComplete={handleComplete} />
-                          <PythonClass2Content2 onComplete={handleComplete} />
-                          <PythonClass2Content3 onComplete={handleComplete} />
-                          <PythonClass2Content4 onComplete={handleComplete} />
-                          <PythonClass2Content5 onComplete={handleComplete} />
-                          <PythonClass2Content6 onComplete={handleComplete} />
-                          <PythonClass2Content7 onComplete={handleComplete} />
-                          <PythonClass2Content8 onComplete={handleComplete} />
-                          <PythonClass2Content9 onComplete={handleComplete} />
-                          <PythonClass2Content10 onComplete={handleComplete} />
+                          <PythonClass2Content1 onComplete={() => handleComplete(LESSON_ID, 1, TOTAL_BLOCKS)} completed={completed} />
+                          <PythonClass2Content2 onComplete={() => handleComplete(LESSON_ID, 2, TOTAL_BLOCKS)} completed={completed} />
+                          <PythonClass2Content3 onComplete={() => handleComplete(LESSON_ID, 3, TOTAL_BLOCKS)} completed={completed} />
+                          <PythonClass2Content4 onComplete={() => handleComplete(LESSON_ID, 4, TOTAL_BLOCKS)} completed={completed} />
+                          <PythonClass2Content5 onComplete={() => handleComplete(LESSON_ID, 5, TOTAL_BLOCKS)} completed={completed} />
+                          <PythonClass2Content6 onComplete={() => handleComplete(LESSON_ID, 6, TOTAL_BLOCKS)} completed={completed} />
+                          <PythonClass2Content7 onComplete={() => handleComplete(LESSON_ID, 7, TOTAL_BLOCKS)} completed={completed} />
+                          <PythonClass2Content8 onComplete={() => handleComplete(LESSON_ID, 8, TOTAL_BLOCKS)} completed={completed} />
+                          <PythonClass2Content9 onComplete={() => handleComplete(LESSON_ID, 9, TOTAL_BLOCKS)} completed={completed} />
+                          <PythonClass2Content10 onComplete={() => handleComplete(LESSON_ID, 10, TOTAL_BLOCKS)} completed={completed} />
                           <PythonClass2Content11 />
                         </span>
                       </div>

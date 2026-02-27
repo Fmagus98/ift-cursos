@@ -1,7 +1,6 @@
 import * as Accordion from "@radix-ui/react-accordion";
 import { Download } from "lucide-react";
 
-
 const PythonClass1Content12 = () => {
   return (
     <Accordion.Root type="single" collapsible className="w-full">

@@ -3,10 +3,12 @@ import SectionCourse from "./SectionCourse";
 import { courses } from "./courses";
 
 const Home = () => {
+  
   const getCoursesByTab = (tab) => {
     if (tab === "todos") return courses;
     return courses.filter((course) => course.category === tab);
   };
+
   return (
     <div
       className="min-h-screen bg-gradient-to-b from-gray-50 to-white"
@@ -15,7 +17,6 @@ const Home = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-cyan-50 via-white to-orange-50 opacity-70"></div>
         <div className="container mx-auto relative z-10">
           <div className="max-w-4xl mx-auto text-center space-y-6">
-            {/* Tag */}
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full shadow-sm border border-gray-200 mb-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +38,6 @@ const Home = () => {
               </span>
             </div>
 
-            {/* Title */}
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
               Domina{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-cyan-500">
@@ -56,7 +56,6 @@ const Home = () => {
               demandado.
             </p>
 
-            {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
               <button
                 className="inline-flex items-center justify-center gap-2 font-medium text-lg px-8 py-6 h-10 rounded-md bg-cyan-600 text-white hover:bg-cyan-700 transition-colors"
