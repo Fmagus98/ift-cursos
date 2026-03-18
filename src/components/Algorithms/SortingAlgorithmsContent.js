@@ -36,7 +36,6 @@ export const SortingAlgorithmsContent = () => {
   const [originalArray, setOriginalArray] = useState(generateRandomArray());
 
   const isPausedRef = useRef(false);
-  const stepModeRef = useRef(false);
 
   const handleAlgorithmSelect = (algoId) => {
     setSelectedAlgorithm(algoId);
@@ -57,8 +56,6 @@ export const SortingAlgorithmsContent = () => {
     setPivotId(null);
     setActiveRange(null);
   };
-
-  const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
   // Bubble Sort
   const generateBubbleSortSteps = (arr) => {
