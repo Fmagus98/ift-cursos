@@ -131,22 +131,20 @@ useEffect(() => {
               </button>
             </form>
 
-            {/* <div className="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg text-blue-700 text-sm">
+            <div className="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg text-blue-700 text-sm">
               <p className="font-semibold mb-1">💡 Credenciales de Demo:</p>
               <p>
-                <strong>Admin:</strong> admin@codigoacademy.com / admin123
+                <strong>Alumno:</strong><br></br> Email: alumno@iftcursos  <br></br>Pass: alumno1234
               </p>
-              <p className="mt-1">O crea una cuenta nueva en el registro</p>
-            </div> */}
+            </div>
 
             <div className="mt-6 text-center">
               <p className="text-sm text-gray-600">
-                ¿No tienes cuenta?{" "}
                 <Link
-                  to="/register"
+                  // to="/register"
                   className="text-cyan-600 hover:text-cyan-700 font-semibold hover:underline"
                 >
-                  Regístrate aquí
+                  ¿Olvidaste la contraseña?
                 </Link>
               </p>
             </div>

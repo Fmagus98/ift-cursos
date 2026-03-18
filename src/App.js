@@ -1,12 +1,15 @@
 import { lazy } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+
+import { AuthProvider } from "./context/AuthContext";
+
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-
 import Login from "./SupaBase/Login";
 import Register from "./SupaBase/Register";
-import { AuthProvider } from "./context/AuthContext";
+import Algorithms from "./components/Algorithms/Algorithms"
+import SortingAlgorithms from "./components/Algorithms/SortingAlgorithms";
 
 const Home = lazy(() => import("./components/Home"));
 const Profile = lazy(() => import("./components/Profile/Profile"));
@@ -101,6 +104,8 @@ function App() {
               element={<DjangoCourse />}
             />
             <Route path="/About" element={<About />} />
+            <Route path="/algorithms" element={<Algorithms/>} />
+            <Route path="/algorithms/sorting" element={<SortingAlgorithms/>} />
           </Routes>
         </main>
         <Footer />

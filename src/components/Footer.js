@@ -16,7 +16,7 @@ const Footer = () => {
           <p
             className="text-gray-400"
               >
-            © 2024 Federico Martearena. Todos los derechos reservados.
+            © 2026 Federico Martearena. Todos los derechos reservados.
           </p>
         </div>
       </footer>

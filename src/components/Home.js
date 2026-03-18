@@ -34,14 +34,14 @@ const Home = () => {
                 <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
               </svg>
               <span className="text-sm font-medium text-gray-700">
-                Aprende a tu ritmo
+                Bienvenido a IFT Online!
               </span>
             </div>
 
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
               Domina{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-cyan-500">
-                Python
+                Habilidades
               </span>{" "}
               y{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-orange-500">
@@ -49,13 +49,9 @@ const Home = () => {
               </span>{" "}
               tu carrera
             </h1>
-
             <p className="text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto">
-              Cursos prácticos diseñados por expertos para llevarte desde
-              principiante hasta profesional en el lenguaje de programación más
-              demandado.
+              Explora nuestros cursos, mejora tus conocimientos y avanza en tu formación profesional desde cualquier lugar y en cualquier momento.
             </p>
-
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
               <button
                 className="inline-flex items-center justify-center gap-2 font-medium text-lg px-8 py-6 h-10 rounded-md bg-cyan-600 text-white hover:bg-cyan-700 transition-colors"

@@ -5,7 +5,7 @@ import { supabase } from "../lib/supabase";
 
 const Header = () => {
   const [user, setUser] = useState(null);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   useEffect(() => {
     const getUser = async () => {
@@ -31,30 +31,37 @@ const Header = () => {
   const handleLogout = async () => {
     await supabase.auth.signOut();
     setUser(null);
-    navigate("/")
+    navigate("/");
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur">
-      <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-        <a href="/">
-          <img src="/ift.png" alt="ift" className="w-20 h-20" />
-        </a>
-        <nav className="hidden md:flex items-center space-x-6">
-          <a
-            className="text-gray-700 hover:text-cyan-600 font-medium"
-            href="/home"
-          >
-            Cursos
+    user && (
+      <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur">
+        <div className="container mx-auto px-4 h-16 flex items-center justify-between">
+          <a href="/">
+            <img src="/ift.png" alt="ift" className="w-20 h-20" />
           </a>
-          <a
+          <nav className="hidden md:flex items-center space-x-6">
+            <a
+              className="text-gray-700 hover:text-cyan-600 font-medium"
+              href="/home"
+            >
+              Cursos
+            </a>
+            {/* <a
             className="text-gray-700 hover:text-cyan-600 font-medium"
-            href="/about"
+            href="/algorithms"
           >
-            Sobre Nosotros
-          </a>
-        </nav>
-        {user ? (
+            Algoritmos
+          </a> */}
+            <a
+              className="text-gray-700 hover:text-cyan-600 font-medium"
+              href="/about"
+            >
+              Sobre Nosotros
+            </a>
+          </nav>
+
           <DropdownMenu.Root>
             <DropdownMenu.Trigger asChild>
               <button className="flex items-center gap-2 rounded-md border h-9 px-4 text-sm font-medium">
@@ -76,15 +83,9 @@ const Header = () => {
               </DropdownMenu.Item>
             </DropdownMenu.Content>
           </DropdownMenu.Root>
-        ) : (
-          <Link to="/">
-            <button className="border rounded-md h-9 px-4 text-sm">
-              Login
-            </button>
-          </Link>
-        )}
-      </div>
-    </header>
+        </div>
+      </header>
+    )
   );
 };
 
