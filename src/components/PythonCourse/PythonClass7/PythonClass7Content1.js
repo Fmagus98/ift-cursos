@@ -101,7 +101,7 @@ const PythonClass7Content1 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="syntax error"
-                src="../img/pythonClass7/indexError.webp"
+                src="../../../img/pythonClass7/indexError.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -119,7 +119,7 @@ const PythonClass7Content1 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="name error"
-                src="../img/pythonClass7/nameError.webp"
+                src="../../../img/pythonClass7/nameError.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -137,7 +137,7 @@ const PythonClass7Content1 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="type error"
-                src="../img/pythonClass7/typeError.webp"
+                src="../../../img/pythonClass7/typeError.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -157,7 +157,7 @@ const PythonClass7Content1 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="value error"
-                src="../img/pythonClass7/valueError.webp"
+                src="../../../img/pythonClass7/valueError.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -177,7 +177,7 @@ const PythonClass7Content1 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="indentation error"
-                src="../img/pythonClass7/indentationError.webp"
+                src="../../../img/pythonClass7/indentationError.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -197,7 +197,7 @@ const PythonClass7Content1 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="attribute error"
-                src="../img/pythonClass7/attributeError.webp"
+                src="../../../img/pythonClass7/attributeError.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -215,7 +215,7 @@ const PythonClass7Content1 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="key error"
-                src="../img/pythonClass7/keyError.webp"
+                src="../../../img/pythonClass7/keyError.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -234,7 +234,7 @@ const PythonClass7Content1 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="zero division error"
-                src="../img/pythonClass7/zeroDivisionError.webp"
+                src="../../../img/pythonClass7/zeroDivisionError.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -254,7 +254,7 @@ const PythonClass7Content1 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="file not found error"
-                src="../img/pythonClass7/fileNotFound.webp"
+                src="../../../img/pythonClass7/fileNotFound.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>

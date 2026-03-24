@@ -79,7 +79,7 @@ const PythonClass6Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo keys"
-                src="../img/pythonClass6/dict4.webp"
+                src="../../../img/pythonClass6/dict4.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -97,7 +97,7 @@ const PythonClass6Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo values"
-                src="../img/pythonClass6/dict5.webp"
+                src="../../../img/pythonClass6/dict5.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -115,7 +115,7 @@ const PythonClass6Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo items"
-                src="../img/pythonClass6/dict6.webp"
+                src="../../../img/pythonClass6/dict6.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -136,7 +136,7 @@ const PythonClass6Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo get"
-                src="../img/pythonClass6/dict7.webp"
+                src="../../../img/pythonClass6/dict7.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -156,7 +156,7 @@ const PythonClass6Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo update"
-                src="../img/pythonClass6/dict8.webp"
+                src="../../../img/pythonClass6/dict8.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -178,7 +178,7 @@ const PythonClass6Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo pop"
-                src="../img/pythonClass6/dict9.webp"
+                src="../../../img/pythonClass6/dict9.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -196,7 +196,7 @@ const PythonClass6Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo popitem"
-                src="../img/pythonClass6/dict10.webp"
+                src="../../../img/pythonClass6/dict10.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -214,7 +214,7 @@ const PythonClass6Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo clear"
-                src="../img/pythonClass6/dict11.webp"
+                src="../../../img/pythonClass6/dict11.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -232,7 +232,7 @@ const PythonClass6Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo copy"
-                src="../img/pythonClass6/dict12.webp"
+                src="../../../img/pythonClass6/dict12.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -253,7 +253,7 @@ const PythonClass6Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo fromkeys"
-                src="../img/pythonClass6/dict13.webp"
+                src="../../../img/pythonClass6/dict13.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>

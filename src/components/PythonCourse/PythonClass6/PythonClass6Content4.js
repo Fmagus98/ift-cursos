@@ -83,7 +83,7 @@ const PythonClass6Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo add set"
-                src="../img/pythonClass6/set3.webp"
+                src="../../../img/pythonClass6/set3.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -101,7 +101,7 @@ const PythonClass6Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo copy set"
-                src="../img/pythonClass6/set4.webp"
+                src="../../../img/pythonClass6/set4.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -121,7 +121,7 @@ const PythonClass6Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo update set"
-                src="../img/pythonClass6/set5.webp"
+                src="../../../img/pythonClass6/set5.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -141,7 +141,7 @@ const PythonClass6Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo remove set"
-                src="../img/pythonClass6/set6.webp"
+                src="../../../img/pythonClass6/set6.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -161,7 +161,7 @@ const PythonClass6Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo discard set"
-                src="../img/pythonClass6/set7.webp"
+                src="../../../img/pythonClass6/set7.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -179,7 +179,7 @@ const PythonClass6Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo pop set"
-                src="../img/pythonClass6/set8.webp"
+                src="../../../img/pythonClass6/set8.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -199,7 +199,7 @@ const PythonClass6Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo union set"
-                src="../img/pythonClass6/set9.webp"
+                src="../../../img/pythonClass6/set9.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -219,7 +219,7 @@ const PythonClass6Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo intersection set"
-                src="../img/pythonClass6/set10.webp"
+                src="../../../img/pythonClass6/set10.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -239,7 +239,7 @@ const PythonClass6Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo difference set"
-                src="../img/pythonClass6/set11.webp"
+                src="../../../img/pythonClass6/set11.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -259,7 +259,7 @@ const PythonClass6Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo symmetric difference set"
-                src="../img/pythonClass6/set12.webp"
+                src="../../../img/pythonClass6/set12.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -279,7 +279,7 @@ const PythonClass6Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo issubset set"
-                src="../img/pythonClass6/set13.webp"
+                src="../../../img/pythonClass6/set13.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -299,7 +299,7 @@ const PythonClass6Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo issuperset set"
-                src="../img/pythonClass6/set14.webp"
+                src="../../../img/pythonClass6/set14.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -317,7 +317,7 @@ const PythonClass6Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="metodo clear set"
-                src="../img/pythonClass6/set15.webp"
+                src="../../../img/pythonClass6/set15.webp"
                 style={{ borderRadius: "1rem"}}
               />
             </div>

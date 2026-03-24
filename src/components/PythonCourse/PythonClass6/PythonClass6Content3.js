@@ -97,7 +97,7 @@ const PythonClass6Content3 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="definicion set"
-                src="../img/pythonClass6/set1.webp"
+                src="../../../img/pythonClass6/set1.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -123,7 +123,7 @@ const PythonClass6Content3 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="extraccion set"
-                src="../img/pythonClass6/set2.webp"
+                src="../../../img/pythonClass6/set2.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>

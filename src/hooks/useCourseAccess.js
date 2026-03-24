@@ -19,13 +19,12 @@ export const useCourseAccess = (courseId, userId) => {
         .eq("user_id", userId)
         .eq("course_id", courseId)
         .maybeSingle();
-      // maybeSingle evita error si no existe
 
       if (error) {
         console.error(error);
         setIsEnrolled(false);
       } else {
-        setIsEnrolled(!!data); // si existe registro → true
+        setIsEnrolled(!!data);
       }
 
       setLoading(false);

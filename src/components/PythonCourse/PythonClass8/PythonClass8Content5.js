@@ -85,7 +85,7 @@ const PythonClass8Content5 = ({ onComplete, completed }) => {
               <img
                 className="w-75 d-block mx-auto border-content"
                 alt="Ejemplo de herencia en Python"
-                src="../img/pythonClass8/heredity.webp"
+                src="../../../img/pythonClass8/heredity.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>

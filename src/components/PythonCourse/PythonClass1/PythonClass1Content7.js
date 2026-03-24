@@ -89,7 +89,7 @@ const PythonClass1Content7 = ({ onComplete, completed }) => {
               className="md:max-w-4xl"
               style={{ borderRadius: "1rem" }}
               alt=""
-              src="../img/pythonClass1/python1.webp"
+              src="../../../img/pythonClass1/python1.webp"
             ></img>
             <p className="leading-relaxed mt-4 mb-4">
               <strong>2.</strong> Luego iremos a <strong>All releases</strong>
@@ -98,7 +98,7 @@ const PythonClass1Content7 = ({ onComplete, completed }) => {
               className="md:max-w-4xl"
               style={{ borderRadius: "1rem" }}
               alt=""
-              src="../img/pythonClass1/python2.webp"
+              src="../../../img/pythonClass1/python2.webp"
             ></img>
             <p className="leading-relaxed mt-4 mb-4">
               <strong>3.</strong> Buscamos la versión más reciente o alguna
@@ -110,7 +110,7 @@ const PythonClass1Content7 = ({ onComplete, completed }) => {
               className="md:max-w-4xl"
               style={{ borderRadius: "1rem" }}
               alt=""
-              src="../img/pythonClass1/python3.webp"
+              src="../../../img/pythonClass1/python3.webp"
             ></img>
             <p className="leading-relaxed mt-4 mb-4">
               <strong>4.</strong> Elegimos el sistema operativo que utilizamos
@@ -123,7 +123,7 @@ const PythonClass1Content7 = ({ onComplete, completed }) => {
               className="md:max-w-4xl"
               style={{ borderRadius: "1rem" }}
               alt=""
-              src="../img/pythonClass1/python4.webp"
+              src="../../../img/pythonClass1/python4.webp"
             ></img>
             <p className="leading-relaxed mt-4 mb-4">
               <strong>5.</strong> Al instalar selecciona{" "}
@@ -134,7 +134,7 @@ const PythonClass1Content7 = ({ onComplete, completed }) => {
               className="md:max-w-4xl"
               style={{ borderRadius: "1rem" }}
               alt=""
-              src="../img/pythonClass1/python5.webp"
+              src="../../../img/pythonClass1/python5.webp"
             ></img>
           </section>
         </Accordion.Content>

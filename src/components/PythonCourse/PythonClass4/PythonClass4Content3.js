@@ -95,7 +95,7 @@ const PythonClass4Content2 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Creación de archivo de módulo en Python"
-                src="../img/PythonClass4/module1.webp"
+                src="../../../img/PythonClass4/module1.webp"
               />
             </div>
             <p className="leading-relaxed mt-4 mb-4">
@@ -112,7 +112,7 @@ const PythonClass4Content2 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Código dentro de un módulo en Python"
-                src="../img/PythonClass4/module2.webp"
+                src="../../../img/PythonClass4/module2.webp"
               />
             </div>
             <p className="leading-relaxed mt-4 mb-4">
@@ -128,7 +128,7 @@ const PythonClass4Content2 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Importación de módulos en Python"
-                src="../img/PythonClass4/module3.webp"
+                src="../../../img/PythonClass4/module3.webp"
               />
             </div>
             <p className="leading-relaxed mt-4 mb-4">
@@ -144,7 +144,7 @@ const PythonClass4Content2 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Importación específica de funciones en Python"
-                src="../img/PythonClass4/module4.webp"
+                src="../../../img/PythonClass4/module4.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">
@@ -164,7 +164,7 @@ const PythonClass4Content2 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Importación desde otras carpetas en Python"
-                src="../img/PythonClass4/module5.webp"
+                src="../../../img/PythonClass4/module5.webp"
               />
             </div>
           </section>

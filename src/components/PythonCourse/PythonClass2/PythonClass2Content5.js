@@ -84,7 +84,7 @@ const PythonClass2Content5 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/convType.webp"
+                src="../../../img/pythonClass2/convType.webp"
               />
             </div>
             <p className="leading-relaxed mt-4 mb-4">

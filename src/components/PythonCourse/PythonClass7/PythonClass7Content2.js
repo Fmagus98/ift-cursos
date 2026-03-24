@@ -93,7 +93,7 @@ const PythonClass7Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="try except ejemplo"
-                src="../img/pythonClass7/tryExcept.webp"
+                src="../../../img/pythonClass7/tryExcept.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -115,7 +115,7 @@ const PythonClass7Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="else ejemplo"
-                src="../img/pythonClass7/else.webp"
+                src="../../../img/pythonClass7/else.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -137,7 +137,7 @@ const PythonClass7Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="finally ejemplo"
-                src="../img/pythonClass7/finally.webp"
+                src="../../../img/pythonClass7/finally.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>

@@ -85,7 +85,7 @@ const Pythonclass3Content5 = ({ onComplete, completed }) => {
               <img
                 className="w-full rounded-xl"
                 alt="For en cadena Python"
-                src="../img/pythonClass3/for1.webp"
+                src="../../../img/pythonClass3/for1.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -98,7 +98,7 @@ const Pythonclass3Content5 = ({ onComplete, completed }) => {
               <img
                 className="w-full rounded-xl"
                 alt="For en string Python"
-                src="../img/pythonClass3/for2.webp"
+                src="../../../img/pythonClass3/for2.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -113,7 +113,7 @@ const Pythonclass3Content5 = ({ onComplete, completed }) => {
               <img
                 className="w-full rounded-xl"
                 alt="For con range Python"
-                src="../img/pythonClass3/for3.webp"
+                src="../../../img/pythonClass3/for3.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -125,7 +125,7 @@ const Pythonclass3Content5 = ({ onComplete, completed }) => {
               <img
                 className="w-full rounded-xl"
                 alt="Range Python"
-                src="../img/pythonClass3/range.webp"
+                src="../../../img/pythonClass3/range.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -140,7 +140,7 @@ const Pythonclass3Content5 = ({ onComplete, completed }) => {
               <img
                 className="w-full rounded-xl"
                 alt="For en listas Python"
-                src="../img/pythonClass3/for4.webp"
+                src="../../../img/pythonClass3/for4.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -155,7 +155,7 @@ const Pythonclass3Content5 = ({ onComplete, completed }) => {
               <img
                 className="w-full rounded-xl"
                 alt="For en tuplas Python"
-                src="../img/pythonClass3/for5.webp"
+                src="../../../img/pythonClass3/for5.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>

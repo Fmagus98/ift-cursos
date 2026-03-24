@@ -4,7 +4,7 @@ import { class3Code } from "../classCode";
 import CopyButton from "../../CopyButton/CopyButton";
 
 const Pythonclass3Content5 = ({ onComplete, completed }) => {
-  const done = completed?.includes(5);
+  const done = completed?.includes(6);
 
   return (
     <Accordion.Root type="single" collapsible className="w-full">
@@ -97,7 +97,7 @@ const Pythonclass3Content5 = ({ onComplete, completed }) => {
               <img
                 className="w-full rounded-xl"
                 alt="Inicio del diagrama de validación"
-                src="../img/pythonClass3/problem1-1.webp"
+                src="../../../img/pythonClass3/problem1-1.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -109,7 +109,7 @@ const Pythonclass3Content5 = ({ onComplete, completed }) => {
               <img
                 className="w-full rounded-xl"
                 alt="Condiciones del diagrama"
-                src="../img/pythonClass3/problem1-2.webp"
+                src="../../../img/pythonClass3/problem1-2.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -121,7 +121,7 @@ const Pythonclass3Content5 = ({ onComplete, completed }) => {
               <img
                 className="w-full rounded-xl"
                 alt="Validación del usuario"
-                src="../img/pythonClass3/problem1-3.webp"
+                src="../../../img/pythonClass3/problem1-3.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -142,7 +142,7 @@ const Pythonclass3Content5 = ({ onComplete, completed }) => {
               <img
                 className="w-full rounded-xl"
                 alt="Código validación contraseña en Python"
-                src="../img/pythonClass3/problem1-4.webp"
+                src="../../../img/pythonClass3/problem1-4.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>

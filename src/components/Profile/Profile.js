@@ -2,7 +2,7 @@ import * as Avatar from "@radix-ui/react-avatar";
 import * as Progress from "@radix-ui/react-progress";
 import { useEffect, useState } from "react";
 import { Award } from "lucide-react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { supabase } from "../../lib/supabase";
 
 const Profile = () => {
@@ -46,7 +46,7 @@ const Profile = () => {
         .eq("user_id", user.id);
 
       if (coursesError) {
-        console.log(coursesError);
+        // console.log(coursesError);
         return;
       }
 
@@ -58,7 +58,7 @@ const Profile = () => {
         .gte("progress", 100);
 
       if (lessonsError) {
-        console.log("error en leccion", lessonsError);
+        // console.log("error en leccion", lessonsError);
         return;
       }
 
@@ -69,6 +69,8 @@ const Profile = () => {
         .single();
 
       setProfile(profileData);
+      
+      console.log(coursesData)
 
       // Formatear cursos
       const formattedCourses = (coursesData || []).map((c) => ({
@@ -204,18 +206,26 @@ const Profile = () => {
     },
   ];
 
-  // const courses = [
-  //   {
-  //     title: "Introducción a Python",
-  //     description:
-  //       "Aprende los fundamentos de Python desde cero. Ideal para principiantes.",
-  //     progress: 63,
-  //   },
-  // ];
-
   return (
     <section className="py-10 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto space-y-8">
+        <Link to="/home" className="inline-block">
+          <button className="stroke-[2] stroke-linecap-round stroke-linejoin-round inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-9 px-4 py-2 mb-6 text-white bg-cyan-600">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              aria-hidden="true"
+            >
+              <path d="m12 19-7-7 7-7"></path>
+              <path d="M19 12H5"></path>
+            </svg>
+            Volver a cursos
+          </button>
+        </Link>
         <div className="bg-white rounded-2xl shadow border overflow-hidden">
           <div className="h-16 sm:h-32 bg-gradient-to-r from-cyan-600 to-cyan-700" />
           <div className="p-6 -mt-14 flex flex-col sm:flex-row gap-6 sm:items-end">
@@ -232,7 +242,12 @@ const Profile = () => {
                 Estudiante de IFT Cursos
               </p>
               <div className="mt-3 text-xs sm:text-sm text-gray-500 space-y-1">
-                <p>Miembro desde {new Date(profile?.registration_date).toLocaleDateString("es-AR")}</p>
+                <p>
+                  Miembro desde{" "}
+                  {new Date(profile?.registration_date).toLocaleDateString(
+                    "es-AR",
+                  )}
+                </p>
                 <p>{user?.email}</p>
               </div>
             </div>

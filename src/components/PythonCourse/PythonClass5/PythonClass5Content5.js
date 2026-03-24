@@ -82,7 +82,7 @@ const PythonClass5Content5 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="bucle for en listas"
-                src="../img/pythonClass3/for4.webp"
+                src="../../../img/pythonClass3/for4.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -97,7 +97,7 @@ const PythonClass5Content5 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="bucle for en tuplas"
-                src="../img/pythonClass3/for5.webp"
+                src="../../../img/pythonClass3/for5.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>

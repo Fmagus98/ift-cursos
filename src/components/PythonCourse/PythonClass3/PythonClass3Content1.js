@@ -101,7 +101,7 @@ const Pythonclass3Content1 = ({ onComplete, completed }) => {
                 className="w-full bg-black"
                 style={{ borderRadius: "1rem" }}
                 alt="Ejemplo de decisión con condicionales"
-                src="../img/pythonClass3/condition.webp"
+                src="../../../img/pythonClass3/condition.webp"
               />
             </div>
             <p className="leading-relaxed mt-10 mb-4">
@@ -117,7 +117,7 @@ const Pythonclass3Content1 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Estructura de una condicional en Python"
-                src="../img/pythonClass3/conditionalestructure.webp"
+                src="../../../img/pythonClass3/conditionalestructure.webp"
               />
             </div>
           </section>

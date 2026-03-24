@@ -139,7 +139,7 @@ const PythonClass2Content1 = ({ onComplete, completed }) => {
               className="md:max-w-lg2 mx-auto"
               style={{ borderRadius: "1rem" }}
               alt=""
-              src="../img/pythonClass2/variable.webp"
+              src="../../../img/pythonClass2/variable.webp"
             />
           </section>
         </Accordion.Content>

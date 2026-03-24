@@ -32,7 +32,7 @@ const About = () => {
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto">
             <div
-              className="flex items-center gap-3 mb-8"
+              className="flex items-center gap-3 mb-8 stroke-[2] stroke-linecap-round stroke-linejoin-round "
               x-file-name="SobreNosotros"
             >
               <svg
@@ -42,9 +42,6 @@ const About = () => {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
                 class="lucide lucide-book-open w-8 h-8 text-cyan-600"
                 aria-hidden="true"
               >
@@ -260,7 +257,7 @@ const About = () => {
                 <div className="rounded-xl border bg-card text-card-foreground shadow border-gray-200 hover:shadow-lg transition-shadow">
                   <div className="p-6">
                     <div className="flex items-start gap-3">
-                      <div className="w-10 h-10 bg-cyan-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <div className="w-10 h-10 bg-cyan-100 rounded-lg flex items-center justify-center flex-shrink-0 stroke-[2] stroke-linecap-round stroke-linejoin-round ">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -268,9 +265,6 @@ const About = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
                           className="lucide lucide-award w-5 h-5 text-cyan-600"
                           aria-hidden="true"
                         >
@@ -294,7 +288,7 @@ const About = () => {
                 <div className="rounded-xl border bg-card text-card-foreground shadow border-gray-200 hover:shadow-lg transition-shadow">
                   <div className="p-6">
                     <div className="flex items-start gap-3">
-                      <div className="w-10 h-10 bg-cyan-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <div className="w-10 h-10 bg-cyan-100 rounded-lg flex items-center justify-center flex-shrink-0 stroke-[2] stroke-linecap-round stroke-linejoin-round ">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -302,9 +296,6 @@ const About = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
                           className="lucide lucide-award w-5 h-5 text-cyan-600"
                           aria-hidden="true"
                         >
@@ -327,7 +318,7 @@ const About = () => {
                 <div className="rounded-xl border bg-card text-card-foreground shadow border-gray-200 hover:shadow-lg transition-shadow">
                   <div className="p-6">
                     <div className="flex items-start gap-3">
-                      <div className="w-10 h-10 bg-cyan-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <div className="w-10 h-10 bg-cyan-100 rounded-lg flex items-center justify-center flex-shrink-0 stroke-[2] stroke-linecap-round stroke-linejoin-round ">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -335,9 +326,6 @@ const About = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
                           className="lucide lucide-award w-5 h-5 text-cyan-600"
                           aria-hidden="true"
                         >
@@ -360,7 +348,7 @@ const About = () => {
                 <div className="rounded-xl border bg-card text-card-foreground shadow border-gray-200 hover:shadow-lg transition-shadow">
                   <div className="p-6">
                     <div className="flex items-start gap-3">
-                      <div className="w-10 h-10 bg-cyan-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <div className="w-10 h-10 bg-cyan-100 rounded-lg flex items-center justify-center flex-shrink-0 stroke-[2] stroke-linecap-round stroke-linejoin-round">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -368,9 +356,6 @@ const About = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
                           className="lucide lucide-award w-5 h-5 text-cyan-600"
                           aria-hidden="true"
                         >
@@ -399,13 +384,12 @@ const About = () => {
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-8">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-cyan-600 rounded-full mb-4">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-cyan-600 rounded-full mb-4 stroke-[2] stroke-linecap-round stroke-linejoin-round ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="#ffffff"
-                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                   className="lucide lucide-target w-10 h-10 text-white"
                   aria-hidden="true"
                 >
@@ -457,7 +441,7 @@ const About = () => {
                 <div className="flex flex-col md:flex-row gap-6 items-start">
                   <div className="w-32 h-32 bg-white rounded-full border-4 border-white shadow-xl flex items-center justify-center flex-shrink-0">
                     <img
-                      src="https://media.licdn.com/dms/image/v2/D4D03AQFjHaOTluy4ZA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1696382593957?e=1772668800&v=beta&t=vScFkkvRZatD-yPQ3_cxRKP_fEmUoqQorO4tNkfB9p4"
+                      src="https://media.licdn.com/dms/image/v2/D4D03AQFjHaOTluy4ZA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1696382593957?e=1775692800&v=beta&t=sLFVUTwuDm-jhViQJnmO0fg2czdCSKQ8h1z_wlnkQpQ"
                       alt="teacher"
                       className="rounded-full"
                     ></img>

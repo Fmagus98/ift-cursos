@@ -100,7 +100,7 @@ const PythonClass1Content9 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-4xl"
               alt=""
-              src="../img/pythonClass1/ide1.webp"
+              src="../../../img/pythonClass1/ide1.webp"
               style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
@@ -111,7 +111,7 @@ const PythonClass1Content9 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-lg2"
               alt=""
-              src="../img/pythonClass1/ide2.webp"
+              src="../../../img/pythonClass1/ide2.webp"
               style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
@@ -121,7 +121,7 @@ const PythonClass1Content9 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-lg2"
               alt=""
-              src="../img/pythonClass1/ide3.webp"
+              src="../../../img/pythonClass1/ide3.webp"
               style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
@@ -131,7 +131,7 @@ const PythonClass1Content9 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-lg2"
               alt=""
-              src="../img/pythonClass1/ide4.webp"
+              src="../../../img/pythonClass1/ide4.webp"
               style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
@@ -142,7 +142,7 @@ const PythonClass1Content9 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-lg2"
               alt=""
-              src="../img/pythonClass1/ide5.webp"
+              src="../../../img/pythonClass1/ide5.webp"
               style={{ borderRadius: "1rem" }}
             />
             <h5 className="font-semibold text-gray-900 mb-2 mt-4">
@@ -174,7 +174,7 @@ const PythonClass1Content9 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-4xl"
               alt=""
-              src="../img/pythonClass1/pych1.webp"
+              src="../../../img/pythonClass1/pych1.webp"
               style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
@@ -184,7 +184,7 @@ const PythonClass1Content9 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-lg2"
               alt=""
-              src="../img/pythonClass1/pych2.webp"
+              src="../../../img/pythonClass1/pych2.webp"
               style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
@@ -193,7 +193,7 @@ const PythonClass1Content9 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-lg2"
               alt=""
-              src="../img/pythonClass1/pych5.webp"
+              src="../../../img/pythonClass1/pych5.webp"
               style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
@@ -203,7 +203,7 @@ const PythonClass1Content9 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-lg2"
               alt=""
-              src="../img/pythonClass1/pych4.webp"
+              src="../../../img/pythonClass1/pych4.webp"
               style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
@@ -213,7 +213,7 @@ const PythonClass1Content9 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-lg2"
               alt=""
-              src="../img/pythonClass1/pych5.webp"
+              src="../../../img/pythonClass1/pych5.webp"
               style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
@@ -222,7 +222,7 @@ const PythonClass1Content9 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-lg2"
               alt=""
-              src="../img/pythonClass1/pych6.webp"
+              src="../../../img/pythonClass1/pych6.webp"
               style={{ borderRadius: "1rem" }}
             />
           </section>

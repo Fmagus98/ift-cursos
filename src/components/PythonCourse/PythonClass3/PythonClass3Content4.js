@@ -88,7 +88,7 @@ const Pythonclass3Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Ejemplo while en Python"
-                src="../img/pythonClass3/while.webp"
+                src="../../../img/pythonClass3/while.webp"
               />
             </div>
             <div className="relative mx-auto md:max-w-4xl mb-16">
@@ -100,7 +100,7 @@ const Pythonclass3Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Ejemplo while avanzado en Python"
-                src="../img/pythonClass3/while2.webp"
+                src="../../../img/pythonClass3/while2.webp"
               />
             </div>
           </section>

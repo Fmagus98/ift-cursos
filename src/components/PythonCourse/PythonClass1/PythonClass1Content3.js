@@ -75,7 +75,7 @@ const PythonClass1Content3 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-lg2 w-64 mx-auto"
               style={{ borderRadius: "1rem" }}
-              src="../img/pythonClass1/guido.webp"
+              src="../../../img/pythonClass1/guido.webp"
               alt="binary"
             ></img>
             <p className="leading-relaxed mt-4">
@@ -129,7 +129,7 @@ const PythonClass1Content3 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-lg mx-auto"
               style={{ borderRadius: "1rem" }}
-              src="../img/pythonClass1/ep.webp"
+              src="../../../img/pythonClass1/ep.webp"
               alt="binary"
             ></img>
           </section>

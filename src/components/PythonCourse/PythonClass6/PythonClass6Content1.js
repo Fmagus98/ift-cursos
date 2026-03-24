@@ -99,7 +99,7 @@ const PythonClass6Content1 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="definicion diccionario"
-                src="../img/pythonClass6/dict1.webp"
+                src="../../../img/pythonClass6/dict1.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -120,7 +120,7 @@ const PythonClass6Content1 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="acceso diccionario"
-                src="../img/pythonClass6/dict2.webp"
+                src="../../../img/pythonClass6/dict2.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -141,7 +141,7 @@ const PythonClass6Content1 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="modificacion diccionario"
-                src="../img/pythonClass6/dict3.webp"
+                src="../../../img/pythonClass6/dict3.webp"
                 style={{ borderRadius: "1rem", marginBottom: "7rem" }}
               />
             </div>

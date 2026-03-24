@@ -92,7 +92,7 @@ const PythonClass4Content2 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Funciones integradas en Python"
-                src="../img/PythonClass4/function2.webp"
+                src="../../../img/PythonClass4/function2.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">
@@ -111,7 +111,7 @@ const PythonClass4Content2 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Funciones definidas por el usuario en Python"
-                src="../img/PythonClass4/function3.webp"
+                src="../../../img/PythonClass4/function3.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">
@@ -132,7 +132,7 @@ const PythonClass4Content2 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Funciones lambda en Python"
-                src="../img/PythonClass4/function4.webp"
+                src="../../../img/PythonClass4/function4.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">
@@ -153,7 +153,7 @@ const PythonClass4Content2 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Funciones generadoras en Python"
-                src="../img/PythonClass4/function5.webp"
+                src="../../../img/PythonClass4/function5.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">
@@ -173,7 +173,7 @@ const PythonClass4Content2 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Funciones recursivas en Python"
-                src="../img/PythonClass4/function6.webp"
+                src="../../../img/PythonClass4/function6.webp"
               />
             </div>
           </section>

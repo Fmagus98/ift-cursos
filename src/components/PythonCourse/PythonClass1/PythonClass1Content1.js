@@ -124,7 +124,7 @@ const PythonClass1Content1 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-lg2 mx-auto"
               style={{ borderRadius: "1rem" }}
-              src="../img/pythonClass1/btot.webp"
+              src="../../../img/pythonClass1/btot.webp"
               alt="binary"
             ></img>
             <h5 className="mt-10 font-semibold text-gray-900 text-center mb-2">
@@ -134,7 +134,7 @@ const PythonClass1Content1 = ({ onComplete, completed }) => {
               className="md:max-w-lg2 mx-auto"
               style={{ borderRadius: "1rem" }}
               alt="Representación binaria en letras"
-              src="../img/pythonClass1/btot2.webp"
+              src="../../../img/pythonClass1/btot2.webp"
             />
           </section>
           <section>
@@ -171,7 +171,7 @@ const PythonClass1Content1 = ({ onComplete, completed }) => {
               className="md:max-w-4xl mx-auto"
               style={{ borderRadius: "1rem" }}
               alt="8bits"
-              src="../img/pythonClass1/PMg.webp"
+              src="../../../img/pythonClass1/PMg.webp"
             />
           </section>
 

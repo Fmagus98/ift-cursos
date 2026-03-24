@@ -90,7 +90,7 @@ const PythonClass7Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="open ejemplo"
-                src="../img/pythonClass7/open.webp"
+                src="../../../img/pythonClass7/open.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -110,7 +110,7 @@ const PythonClass7Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="read ejemplo"
-                src="../img/pythonClass7/read.webp"
+                src="../../../img/pythonClass7/read.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -130,7 +130,7 @@ const PythonClass7Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="write ejemplo"
-                src="../img/pythonClass7/write.webp"
+                src="../../../img/pythonClass7/write.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -149,7 +149,7 @@ const PythonClass7Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="append ejemplo"
-                src="../img/pythonClass7/adjunto.webp"
+                src="../../../img/pythonClass7/adjunto.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -169,7 +169,7 @@ const PythonClass7Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="close ejemplo"
-                src="../img/pythonClass7/close.webp"
+                src="../../../img/pythonClass7/close.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -189,7 +189,7 @@ const PythonClass7Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="rename ejemplo"
-                src="../img/pythonClass7/rename.webp"
+                src="../../../img/pythonClass7/rename.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -209,7 +209,7 @@ const PythonClass7Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="remove ejemplo"
-                src="../img/pythonClass7/remove.webp"
+                src="../../../img/pythonClass7/remove.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>

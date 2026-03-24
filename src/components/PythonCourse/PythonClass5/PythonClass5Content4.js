@@ -80,7 +80,7 @@ const PythonClass5Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="definicion tupla"
-                src="../img/pythonClass5/tupla1.webp"
+                src="../../../img/pythonClass5/tupla1.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -97,7 +97,7 @@ const PythonClass5Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="indice tupla"
-                src="../img/pythonClass5/tupla2.webp"
+                src="../../../img/pythonClass5/tupla2.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -116,7 +116,7 @@ const PythonClass5Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="segmentacion tupla"
-                src="../img/pythonClass5/tupla3.webp"
+                src="../../../img/pythonClass5/tupla3.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -134,7 +134,7 @@ const PythonClass5Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="concatenacion tupla"
-                src="../img/pythonClass5/tupla4.webp"
+                src="../../../img/pythonClass5/tupla4.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -152,7 +152,7 @@ const PythonClass5Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="repeticion tupla"
-                src="../img/pythonClass5/tupla5.webp"
+                src="../../../img/pythonClass5/tupla5.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -173,7 +173,7 @@ const PythonClass5Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="conversion tupla lista"
-                src="../img/pythonClass5/tupla6.webp"
+                src="../../../img/pythonClass5/tupla6.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>

@@ -81,7 +81,7 @@ const PythonClass1Content11 = ({ onComplete, completed }) => {
             <img
               className="w-75 mt-4 d-block mx-auto border-content"
               alt=""
-              src="../img/pythonClass1/p1.webp"
+              src="../../../img/pythonClass1/p1.webp"
               style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
@@ -92,7 +92,7 @@ const PythonClass1Content11 = ({ onComplete, completed }) => {
             <img
               className="w-75 mt-4 d-block mx-auto border-content"
               alt=""
-              src="../img/pythonClass1/p2.webp"
+              src="../../../img/pythonClass1/p2.webp"
               style={{ borderRadius: "1rem" }}
             />
             <div className="flex flex-wrap items-center gap-2 mt-4 mb-4 leading-relaxed">
@@ -105,34 +105,34 @@ const PythonClass1Content11 = ({ onComplete, completed }) => {
                 <img
                   className="inline w-6 mx-1 align-middle border-content rounded-lg"
                   alt=""
-                  src="../img/pythonClass1/crearArchivo.webp"
+                  src="../../../img/pythonClass1/crearArchivo.webp"
                 />
                 , el segundo nos dejará que podamos{" "}
                 <strong>crear una carpeta</strong>{" "}
                 <img
                   className="inline w-6 mx-1 align-middle border-content rounded-lg"
                   alt=""
-                  src="../img/pythonClass1/crearCarpeta.webp"
+                  src="../../../img/pythonClass1/crearCarpeta.webp"
                 />
                 , el tercero <strong>refresca la carpeta</strong>{" "}
                 <img
                   className="inline w-6 mx-1 align-middle border-content rounded-lg"
                   alt=""
-                  src="../img/pythonClass1/refrescar.webp"
+                  src="../../../img/pythonClass1/refrescar.webp"
                 />
                 , el cuarto item nos dejará{" "}
                 <strong>contraer o plegar una carpeta</strong>{" "}
                 <img
                   className="inline w-6 mx-1 align-middle border-content rounded-lg"
                   alt=""
-                  src="../img/pythonClass1/desplegable.webp"
+                  src="../../../img/pythonClass1/desplegable.webp"
                 />
                 . En este caso usaremos{" "}
                 <strong>el primer item para crear un archivo</strong>{" "}
                 <img
                   className="inline w-6 mx-1 align-middle border-content rounded-lg"
                   alt=""
-                  src="../img/pythonClass1/crearArchivo.webp"
+                  src="../../../img/pythonClass1/crearArchivo.webp"
                 />
                 .
               </p>
@@ -140,7 +140,7 @@ const PythonClass1Content11 = ({ onComplete, completed }) => {
             <img
               className="w-75 mt-4 d-block mx-auto border-content"
               alt=""
-              src="../img/pythonClass1/p3.webp"
+              src="../../../img/pythonClass1/p3.webp"
               style={{ borderRadius: "1rem" }}
             />
             <p className="mt-4 mb-4 text-break mx-auto w-75">
@@ -149,7 +149,7 @@ const PythonClass1Content11 = ({ onComplete, completed }) => {
               programa de que es un archivo de python, por ejemplo:{" "}
               <strong>index.py</strong>
             </p>
-            <img className="w-75" alt="" src="../img/pythonClass1/p4.webp" style={{ borderRadius: "1rem" }} />
+            <img className="w-75" alt="" src="../../../img/pythonClass1/p4.webp" style={{ borderRadius: "1rem" }} />
             <h5 className="font-semibold text-gray-900 mb-2 mt-4">
               Crea un proyecto en Pycharm
             </h5>
@@ -165,7 +165,7 @@ const PythonClass1Content11 = ({ onComplete, completed }) => {
             <img
               className="w-75 mt-4 d-block border-content"
               alt=""
-              src="../img/pythonClass1/pych7.webp"
+              src="../../../img/pythonClass1/pych7.webp"
               style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
@@ -175,7 +175,7 @@ const PythonClass1Content11 = ({ onComplete, completed }) => {
             <img
               className="w-75 mt-4 d-block border-content"
               alt=""
-              src="../img/pythonClass1/pych8.webp"
+              src="../../../img/pythonClass1/pych8.webp"
               style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
@@ -186,7 +186,7 @@ const PythonClass1Content11 = ({ onComplete, completed }) => {
             <img
               className="w-75 mt-4 d-block border-content"
               alt=""
-              src="../img/pythonClass1/pych9.webp"
+              src="../../../img/pythonClass1/pych9.webp"
               style={{ borderRadius: "1rem" }}
             />
             <p className="mt-4 mb-4 text-break mx-auto w-75">
@@ -196,7 +196,7 @@ const PythonClass1Content11 = ({ onComplete, completed }) => {
             <img
               className="w-75 d-block d-block border-content"
               alt=""
-              src="../img/pythonClass1/pych10.webp"
+              src="../../../img/pythonClass1/pych10.webp"
               style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
@@ -206,7 +206,7 @@ const PythonClass1Content11 = ({ onComplete, completed }) => {
             <img
               className="w-75 mt-4 d-block mx-auto border-content"
               alt=""
-              src="../img/pythonClass1/pych11.webp"
+              src="../../../img/pythonClass1/pych11.webp"
               style={{ borderRadius: "1rem" }}
             />
             <p className="leading-relaxed mt-4 mb-4">
@@ -219,7 +219,7 @@ const PythonClass1Content11 = ({ onComplete, completed }) => {
             <img
               className="w-75 mt-4 d-block mx-auto border-content"
               alt=""
-              src="../img/pythonClass1/pych12.webp"
+              src="../../../img/pythonClass1/pych12.webp"
               style={{ borderRadius: "1rem" }}
             />
             <p className="mt-4 mb-4 text-break mx-auto w-75">
@@ -230,7 +230,7 @@ const PythonClass1Content11 = ({ onComplete, completed }) => {
             <img
               className="w-75 d-block d-block mx-auto border-content"
               alt=""
-              src="../img/pythonClass1/pych13.webp"
+              src="../../../img/pythonClass1/pych13.webp"
               style={{ borderRadius: "1rem" }}
             />
             <p className="mt-4 mb-4 text-break mx-auto w-75">
@@ -242,7 +242,7 @@ const PythonClass1Content11 = ({ onComplete, completed }) => {
             <img
               className="w-75 d-block d-block mx-auto border-content"
               alt=""
-              src="../img/pythonClass1/pych14.webp"
+              src="../../../img/pythonClass1/pych14.webp"
               style={{ borderRadius: "1rem" }}
             />
             <p className="mt-4 mb-4 text-break mx-auto w-75">
@@ -253,7 +253,7 @@ const PythonClass1Content11 = ({ onComplete, completed }) => {
             <img
               className="w-75 d-block d-block mx-auto border-content"
               alt=""
-              src="../img/pythonClass1/pych15.webp"
+              src="../../../img/pythonClass1/pych15.webp"
               style={{ borderRadius: "1rem" }}
             />
             <h5 className="font-semibold text-gray-900 mb-2 mt-4">
@@ -291,7 +291,7 @@ const PythonClass1Content11 = ({ onComplete, completed }) => {
             </p>
             <div className="relative group">
               <CopyButton code={class1Code[0]}></CopyButton>
-              <img className="" alt="" src="../img/pythonClass1/p5.webp" style={{ borderRadius: "1rem" }}/>
+              <img className="" alt="" src="../../../img/pythonClass1/p5.webp" style={{ borderRadius: "1rem" }}/>
             </div>
             <p className="mt-4 mb-4 text-break mx-auto w-75">
               Para ejecutar el programa debemos escribir en la terminal{" "}
@@ -302,7 +302,7 @@ const PythonClass1Content11 = ({ onComplete, completed }) => {
             </p>
             <div className="relative group">
               <CopyButton code={class1Code[1]}></CopyButton>
-              <img className="" alt="" src="../img/pythonClass1/p6.webp" style={{ borderRadius: "1rem" }}/>
+              <img className="" alt="" src="../../../img/pythonClass1/p6.webp" style={{ borderRadius: "1rem" }}/>
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-4">
               Comentarios - #, """ """
@@ -326,7 +326,7 @@ const PythonClass1Content11 = ({ onComplete, completed }) => {
             </p>
             <div className="relative group">
               <CopyButton code={class1Code[2]}></CopyButton>
-              <img className="" alt="" src="../img/pythonClass1/p7.webp" style={{ borderRadius: "1rem" }}/>
+              <img className="" alt="" src="../../../img/pythonClass1/p7.webp" style={{ borderRadius: "1rem" }}/>
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-4">
               Entrada de datos - input()
@@ -353,7 +353,7 @@ const PythonClass1Content11 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass1/p8.webp"
+                src="../../../img/pythonClass1/p8.webp"
                 
               />
             </div>
@@ -365,7 +365,7 @@ const PythonClass1Content11 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass1/p9.webp"
+                src="../../../img/pythonClass1/p9.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-4">
@@ -390,7 +390,7 @@ const PythonClass1Content11 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass1/p10.webp"
+                src="../../../img/pythonClass1/p10.webp"
               />
             </div>
           </section>

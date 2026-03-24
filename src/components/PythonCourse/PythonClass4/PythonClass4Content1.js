@@ -208,7 +208,7 @@ const PythonClass4Content1 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Ejemplo de función en Python"
-                src="../img/pythonClass4/function.webp"
+                src="../../../img/pythonClass4/function.webp"
               />
             </div>
 

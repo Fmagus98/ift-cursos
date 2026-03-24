@@ -100,7 +100,7 @@ const PythonClass4Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Importación del módulo math"
-                src="../img/pythonClass4/math1.webp"
+                src="../../../img/pythonClass4/math1.webp"
               />
             </div>
             <p className="leading-relaxed mt-4 mb-4">
@@ -117,7 +117,7 @@ const PythonClass4Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Redondeo con math"
-                src="../img/pythonClass4/math2.webp"
+                src="../../../img/pythonClass4/math2.webp"
               />
             </div>
             <p className="leading-relaxed mt-4 mb-4">
@@ -134,7 +134,7 @@ const PythonClass4Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Funciones trigonométricas"
-                src="../img/pythonClass4/math3.webp"
+                src="../../../img/pythonClass4/math3.webp"
               />
             </div>
             <p className="leading-relaxed mt-4 mb-4">
@@ -151,7 +151,7 @@ const PythonClass4Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Funciones hiperbólicas"
-                src="../img/pythonClass4/math4.webp"
+                src="../../../img/pythonClass4/math4.webp"
               />
             </div>
             <p className="leading-relaxed mt-4 mb-4">
@@ -167,7 +167,7 @@ const PythonClass4Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Funciones logarítmicas"
-                src="../img/pythonClass4/math5.webp"
+                src="../../../img/pythonClass4/math5.webp"
               />
             </div>
             <div className="grid gap-2 md:max-w-4xl">
@@ -212,7 +212,7 @@ const PythonClass4Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Uso de random"
-                src="../img/pythonClass4/random1.webp"
+                src="../../../img/pythonClass4/random1.webp"
               />
             </div>
             <p className="leading-relaxed mt-4 mb-4">
@@ -227,7 +227,7 @@ const PythonClass4Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Uso de randint"
-                src="../img/pythonClass4/random2.webp"
+                src="../../../img/pythonClass4/random2.webp"
               />
             </div>
             <p className="leading-relaxed mt-4 mb-4">
@@ -242,7 +242,7 @@ const PythonClass4Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Uso de uniform"
-                src="../img/pythonClass4/random3.webp"
+                src="../../../img/pythonClass4/random3.webp"
               />
             </div>
             <p className="leading-relaxed mt-4 mb-4">
@@ -257,7 +257,7 @@ const PythonClass4Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Uso de choice"
-                src="../img/pythonClass4/random4.webp"
+                src="../../../img/pythonClass4/random4.webp"
               />
             </div>
             <p className="leading-relaxed mt-4 mb-4">
@@ -272,7 +272,7 @@ const PythonClass4Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Uso de shuffle"
-                src="../img/pythonClass4/random5.webp"
+                src="../../../img/pythonClass4/random5.webp"
               />
             </div>
             <div className="grid gap-2 md:max-w-4xl">
@@ -318,7 +318,7 @@ const PythonClass4Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Fecha actual con datetime"
-                src="../img/pythonClass4/datetime1.webp"
+                src="../../../img/pythonClass4/datetime1.webp"
               />
             </div>
             <p className="leading-relaxed mt-4 mb-4">
@@ -333,7 +333,7 @@ const PythonClass4Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Fecha con date"
-                src="../img/pythonClass4/datetime2.webp"
+                src="../../../img/pythonClass4/datetime2.webp"
               />
             </div>
             <p className="leading-relaxed mt-4 mb-4">
@@ -348,7 +348,7 @@ const PythonClass4Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Tiempo con datetime"
-                src="../img/pythonClass4/datetime3.webp"
+                src="../../../img/pythonClass4/datetime3.webp"
               />
             </div>
             <p className="leading-relaxed mt-4 mb-4">
@@ -363,7 +363,7 @@ const PythonClass4Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Fecha y hora personalizada"
-                src="../img/pythonClass4/datetime4.webp"
+                src="../../../img/pythonClass4/datetime4.webp"
               />
             </div>
             <p className="leading-relaxed mt-4 mb-4">
@@ -378,7 +378,7 @@ const PythonClass4Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Formato con strftime"
-                src="../img/pythonClass4/datetime5.webp"
+                src="../../../img/pythonClass4/datetime5.webp"
               />
             </div>
             <p className="leading-relaxed mt-4 mb-4">
@@ -393,7 +393,7 @@ const PythonClass4Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Componentes de fecha y hora"
-                src="../img/pythonClass4/datetime6.webp"
+                src="../../../img/pythonClass4/datetime6.webp"
               />
             </div>
           </section>

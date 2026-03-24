@@ -73,7 +73,7 @@ const PythonClass1Content5 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-lg2 mx-auto"
               style={{ borderRadius: "1rem" }}
-              src="../img/pythonClass1/bd.webp"
+              src="../../../img/pythonClass1/bd.webp"
               alt="binary"
             ></img>
             <p className="leading-relaxed mb-4 mt-4 max-w-lg mx-auto">
@@ -88,7 +88,7 @@ const PythonClass1Content5 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-lg2 mx-auto"
               style={{ borderRadius: "1rem" }}
-              src="../img/pythonClass1/dm.webp"
+              src="../../../img/pythonClass1/dm.webp"
               alt="binary"
             ></img>
             <p className="leading-relaxed mb-4 mt-4 max-w-lg mx-auto">
@@ -105,7 +105,7 @@ const PythonClass1Content5 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-lg2 mx-auto"
               style={{ borderRadius: "1rem" }}
-              src="../img/pythonClass1/ds.webp"
+              src="../../../img/pythonClass1/ds.webp"
               alt="binary"
             ></img>
             <p className="leading-relaxed mb-4 mt-4 max-w-lg mx-auto">
@@ -122,7 +122,7 @@ const PythonClass1Content5 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-lg2 mx-auto"
               style={{ borderRadius: "1rem" }}
-              src="../img/pythonClass1/ia.webp"
+              src="../../../img/pythonClass1/ia.webp"
               alt="binary"
             ></img>
             <p className="leading-relaxed mb-4 mt-4 max-w-lg mx-auto">
@@ -140,7 +140,7 @@ const PythonClass1Content5 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-lg2 mx-auto"
               style={{ borderRadius: "1rem" }}
-              src="../img/pythonClass1/bc.webp"
+              src="../../../img/pythonClass1/bc.webp"
               alt="binary"
             ></img>
             <p className="leading-relaxed mb-4 mt-4 max-w-lg mx-auto">
@@ -156,7 +156,7 @@ const PythonClass1Content5 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-lg2 mx-auto"
               style={{ borderRadius: "1rem" }}
-              src="../img/pythonClass1/ml.webp"
+              src="../../../img/pythonClass1/ml.webp"
               alt="binary"
             ></img>
             <p className="leading-relaxed mb-4 mt-4 max-w-lg mx-auto">
@@ -174,7 +174,7 @@ const PythonClass1Content5 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-lg2 mx-auto"
               style={{ borderRadius: "1rem" }}
-              src="../img/pythonClass1/dw.webp"
+              src="../../../img/pythonClass1/dw.webp"
               alt="binary"
             ></img>
             <p className="leading-relaxed mb-4 mt-4 max-w-lg mx-auto">
@@ -191,7 +191,7 @@ const PythonClass1Content5 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-lg2 mx-auto"
               style={{ borderRadius: "1rem" }}
-              src="../img/pythonClass1/g&g3d.webp"
+              src="../../../img/pythonClass1/g&g3d.webp"
               alt="binary"
             ></img>
             <p className="leading-relaxed mb-4 mt-4 max-w-lg mx-auto">

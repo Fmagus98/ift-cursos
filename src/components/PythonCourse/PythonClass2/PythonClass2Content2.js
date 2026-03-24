@@ -124,7 +124,7 @@ const PythonClass2Content2 = ({ onComplete, completed }) => {
               className="mt-4 md:max-w-4xl mx-auto"
               style={{ borderRadius: "1rem" }}
               alt=""
-              src="../img/pythonClass2/namingConventions.webp"
+              src="../../../img/pythonClass2/namingConventions.webp"
             ></img>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">
               Declaración de variables
@@ -147,7 +147,7 @@ const PythonClass2Content2 = ({ onComplete, completed }) => {
               className="mt-4 md:max-w-4xl mx-auto mb-10"
               style={{ borderRadius: "1rem" }}
               alt=""
-              src="../img/pythonClass2/practice.webp"
+              src="../../../img/pythonClass2/practice.webp"
             ></img>
             <p className="leading-relaxed mb-10">
               <strong>
@@ -166,7 +166,7 @@ const PythonClass2Content2 = ({ onComplete, completed }) => {
               className="mt-4 md:max-w-4xl mx-auto"
               style={{ borderRadius: "1rem" }}
               alt=""
-              src="../img/pythonClass2/letterNot.webp"
+              src="../../../img/pythonClass2/letterNot.webp"
             ></img>
           </section>
         </Accordion.Content>

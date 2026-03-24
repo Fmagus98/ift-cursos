@@ -90,7 +90,7 @@ const PythonClass2Content3 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/boolean.webp"
+                src="../../../img/pythonClass2/boolean.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">
@@ -115,7 +115,7 @@ const PythonClass2Content3 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/int.webp"
+                src="../../../img/pythonClass2/int.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">String</h5>
@@ -142,7 +142,7 @@ const PythonClass2Content3 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/str.webp"
+                src="../../../img/pythonClass2/str.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">Type()</h5>
@@ -163,7 +163,7 @@ const PythonClass2Content3 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/type.webp"
+                src="../../../img/pythonClass2/type.webp"
               />
             </div>
           </section>

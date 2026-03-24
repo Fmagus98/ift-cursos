@@ -80,7 +80,7 @@ const PythonClass8Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="ejemplo clase perro"
-                src="../img/pythonClass8/class.webp"
+                src="../../../img/pythonClass8/class.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>

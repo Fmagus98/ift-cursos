@@ -11,7 +11,7 @@ export const courses = [
       duration: "8 semanas",
       students: 32,
       classes: 8,
-      link: "/python",
+      link: "/course/a586408c-e2d5-4a43-8356-cdb9aa9b8091",
     },
     {
       id: 2,

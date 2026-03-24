@@ -89,7 +89,7 @@ const PythonClass1Content8 = ({ onComplete, completed }) => {
                 <img
                   className="w-32"
                   alt=""
-                  src="../img/pythonClass1/jupiter.webp"
+                  src="../../../img/pythonClass1/jupiter.webp"
                 />
                 <p className="leading-relaxed mb-4">
                   <strong>JupiterLab:</strong> Es una interfaz de usuario web
@@ -103,7 +103,7 @@ const PythonClass1Content8 = ({ onComplete, completed }) => {
                  <img
                   className="w-32"
                   alt=""
-                  src="../img/pythonClass1/pycharm.webp"
+                  src="../../../img/pythonClass1/pycharm.webp"
                 />
                 <p className="leading-relaxed mb-4">
                   <strong>Pycharm:</strong>Pycharm: Es un entorno de desarrollo
@@ -116,7 +116,7 @@ const PythonClass1Content8 = ({ onComplete, completed }) => {
                  <img
                   className="w-32"
                   alt=""
-                  src="../img/pythonClass1/spyder.webp"
+                  src="../../../img/pythonClass1/spyder.webp"
                 />
                 <p className="leading-relaxed mb-4">
                   <strong>Spyder:</strong> Es un entorno de desarrollo integrado
@@ -132,7 +132,7 @@ const PythonClass1Content8 = ({ onComplete, completed }) => {
                  <img
                   className="w-32"
                   alt=""
-                  src="../img/pythonClass1/visualStudio.webp"
+                  src="../../../img/pythonClass1/visualStudio.webp"
                 />
                 <p className="leading-relaxed mb-4">
                   <strong>Visual Studio Code:</strong> Es un entorno de

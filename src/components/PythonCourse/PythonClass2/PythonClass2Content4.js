@@ -116,7 +116,7 @@ const PythonClass2Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/opArit.webp"
+                src="../../../img/pythonClass2/opArit.webp"
               />
             </div>
 
@@ -142,7 +142,7 @@ const PythonClass2Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/opComp.webp"
+                src="../../../img/pythonClass2/opComp.webp"
               />
             </div>
 
@@ -170,7 +170,7 @@ const PythonClass2Content4 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/opLog.webp"
+                src="../../../img/pythonClass2/opLog.webp"
               />
             </div>
           </section>

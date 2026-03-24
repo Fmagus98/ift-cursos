@@ -77,7 +77,7 @@ const PythonClass8Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="ejemplo metodo rectangulo"
-                src="../img/pythonClass8/methods.webp"
+                src="../../../img/pythonClass8/methods.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>

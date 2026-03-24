@@ -1,5 +1,6 @@
-import { useLocation, useNavigate, Link } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { PythonClassItems } from "../PythonClassItems";
+import { useParams } from "react-router-dom";
 
 import * as Tabs from "@radix-ui/react-tabs";
 import { BookOpen, Dumbbell } from "lucide-react";
@@ -22,7 +23,9 @@ import Exercises from "../../Exercises/Exercises";
 import { exerciseClass2 } from "../../Exercises/exerciseData";
 
 const PythonClass2 = () => {
-  const navigate = useNavigate()
+  
+  const { courseId, classId } = useParams();
+  const navigate = useNavigate();
   const LESSON_ID = "c88b606e-4fab-46ae-aa0a-3d85e02bf00b";
   const TOTAL_BLOCKS = 10;
 
@@ -44,44 +47,46 @@ const PythonClass2 = () => {
     const today = new Date();
 
     today.setHours(0, 0, 0, 0);
-    console.log(dateString);
-
     return today >= classDate;
   };
 
-  const location = useLocation();
-
   const currentIndex = PythonClassItems.findIndex(
-    (item) => item.link === location.pathname,
+    (item) => item.id === classId,
   );
 
   const prevClass = PythonClassItems[currentIndex - 1];
   const nextClass = PythonClassItems[currentIndex + 1];
+
+  const tabClass = "gap-2 border-2 inline-flex items-center justify-center rounded-md px-3 py-1 font-medium text-sm sm:text-base transition-all focus:outline-none focus:ring-1 focus:ring-cyan-500 focus:ring-offset-0 data-[state=active]:bg-cyan-600 data-[state=active]:text-white data-[state=active]:shadow";
+
 
   return (
     <div>
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
         <section className="relative py-12 px-4 bg-gradient-to-br from-cyan-600 to-cyan-700">
           <div className="container mx-auto">
-              <button onClick={() => navigate("/python")} className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-accent-foreground h-9 px-4 py-2 mb-6 text-white hover:bg-white/20">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-arrow-left w-4 h-4 mr-2"
-                  aria-hidden="true"
-                >
-                  <path d="m12 19-7-7 7-7"></path>
-                  <path d="M19 12H5"></path>
-                </svg>
-                Volver al curso
-              </button>
+            <button
+              onClick={() => navigate("/course/a586408c-e2d5-4a43-8356-cdb9aa9b8091")}
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-accent-foreground h-9 px-4 py-2 mb-6 text-white hover:bg-white/20"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-left w-4 h-4 mr-2"
+                aria-hidden="true"
+              >
+                <path d="m12 19-7-7 7-7"></path>
+                <path d="M19 12H5"></path>
+              </svg>
+              Volver al curso
+            </button>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="space-y-6 text-white">
                 <div>
@@ -262,17 +267,11 @@ const PythonClass2 = () => {
         <section className="border-gray-200 bg-white mt-10">
           <Tabs.Root defaultValue="content" className="w-full">
             <Tabs.List className="md:mx-40 mx-3 h-9 items-center justify-center rounded-lg bg-muted text-muted-foreground grid grid-cols-2 mb-6">
-              <Tabs.Trigger
-                value="content"
-                className="justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm font-medium transition-all data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow flex items-center gap-2 data-[state=active]:border-2 data-[state=active]:border-white"
-              >
+             <Tabs.Trigger value="content" className={tabClass}>
                 <BookOpen className="w-4 h-4" />
                 Contenido
               </Tabs.Trigger>
-              <Tabs.Trigger
-                value="exercises"
-                className="justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm font-medium transition-all data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow flex items-center gap-2"
-              >
+              <Tabs.Trigger value="exercises" className={tabClass}>
                 <Dumbbell className="w-4 h-4" />
                 Ejercicios
               </Tabs.Trigger>
@@ -285,7 +284,7 @@ const PythonClass2 = () => {
               <section className="py-12 px-4">
                 <div className="container mx-auto">
                   <div>
-                    <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
+                    <h2 className="text-3xl font-bold text-cyan-600 mb-8 flex items-center gap-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -390,7 +389,13 @@ const PythonClass2 = () => {
         </section>
         <div className="md:mx-40 mx-4 mb-10 flex justify-between gap-4">
           {prevClass && (
-            <Link to={isClassEnabled(prevClass.date) ? prevClass.link : "#"}>
+            <Link
+              to={
+                isClassEnabled(prevClass.date)
+                  ? `/course/${courseId}/class/${prevClass.id}`
+                  : "#"
+              }
+            >
               <button
                 disabled={!isClassEnabled(prevClass.date)}
                 className={`px-4 py-2 rounded-md text-white transition ${
@@ -404,7 +409,13 @@ const PythonClass2 = () => {
             </Link>
           )}
           {nextClass && (
-            <Link to={isClassEnabled(nextClass.date) ? nextClass.link : "#"}>
+            <Link
+              to={
+                isClassEnabled(nextClass.date)
+                  ? `/course/${courseId}/class/${nextClass.id}`
+                  : "#"
+              }
+            >
               <button
                 disabled={!isClassEnabled(nextClass.date)}
                 className={`px-4 py-2 rounded-md text-white transition ${

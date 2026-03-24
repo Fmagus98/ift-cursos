@@ -92,7 +92,7 @@ const PythonClass5Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="append extend"
-                src="../img/pythonClass5/list6.webp"
+                src="../../../img/pythonClass5/list6.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -106,7 +106,7 @@ const PythonClass5Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="insert"
-                src="../img/pythonClass5/list7.webp"
+                src="../../../img/pythonClass5/list7.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -120,7 +120,7 @@ const PythonClass5Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="remove"
-                src="../img/pythonClass5/list8.webp"
+                src="../../../img/pythonClass5/list8.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -135,7 +135,7 @@ const PythonClass5Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="pop"
-                src="../img/pythonClass5/list9.webp"
+                src="../../../img/pythonClass5/list9.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -150,7 +150,7 @@ const PythonClass5Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="index"
-                src="../img/pythonClass5/list10.webp"
+                src="../../../img/pythonClass5/list10.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -164,7 +164,7 @@ const PythonClass5Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="count"
-                src="../img/pythonClass5/list11.webp"
+                src="../../../img/pythonClass5/list11.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -178,7 +178,7 @@ const PythonClass5Content2 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="clear"
-                src="../img/pythonClass5/list12.webp"
+                src="../../../img/pythonClass5/list12.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>

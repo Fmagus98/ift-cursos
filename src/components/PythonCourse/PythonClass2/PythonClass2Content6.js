@@ -4,7 +4,7 @@ import { class2Code } from "../classCode";
 import CopyButton from "../../CopyButton/CopyButton";
 
 const PythonClass2Content5 = ({ onComplete, completed }) => {
-  const done = completed?.includes(5);
+  const done = completed?.includes(6);
 
   return (
     <Accordion.Root type="single" collapsible className="w-full">
@@ -94,7 +94,7 @@ const PythonClass2Content5 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/f-string.webp"
+                src="../../../img/pythonClass2/f-string.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">Format</h5>
@@ -115,7 +115,7 @@ const PythonClass2Content5 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/format.webp"
+                src="../../../img/pythonClass2/format.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">Repr</h5>
@@ -143,7 +143,7 @@ const PythonClass2Content5 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/repr.webp"
+                src="../../../img/pythonClass2/repr.webp"
               />
             </div>
           </section>

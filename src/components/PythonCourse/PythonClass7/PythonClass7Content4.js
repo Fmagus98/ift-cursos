@@ -89,7 +89,7 @@ const PythonClass7Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="dictreader ejemplo"
-                src="../img/pythonClass7/dictReader.webp"
+                src="../../../img/pythonClass7/dictReader.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -109,7 +109,7 @@ const PythonClass7Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="buscar csv ejemplo"
-                src="../img/pythonClass7/dictReaderFind.webp"
+                src="../../../img/pythonClass7/dictReaderFind.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -132,7 +132,7 @@ const PythonClass7Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="agregar csv ejemplo"
-                src="../img/pythonClass7/writeCsv.webp"
+                src="../../../img/pythonClass7/writeCsv.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -155,7 +155,7 @@ const PythonClass7Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="eliminar csv ejemplo"
-                src="../img/pythonClass7/deleteCsv.webp"
+                src="../../../img/pythonClass7/deleteCsv.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
@@ -178,7 +178,7 @@ const PythonClass7Content4 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="actualizar csv ejemplo"
-                src="../img/pythonClass7/updateCsv.webp"
+                src="../../../img/pythonClass7/updateCsv.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>

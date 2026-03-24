@@ -79,7 +79,7 @@ const PythonClass8Content3 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="ejemplo atributos persona"
-                src="../img/pythonClass8/attributes.webp"
+                src="../../../img/pythonClass8/attributes.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>

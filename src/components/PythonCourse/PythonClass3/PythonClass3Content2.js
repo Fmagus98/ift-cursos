@@ -104,7 +104,7 @@ const Pythonclass3Content2 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Ejemplo if en Python"
-                src="../img/pythonClass3/if.webp"
+                src="../../../img/pythonClass3/if.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-4">Else</h5>
@@ -125,7 +125,7 @@ const Pythonclass3Content2 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Ejemplo else en Python"
-                src="../img/pythonClass3/else.webp"
+                src="../../../img/pythonClass3/else.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">Elif</h5>
@@ -147,7 +147,7 @@ const Pythonclass3Content2 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Ejemplo elif en Python"
-                src="../img/pythonClass3/elif.webp"
+                src="../../../img/pythonClass3/elif.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">Match</h5>
@@ -168,7 +168,7 @@ const Pythonclass3Content2 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Ejemplo match en Python"
-                src="../img/pythonClass3/match.webp"
+                src="../../../img/pythonClass3/match.webp"
               />
             </div>
           </section>

@@ -85,7 +85,7 @@ const PythonClass2Content7 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/lower.webp"
+                src="../../../img/pythonClass2/lower.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">Upper()</h5>
@@ -105,7 +105,7 @@ const PythonClass2Content7 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/upper.webp"
+                src="../../../img/pythonClass2/upper.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">
@@ -127,7 +127,7 @@ const PythonClass2Content7 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/islower.webp"
+                src="../../../img/pythonClass2/islower.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">
@@ -149,7 +149,7 @@ const PythonClass2Content7 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/isupper.webp"
+                src="../../../img/pythonClass2/isupper.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">
@@ -171,7 +171,7 @@ const PythonClass2Content7 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/isdigit.webp"
+                src="../../../img/pythonClass2/isdigit.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">
@@ -193,7 +193,7 @@ const PythonClass2Content7 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/isalpha.webp"
+                src="../../../img/pythonClass2/isalpha.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">
@@ -215,7 +215,7 @@ const PythonClass2Content7 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/capitalize.webp"
+                src="../../../img/pythonClass2/capitalize.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">Center()</h5>
@@ -235,7 +235,7 @@ const PythonClass2Content7 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/center.webp"
+                src="../../../img/pythonClass2/center.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">Strip()</h5>
@@ -255,7 +255,7 @@ const PythonClass2Content7 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/strip.webp"
+                src="../../../img/pythonClass2/strip.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">Count()</h5>
@@ -275,7 +275,7 @@ const PythonClass2Content7 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/count.webp"
+                src="../../../img/pythonClass2/count.webp"
               />
             </div>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">
@@ -297,7 +297,7 @@ const PythonClass2Content7 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt=""
-                src="../img/pythonClass2/endswith.webp"
+                src="../../../img/pythonClass2/endswith.webp"
               />
             </div>
           </section>

@@ -103,7 +103,7 @@ const PythonClass1Content6 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-4xl"
               style={{ borderRadius: "1rem" }}
-              src="../img/pythonClass1/w1.webp"
+              src="../../../img/pythonClass1/w1.webp"
               alt="binary"
             ></img>
             <p className="leading-relaxed mb-4 mt-10">
@@ -114,7 +114,7 @@ const PythonClass1Content6 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-4xl"
               style={{ borderRadius: "1rem" }}
-              src="../img/pythonClass1/w2.webp"
+              src="../../../img/pythonClass1/w2.webp"
               alt="binary"
             ></img>
             <h5 className="font-semibold text-gray-900 mb-2 mt-4">En MacOS</h5>
@@ -125,7 +125,7 @@ const PythonClass1Content6 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-4xl"
               style={{ borderRadius: "1rem" }}
-              src="../img/pythonClass1/m1.webp"
+              src="../../../img/pythonClass1/m1.webp"
               alt="binary"
             ></img>
             <p className="leading-relaxed mb-4 mt-10">
@@ -135,7 +135,7 @@ const PythonClass1Content6 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-4xl"
               style={{ borderRadius: "1rem" }}
-              src="../img/pythonClass1/m2.webp"
+              src="../../../img/pythonClass1/m2.webp"
               alt="binary"
             ></img>
             <p className="leading-relaxed mb-4 mt-10">
@@ -147,7 +147,7 @@ const PythonClass1Content6 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-4xl"
               style={{ borderRadius: "1rem" }}
-              src="../img/pythonClass1/m3.webp"
+              src="../../../img/pythonClass1/m3.webp"
               alt="binary"
             ></img>
             <h5 className="font-semibold text-gray-900 mb-2 mt-4">En Linux</h5>
@@ -164,7 +164,7 @@ const PythonClass1Content6 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-4xl"
               style={{ borderRadius: "1rem" }}
-              src="../img/pythonClass1/l1.webp"
+              src="../../../img/pythonClass1/l1.webp"
               alt="binary"
             ></img>
           </section>

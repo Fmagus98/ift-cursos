@@ -86,7 +86,7 @@ const PythonClass1Content4 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-4xl mx-auto"
               style={{ borderRadius: "1rem" }}
-              src="../img/pythonClass1/level.webp"
+              src="../../../img/pythonClass1/level.webp"
               alt="binary"
             ></img>
             <h5 className="font-semibold text-gray-900 mb-2 mt-10">
@@ -187,7 +187,7 @@ const PythonClass1Content4 = ({ onComplete, completed }) => {
             <img
               className="md:max-w-4xl mx-auto"
               style={{ borderRadius: "1rem" }}
-              src="../img/pythonClass1/os.webp"
+              src="../../../img/pythonClass1/os.webp"
               alt="binary"
             ></img>
           </section>

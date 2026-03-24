@@ -102,7 +102,7 @@ const PythonClass5Content1 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="lista"
-                src="../img/pythonClass5/list1.webp"
+                src="../../../img/pythonClass5/list1.webp"
                 style={{ borderRadius: "1rem" }}
               ></img>
             </div>
@@ -123,7 +123,7 @@ const PythonClass5Content1 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="lista"
-                src="../img/pythonClass5/list2.webp"
+                src="../../../img/pythonClass5/list2.webp"
                 style={{ borderRadius: "1rem" }}
               ></img>
             </div>
@@ -140,7 +140,7 @@ const PythonClass5Content1 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="lista"
-                src="../img/pythonClass5/list3.webp"
+                src="../../../img/pythonClass5/list3.webp"
                 style={{ borderRadius: "1rem" }}
               ></img>
             </div>
@@ -163,7 +163,7 @@ const PythonClass5Content1 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="lista"
-                src="../img/pythonClass5/list4.webp"
+                src="../../../img/pythonClass5/list4.webp"
                 style={{ borderRadius: "1rem" }}
               ></img>
             </div>
@@ -183,7 +183,7 @@ const PythonClass5Content1 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="lista"
-                src="../img/pythonClass5/list5.webp"
+                src="../../../img/pythonClass5/list5.webp"
                 style={{ borderRadius: "1rem" }}
               ></img>
             </div>

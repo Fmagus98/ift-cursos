@@ -84,7 +84,7 @@ const PythonClass5Content3 = ({ onComplete, completed }) => {
   <img
     className="w-full"
     alt="len lista"
-    src="../img/pythonClass5/list13.webp"
+    src="../../../img/pythonClass5/list13.webp"
     style={{ borderRadius: "1rem" }}
   />
 </div>
@@ -101,7 +101,7 @@ const PythonClass5Content3 = ({ onComplete, completed }) => {
   <img
     className="w-full"
     alt="max lista"
-    src="../img/pythonClass5/list14.webp"
+    src="../../../img/pythonClass5/list14.webp"
     style={{ borderRadius: "1rem" }}
   />
 </div>
@@ -118,7 +118,7 @@ const PythonClass5Content3 = ({ onComplete, completed }) => {
   <img
     className="w-full"
     alt="min lista"
-    src="../img/pythonClass5/list15.webp"
+    src="../../../img/pythonClass5/list15.webp"
     style={{ borderRadius: "1rem" }}
   />
 </div>
@@ -135,7 +135,7 @@ const PythonClass5Content3 = ({ onComplete, completed }) => {
   <img
     className="w-full"
     alt="sum lista"
-    src="../img/pythonClass5/list16.webp"
+    src="../../../img/pythonClass5/list16.webp"
     style={{ borderRadius: "1rem" }}
   />
 </div>
@@ -154,7 +154,7 @@ const PythonClass5Content3 = ({ onComplete, completed }) => {
   <img
     className="w-full"
     alt="sort lista"
-    src="../img/pythonClass5/list17.webp"
+    src="../../../img/pythonClass5/list17.webp"
     style={{ borderRadius: "1rem" }}
   />
 </div>
@@ -165,7 +165,7 @@ const PythonClass5Content3 = ({ onComplete, completed }) => {
   <img
     className="w-full"
     alt="sorted reverse lista"
-    src="../img/pythonClass5/list18.webp"
+    src="../../../img/pythonClass5/list18.webp"
     style={{ borderRadius: "1rem" }}
   />
 </div>
@@ -182,7 +182,7 @@ const PythonClass5Content3 = ({ onComplete, completed }) => {
   <img
     className="w-full"
     alt="reversed lista"
-    src="../img/pythonClass5/list19.webp"
+    src="../../../img/pythonClass5/list19.webp"
     style={{ borderRadius: "1rem" }}
   />
 </div>

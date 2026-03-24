@@ -2,7 +2,7 @@ import * as Accordion from "@radix-ui/react-accordion";
 import { Circle, CircleCheck, Clock, ChevronDown } from "lucide-react";
 
 const Pythonclass3Content2 = ({ onComplete, completed }) => {
-  const done = completed?.includes(2);
+  const done = completed?.includes(3);
 
   return (
     <Accordion.Root type="single" collapsible className="w-full">
@@ -91,7 +91,7 @@ const Pythonclass3Content2 = ({ onComplete, completed }) => {
                 className="w-full"
                 style={{ borderRadius: "1rem" }}
                 alt="Ejemplo de bucles en Python"
-                src="../img/pythonClass3/bucles.webp"
+                src="../../../img/pythonClass3/bucles.webp"
               />
             </div>
           </section>

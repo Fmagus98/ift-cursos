@@ -1,7 +1,7 @@
 export const PythonClassItems = [
   {
+    id: "clase-1",
     level: "Principiante",
-    levelColor: "green",
     category: "Programación",
     title: "Clase 1",
     topics: [
@@ -10,12 +10,11 @@ export const PythonClassItems = [
       "Ejecución del primer programa",
     ],
     duration: "3hs",
-    link: "/python/iargh4937208gj2jf0382fewk9k0961470h46",
     date: "26/02/2026"
   },
   {
+    id: "clase-2",
     level: "Principiante",
-    levelColor: "green",
     category: "Programación",
     title: "Clase 2",
     topics: [
@@ -24,12 +23,11 @@ export const PythonClassItems = [
       "Operador lógico y Comparación",
     ],
     duration: "3hs",
-    link: "/python/6srjha93g208gj2jf0382fewk9k09fkiyvnt7",
     date: "05/03/2026"
   },
   {
+    id: "clase-3",
     level: "Principiante",
-    levelColor: "green",
     category: "Programación",
     title: "Clase 3",
     topics: [
@@ -38,12 +36,11 @@ export const PythonClassItems = [
       "Uso de break y continue en bucles",
     ],
     duration: "3hs",
-    link: "/python/cagr7kcggkuogj2jf0382fewk9k096ksboq78",
     date: "05/03/2026"
   },
   {
+    id: "clase-4",
     level: "Principiante",
-    levelColor: "green",
     category: "Programación",
     title: "Clase 4",
     topics: [
@@ -52,12 +49,11 @@ export const PythonClassItems = [
       "Creación y uso de módulos",
     ],
     duration: "3hs",
-    link: "/python/fbt43vd8632bi43grgedaauy4ds8v742bo081",
     date: "12/03/2026"
   },
   {
+    id: "clase-5",
     level: "Principiante",
-    levelColor: "green",
     category: "Programación",
     title: "Clase 5",
     topics: [
@@ -66,12 +62,11 @@ export const PythonClassItems = [
       "Métodos",
     ],
     duration: "3hs",
-    link: "/python/hj297vao8whefbeakjghlkaqxvnuwffh665ah",
     date: "19/03/2026"
   },
   {
+    id: "clase-6",
     level: "Principiante",
-    levelColor: "green",
     category: "Programación",
     title: "Clase 6",
     topics: [
@@ -80,12 +75,11 @@ export const PythonClassItems = [
       "Métodos",
     ],
     duration: "3hs",
-    link: "/python/grejobghrorurnhphuhp5m2iqfvfbeakjghlk",
     date: "26/03/2026"
   },
   {
+    id: "clase-7",
     level: "Principiante",
-    levelColor: "green",
     category: "Programación",
     title: "Clase 7",
     topics: [
@@ -94,12 +88,11 @@ export const PythonClassItems = [
       "Práctica con archivos y excepciones",
     ],
     duration: "3hs",
-    link: "/python/glkorurnhphuhejobbphr5m2iqfvfgreakjgh",
     date: "02/04/2026"
   },
   {
+    id: "clase-8",
     level: "Principiante",
-    levelColor: "green",
     category: "Programación",
     title: "Clase 8",
     topics: [
@@ -108,7 +101,6 @@ export const PythonClassItems = [
       "Métodos y atributos",
     ],
     duration: "3hs",
-    link: "/python/jha93g208ag7kcgekglkqxnh52inhuh5m32wk",
     date: "09/04/2026"
   },
 ];

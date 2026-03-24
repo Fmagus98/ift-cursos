@@ -91,7 +91,7 @@ const PythonClass8Content1 = ({ onComplete, completed }) => {
               <img
                 className="w-full"
                 alt="programacion orientada a objetos"
-                src="../img/pythonClass8/poo.webp"
+                src="../../../img/pythonClass8/poo.webp"
                 style={{ borderRadius: "1rem" }}
               />
             </div>
